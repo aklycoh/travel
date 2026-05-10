@@ -10,11 +10,12 @@ function asset(path) {
 
 function photo(id) {
   const item = data.photos[id];
+  const regionId = item.region || "chengdu";
   return {
     id,
     ...item,
-    large: asset(`assets/images/chengdu/large/${item.file}`),
-    thumb: asset(`assets/images/chengdu/thumb/${item.file}`)
+    large: asset(`assets/images/${regionId}/large/${item.file}`),
+    thumb: asset(`assets/images/${regionId}/thumb/${item.file}`)
   };
 }
 
@@ -23,7 +24,7 @@ function regionPath(region) {
 }
 
 function themePath(region, theme) {
-  return asset(`${region.id}/${theme.id}/`);
+  return asset(`${region.id}/${theme.path || theme.id}/`);
 }
 
 function renderHeader(activeRegion) {
@@ -134,7 +135,7 @@ function renderRegion() {
     <section class="section">
       <div class="section-heading">
         <p class="eyebrow">Stories</p>
-        <h2>成都主题</h2>
+        <h2>${region.name}主题</h2>
       </div>
       <div class="story-grid">${themeCards}</div>
     </section>
@@ -180,7 +181,7 @@ function renderTheme() {
     <section class="article-hero">
       <img src="${hero.large}" alt="${theme.title}">
       <div>
-        <a class="back-link" href="${regionPath(region)}">返回成都</a>
+        <a class="back-link" href="${regionPath(region)}">返回${region.name}</a>
         <p class="eyebrow">${theme.kicker}</p>
         <h1>${theme.title}</h1>
         <p>${theme.intro}</p>

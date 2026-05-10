@@ -12,6 +12,19 @@ window.TRAVEL_DATA = {
       hero: "IMG_5336",
       featurePhotos: ["IMG_5273", "IMG_5280", "IMG_5321", "IMG_5347", "IMG_5361"],
       themes: ["food", "streets", "culture", "nature", "timeline"]
+    },
+    {
+      id: "chongqing",
+      name: "重庆",
+      eyebrow: "Chongqing",
+      title: "重庆：灯火和山路之间",
+      deck:
+        "从洪崖洞的夜色、观音桥的热闹，到山城老街的石阶、雨后校园和一桌火辣饭菜，这一组照片把重庆的高低起伏和烟火气放在一起。",
+      dates: "重庆片段",
+      location: "洪崖洞、观音桥、山城街巷、重庆校园",
+      hero: "IMG_5397",
+      featurePhotos: ["IMG_5385", "IMG_5391", "IMG_5406", "IMG_5407", "IMG_5408"],
+      themes: ["cq-night", "cq-streets", "cq-nature", "cq-food", "cq-timeline"]
     }
   ],
   themes: {
@@ -87,6 +100,86 @@ window.TRAVEL_DATA = {
         "IMG_5361",
         "IMG_5375",
         "IMG_5383"
+      ]
+    },
+    "cq-night": {
+      id: "cq-night",
+      path: "night",
+      name: "夜色",
+      kicker: "Night",
+      title: "洪崖洞亮起来以后",
+      deck:
+        "金色屋檐、江边车流和背后的高楼一起亮起，重庆的夜晚有一种很满的层次。",
+      hero: "IMG_5397",
+      intro:
+        "重庆的夜景不是单独的一盏灯，而是一整座城市同时发光。近处是洪崖洞的屋檐，远处是楼宇和雾气，江水在下面把灯影慢慢带走。",
+      photoIds: ["IMG_5397", "IMG_5398", "IMG_5399"]
+    },
+    "cq-streets": {
+      id: "cq-streets",
+      path: "streets",
+      name: "街巷",
+      kicker: "Streets",
+      title: "高低之间的山城",
+      deck:
+        "街口招牌、老式门面、临江栏杆和拐角处的小景，把重庆的坡度变成可以走进去的日常。",
+      hero: "IMG_5390",
+      intro:
+        "在重庆，方向感常常被楼梯、桥和街巷重新安排。抬头是楼，转身是江，走几步就会遇见另一层热闹。",
+      photoIds: ["IMG_5390", "IMG_5389", "IMG_5391", "IMG_5400"]
+    },
+    "cq-nature": {
+      id: "cq-nature",
+      path: "nature",
+      name: "山水校园",
+      kicker: "Green",
+      title: "雨后树影和灰瓦",
+      deck:
+        "车窗外的校门、山坡上的绿意和旧屋顶，让这组重庆照片有了安静的一面。",
+      hero: "IMG_5406",
+      intro:
+        "热闹之外，重庆也有很慢的绿色。雨后的路面、山坡上的叶子、灰瓦之间的风，把城市的声音轻轻压低。",
+      photoIds: ["IMG_5403", "IMG_5404", "IMG_5405", "IMG_5406"]
+    },
+    "cq-food": {
+      id: "cq-food",
+      path: "food",
+      name: "餐桌",
+      kicker: "Food",
+      title: "红油、炭火和晚饭",
+      deck:
+        "重庆的味道很直接，红油和炭火把一顿饭推到眼前，热得明亮，也热得踏实。",
+      hero: "IMG_5407",
+      intro:
+        "这一桌不需要太多铺垫。辣椒、蒜瓣、江湖菜和烤鱼一起上来，旅途里的疲惫就被一口热味收走了。",
+      photoIds: ["IMG_5385", "IMG_5407", "IMG_5408"]
+    },
+    "cq-timeline": {
+      id: "cq-timeline",
+      path: "timeline",
+      name: "时间线",
+      kicker: "Timeline",
+      title: "按照片顺序回看重庆",
+      deck:
+        "从夜市入口到洪崖洞夜景，再到白天的绿意和最后一桌热辣，照片把重庆排成了一段短短的路。",
+      hero: "IMG_5385",
+      intro:
+        "这不是完整行程表，更像一次回放：先被夜色吸引，再走进山城的坡与桥，最后用热气腾腾的一餐收尾。",
+      photoIds: [
+        "IMG_5385",
+        "IMG_5389",
+        "IMG_5390",
+        "IMG_5391",
+        "IMG_5397",
+        "IMG_5398",
+        "IMG_5399",
+        "IMG_5400",
+        "IMG_5403",
+        "IMG_5404",
+        "IMG_5405",
+        "IMG_5406",
+        "IMG_5407",
+        "IMG_5408"
       ]
     }
   },
@@ -349,6 +442,118 @@ window.TRAVEL_DATA = {
       location: "峨眉山下",
       date: "2023.10.17 下午",
       text: "最后一碗粉热热地放在面前，像给这几天收一个平实的尾。旅程结束得不声张，却很满足。"
+    },
+    IMG_5385: {
+      region: "chongqing",
+      file: "IMG_5385.jpeg",
+      title: "观音桥的入口",
+      location: "重庆观音桥",
+      date: "夜晚",
+      text: "招牌一层叠一层，食物的香气和人流一起涌过来。重庆的夜晚，是从这样的热闹里开始的。"
+    },
+    IMG_5389: {
+      region: "chongqing",
+      file: "IMG_5389.jpeg",
+      title: "街边小景",
+      location: "重庆街巷",
+      date: "夜晚",
+      text: "木墙、红灯笼和一个熟悉的身影站在路边，像把城市的热闹稍微停顿了一下。"
+    },
+    IMG_5390: {
+      region: "chongqing",
+      file: "IMG_5390.jpeg",
+      title: "山城门楼",
+      location: "洪崖洞一带",
+      date: "白天",
+      text: "楼层向上叠起，灯笼和招牌把入口装得很满。还没走进去，山城的坡度已经扑面而来。"
+    },
+    IMG_5391: {
+      region: "chongqing",
+      file: "IMG_5391.jpeg",
+      title: "桥下看江",
+      location: "重庆江边",
+      date: "白天",
+      text: "红色大桥从身后穿过，江面在雾气里变得很浅。站在栏杆边，城市的高度忽然有了参照。"
+    },
+    IMG_5397: {
+      region: "chongqing",
+      file: "IMG_5397.jpeg",
+      title: "洪崖洞夜色",
+      location: "洪崖洞",
+      date: "夜晚",
+      text: "金色灯带铺满屋檐，高楼在背后沉下来。重庆的夜景很会制造层次，热闹里也有一点雾。"
+    },
+    IMG_5398: {
+      region: "chongqing",
+      file: "IMG_5398.jpeg",
+      title: "灯火的屋顶",
+      location: "洪崖洞",
+      date: "夜晚",
+      text: "从高处看下去，屋顶像一片被点亮的山坡。每一层都有声音，每一层都有光。"
+    },
+    IMG_5399: {
+      region: "chongqing",
+      file: "IMG_5399.jpeg",
+      title: "楼群与金光",
+      location: "洪崖洞",
+      date: "夜晚",
+      text: "传统屋檐和现代高楼挤在同一个画面里，谁也没有退让。重庆的好看，正在这种拥挤里。"
+    },
+    IMG_5400: {
+      region: "chongqing",
+      file: "IMG_5400.jpeg",
+      title: "一杯紫色的甜",
+      location: "重庆街头",
+      date: "夜晚",
+      text: "走累之后停在饮品店前，明亮的紫色把夜路照得轻一点。旅行里这样的补给很小，却很必要。"
+    },
+    IMG_5403: {
+      region: "chongqing",
+      file: "IMG_5403.jpeg",
+      title: "山坡上的绿",
+      location: "重庆",
+      date: "白天",
+      text: "大片叶子从墙边伸出来，远处隐约是山。热闹之外，重庆也有很湿润、很安静的一面。"
+    },
+    IMG_5404: {
+      region: "chongqing",
+      file: "IMG_5404.jpeg",
+      title: "车窗外的校门",
+      location: "西南政法大学",
+      date: "白天",
+      text: "雨后的路面还带着光，校门从车窗边慢慢经过。不是专门停留，却也被这片树影记住了。"
+    },
+    IMG_5405: {
+      region: "chongqing",
+      file: "IMG_5405.jpeg",
+      title: "另一所大学",
+      location: "四川外国语大学",
+      date: "白天",
+      text: "车窗里的城市一段一段往后退，学校的名字和街边的树一起闪过，像旅程中的一个注脚。"
+    },
+    IMG_5406: {
+      region: "chongqing",
+      file: "IMG_5406.jpeg",
+      title: "灰瓦和树",
+      location: "重庆校园",
+      date: "白天",
+      text: "屋顶层层压在绿色之间，像被山坡轻轻托住。重庆的安静，有时候藏在这样的高处。"
+    },
+    IMG_5407: {
+      region: "chongqing",
+      file: "IMG_5407.jpeg",
+      title: "红油一大盘",
+      location: "重庆餐桌",
+      date: "晚饭",
+      text: "辣椒、蒜瓣和红油把盘子填得很满。看一眼就知道，这顿饭不会温吞。"
+    },
+    IMG_5408: {
+      region: "chongqing",
+      file: "IMG_5408.jpeg",
+      title: "炭火烤鱼",
+      location: "重庆餐桌",
+      date: "晚饭",
+      text: "鱼还在热油里冒着香气，配菜贴着锅边吸足味道。最后的满足感，往往就停在这一桌。"
     }
   }
 };
