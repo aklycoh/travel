@@ -19,9 +19,9 @@ window.TRAVEL_DATA = {
       eyebrow: "Chongqing",
       title: "重庆：灯火和山路之间",
       deck:
-        "从洪崖洞的夜色、观音桥的热闹，到山城老街的石阶、雨后校园和一桌火辣饭菜，这一组照片把重庆的高低起伏和烟火气放在一起。",
+        "从洪崖洞的夜色、观音桥的热闹，到山城老街的石阶、渣滓洞的灰瓦和一桌火辣饭菜，这一组照片把重庆的高低起伏和烟火气放在一起。",
       dates: "重庆片段",
-      location: "洪崖洞、观音桥、山城街巷、重庆校园",
+      location: "洪崖洞、观音桥、山城街巷、渣滓洞",
       hero: "IMG_5397",
       featurePhotos: ["IMG_5385", "IMG_5391", "IMG_5406", "IMG_5407", "IMG_5408"],
       themes: ["cq-night", "cq-streets", "cq-nature", "cq-food", "cq-timeline"]
@@ -131,14 +131,14 @@ window.TRAVEL_DATA = {
     "cq-nature": {
       id: "cq-nature",
       path: "nature",
-      name: "山水校园",
+      name: "山水旧址",
       kicker: "Green",
-      title: "雨后树影和灰瓦",
+      title: "树影、灰瓦和旧址",
       deck:
-        "车窗外的校门、山坡上的绿意和旧屋顶，让这组重庆照片有了安静的一面。",
+        "车窗外的校门、山坡上的绿意和渣滓洞的灰瓦，让这组重庆照片有了安静而沉重的一面。",
       hero: "IMG_5406",
       intro:
-        "热闹之外，重庆也有很慢的绿色。雨后的路面、山坡上的叶子、灰瓦之间的风，把城市的声音轻轻压低。",
+        "热闹之外，重庆也有很慢的绿色。雨后的路面、山坡上的叶子、渣滓洞的灰瓦之间，让城市的声音轻轻压低。",
       photoIds: ["IMG_5403", "IMG_5404", "IMG_5405", "IMG_5406"]
     },
     "cq-food": {
@@ -534,10 +534,10 @@ window.TRAVEL_DATA = {
     IMG_5406: {
       region: "chongqing",
       file: "IMG_5406.jpeg",
-      title: "灰瓦和树",
-      location: "重庆校园",
+      title: "渣滓洞的灰瓦",
+      location: "渣滓洞",
       date: "白天",
-      text: "屋顶层层压在绿色之间，像被山坡轻轻托住。重庆的安静，有时候藏在这样的高处。"
+      text: "灰瓦屋顶层层压在绿色之间，山坡把旧址轻轻围住。这里的安静不是轻松的，而是会让人放慢脚步。"
     },
     IMG_5407: {
       region: "chongqing",
