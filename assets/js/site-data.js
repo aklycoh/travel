@@ -25,6 +25,19 @@ window.TRAVEL_DATA = {
       hero: "IMG_5397",
       featurePhotos: ["IMG_5385", "IMG_5391", "IMG_5406", "IMG_5407", "IMG_5408"],
       themes: ["cq-night", "cq-streets", "cq-nature", "cq-food", "cq-timeline"]
+    },
+    {
+      id: "yunnan",
+      name: "云南",
+      eyebrow: "Yunnan via Wuhan",
+      title: "云南：从江城到云岭以南",
+      deck:
+        "这段旅程从武汉的江边和校园开始，转进丽江的木屋街巷、玉龙雪山的云雾、大理的湖风，最后抵达西双版纳的热带夜色。",
+      dates: "2024.10.18 - 2024.10.24",
+      location: "武汉、丽江、玉龙雪山、大理、西双版纳",
+      hero: "IMG_6112",
+      featurePhotos: ["IMG_6079", "IMG_6090", "IMG_6131", "IMG_6147", "IMG_6184"],
+      themes: ["yn-route", "yn-lijiang", "yn-snow", "yn-dali", "yn-xishuangbanna"]
     }
   ],
   themes: {
@@ -180,6 +193,95 @@ window.TRAVEL_DATA = {
         "IMG_5406",
         "IMG_5407",
         "IMG_5408"
+      ]
+    },
+    "yn-route": {
+      id: "yn-route",
+      path: "route",
+      name: "经停武汉",
+      kicker: "Wuhan",
+      title: "出发前，先经过江城",
+      deck:
+        "江边的天光、大学门口的树影和一顿热饭，把正式进入云南之前的那一天也留了下来。",
+      hero: "IMG_6079",
+      intro:
+        "旅程有时候不是从目的地开始，而是从途中那个刚好停下来的城市开始。武汉的江面很宽，校园路口很亮，饭桌上的热气让转场也有了自己的分量。",
+      photoIds: ["IMG_6079", "IMG_6081", "IMG_6082", "IMG_6084", "IMG_6086", "IMG_6087"]
+    },
+    "yn-lijiang": {
+      id: "yn-lijiang",
+      path: "lijiang",
+      name: "丽江",
+      kicker: "Lijiang",
+      title: "木屋、花和雪山的第一眼",
+      deck:
+        "从古城街巷走到远处能看见雪山的地方，丽江把阳光、木色和生活气慢慢铺开。",
+      hero: "IMG_6090",
+      intro:
+        "丽江的好看不只在远处的山，也在脚边的花盆、木楼之间的窄路和餐桌上的香味里。走得慢一点，才会发现每个转角都在改变光线。",
+      photoIds: ["IMG_6090", "IMG_6092", "IMG_6093", "IMG_6094", "IMG_6096", "IMG_6097", "IMG_6100", "IMG_6102", "IMG_6110"]
+    },
+    "yn-snow": {
+      id: "yn-snow",
+      path: "snow-mountain",
+      name: "雪山",
+      kicker: "Snow Mountain",
+      title: "云雾擦过玉龙雪山",
+      deck:
+        "山峰、栈道、蓝月谷和层层水声，让这一天有了很清澈的冷意。",
+      hero: "IMG_6112",
+      intro:
+        "雪山近在眼前的时候，风景会忽然变得很直接。云从山腰掠过去，水把颜色亮出来，人站在里面，像被一整天的蓝和白轻轻包住。",
+      photoIds: ["IMG_6112", "IMG_6113", "IMG_6116", "IMG_6125", "IMG_6128", "IMG_6129", "IMG_6130", "IMG_6131"]
+    },
+    "yn-dali": {
+      id: "yn-dali",
+      path: "dali",
+      name: "大理",
+      kicker: "Dali",
+      title: "城门、白塔和洱海边",
+      deck:
+        "大理的时间更松一点，古城门、三塔、湖边木栈道和云下的饭桌都慢慢展开。",
+      hero: "IMG_6147",
+      intro:
+        "到了大理，天色和水面一起放宽。城门有热闹的入口，白塔在树影里抬高，洱海边的风把前几天的紧凑行程吹得柔和下来。",
+      photoIds: ["IMG_6132", "IMG_6133", "IMG_6138", "IMG_6144", "IMG_6146", "IMG_6147", "IMG_6150", "IMG_6154"]
+    },
+    "yn-xishuangbanna": {
+      id: "yn-xishuangbanna",
+      path: "xishuangbanna",
+      name: "西双版纳",
+      kicker: "Xishuangbanna",
+      title: "热带夜色和植物的绿",
+      deck:
+        "夜市灯光、成袋水果、植物园的浓绿和阳光里的高树，把旅程最后一段带到更湿润、更明亮的地方。",
+      hero: "IMG_6184",
+      intro:
+        "西双版纳的记忆很有颜色。夜里是金色和粉色的灯，白天是从脚边长到头顶的绿，还有一路买回来的水果，把这段旅程收得热闹又清甜。",
+      photoIds: [
+        "IMG_6159",
+        "IMG_6161",
+        "IMG_6162",
+        "IMG_6163",
+        "IMG_6165",
+        "IMG_6167",
+        "IMG_6170",
+        "IMG_6171",
+        "IMG_6172",
+        "IMG_6173",
+        "IMG_6174",
+        "IMG_6175",
+        "IMG_6177",
+        "IMG_6179",
+        "IMG_6180",
+        "IMG_6184",
+        "IMG_6186",
+        "IMG_6187",
+        "IMG_6190",
+        "IMG_6192",
+        "IMG_6198",
+        "IMG_6200",
+        "IMG_6201"
       ]
     }
   },
@@ -554,6 +656,438 @@ window.TRAVEL_DATA = {
       location: "重庆餐桌",
       date: "晚饭",
       text: "鱼还在热油里冒着香气，配菜贴着锅边吸足味道。最后的满足感，往往就停在这一桌。"
+    },
+    IMG_6079: {
+      region: "yunnan",
+      file: "IMG_6079.jpeg",
+      title: "江边天光",
+      location: "武汉江边",
+      date: "2024.10.18 上午",
+      text: "江面把城市拉得很宽，远处楼群在光里排开。还没到云南，旅程已经先有了开阔的开场。"
+    },
+    IMG_6081: {
+      region: "yunnan",
+      file: "IMG_6081.jpeg",
+      title: "同路的人",
+      location: "武汉",
+      date: "2024.10.18 上午",
+      text: "赶路的时候拍下一张合影，表情比行程表更能说明那天的心情。目的地还在前面，人已经在路上。"
+    },
+    IMG_6082: {
+      region: "yunnan",
+      file: "IMG_6082.jpeg",
+      title: "黄鹤楼石阶",
+      location: "黄鹤楼",
+      date: "2024.10.18 上午",
+      text: "长长的台阶把人群带向楼前，红色花带从中间铺开。短暂停留，也被黄鹤楼的热闹和高度记住。"
+    },
+    IMG_6084: {
+      region: "yunnan",
+      file: "IMG_6084.jpeg",
+      title: "校门前",
+      location: "武汉大学",
+      date: "2024.10.18 上午",
+      text: "红字和绿树在路口站得很稳，车流从旁边经过。城市里的一个节点，被行程顺手收进来。"
+    },
+    IMG_6086: {
+      region: "yunnan",
+      file: "IMG_6086.jpeg",
+      title: "一锅藕汤",
+      location: "武汉餐桌",
+      date: "2024.10.18 中午",
+      text: "藕块从汤里捞起来，热气把午饭变得很踏实。转场之前，先被这一锅暖住。"
+    },
+    IMG_6087: {
+      region: "yunnan",
+      file: "IMG_6087.jpeg",
+      title: "红辣下饭",
+      location: "武汉餐桌",
+      date: "2024.10.18 中午",
+      text: "盘子里的颜色很直接，香气也不绕弯。赶路的人坐下来，才算真正补上力气。"
+    },
+    IMG_6090: {
+      region: "yunnan",
+      file: "IMG_6090.jpeg",
+      title: "丽江的第一张",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "阳光照在木楼和石牌坊上，人站在街口，像刚刚走进一段慢下来的时间。"
+    },
+    IMG_6092: {
+      region: "yunnan",
+      file: "IMG_6092.jpeg",
+      title: "花盆里的小景",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "多肉挤在木盆里，颜色很安静。古城的热闹之外，也有这样贴近脚边的细节。"
+    },
+    IMG_6093: {
+      region: "yunnan",
+      file: "IMG_6093.jpeg",
+      title: "木屋小巷",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "木门、石路和花草把路收得很窄，脚步自然放轻。这里适合慢慢走，不适合匆忙经过。"
+    },
+    IMG_6094: {
+      region: "yunnan",
+      file: "IMG_6094.jpeg",
+      title: "树下蓝天",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "老树把天空分成几块，屋檐从旁边探出来。阳光很亮，古城却显得很温和。"
+    },
+    IMG_6096: {
+      region: "yunnan",
+      file: "IMG_6096.jpeg",
+      title: "街巷深处",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "石板路往前延伸，旁边的店铺和树影一起安静下来。丽江的层次藏在这些小路里。"
+    },
+    IMG_6097: {
+      region: "yunnan",
+      file: "IMG_6097.jpeg",
+      title: "门前小坐",
+      location: "丽江古城",
+      date: "2024.10.19 上午",
+      text: "墙面粗粝，阳光停在门口，一切都像刚好按下了暂停。旅行里也需要这样没有安排的一秒。"
+    },
+    IMG_6100: {
+      region: "yunnan",
+      file: "IMG_6100.jpeg",
+      title: "雪山远处出现",
+      location: "丽江",
+      date: "2024.10.19 下午",
+      text: "云很低，山很清楚，屋顶在前景里显得小小的。真正看见雪山那一刻，行程突然有了方向。"
+    },
+    IMG_6102: {
+      region: "yunnan",
+      file: "IMG_6102.jpeg",
+      title: "水果和午后",
+      location: "丽江",
+      date: "2024.10.19 下午",
+      text: "袋子里的水果还带着刚买来的新鲜，桌边的人也慢慢放松。旅途中的补给，总是有一点快乐。"
+    },
+    IMG_6110: {
+      region: "yunnan",
+      file: "IMG_6110.jpeg",
+      title: "一桌酸辣",
+      location: "丽江餐桌",
+      date: "2024.10.19 晚上",
+      text: "汤锅和鱼菜一起摆上桌，颜色明亮得很有食欲。走了一天，最后还是要被热味收住。"
+    },
+    IMG_6112: {
+      region: "yunnan",
+      file: "IMG_6112.jpeg",
+      title: "云擦过山顶",
+      location: "玉龙雪山",
+      date: "2024.10.20 上午",
+      text: "白云贴着山峰翻过去，雪线在光里露出来。照片里的冷意很轻，却让人一下记住了那天。"
+    },
+    IMG_6113: {
+      region: "yunnan",
+      file: "IMG_6113.jpeg",
+      title: "山峰近处",
+      location: "玉龙雪山",
+      date: "2024.10.20 上午",
+      text: "岩壁从云雾里露出来，树影在下面站得很瘦。越靠近山，声音越像被慢慢收低。"
+    },
+    IMG_6116: {
+      region: "yunnan",
+      file: "IMG_6116.jpeg",
+      title: "海拔牌前",
+      location: "玉龙雪山",
+      date: "2024.10.20 上午",
+      text: "栈道、人群和山峰挤在同一个画面里，冷风也像能被看见。到达的证据，就这样被留住。"
+    },
+    IMG_6125: {
+      region: "yunnan",
+      file: "IMG_6125.jpeg",
+      title: "蓝月谷的水",
+      location: "蓝月谷",
+      date: "2024.10.20 中午",
+      text: "湖水亮得像从山里单独取出的一块颜色，树和栈道都在旁边安静下来。"
+    },
+    IMG_6128: {
+      region: "yunnan",
+      file: "IMG_6128.jpeg",
+      title: "水边留影",
+      location: "蓝月谷",
+      date: "2024.10.20 中午",
+      text: "白色水阶一层层往后退，远处是山，近处是人。风景很大，笑容把它拉近了一点。"
+    },
+    IMG_6129: {
+      region: "yunnan",
+      file: "IMG_6129.jpeg",
+      title: "层层水声",
+      location: "蓝月谷",
+      date: "2024.10.20 中午",
+      text: "水从石阶上细细流下来，像把山里的声音分成了很多层。站在旁边，会不自觉慢下来。"
+    },
+    IMG_6130: {
+      region: "yunnan",
+      file: "IMG_6130.jpeg",
+      title: "谷口合影",
+      location: "蓝月谷",
+      date: "2024.10.20 中午",
+      text: "人群在身后移动，水色和山色在更远处铺开。两个人站进同一张照片里，这一天就完整了一点。"
+    },
+    IMG_6131: {
+      region: "yunnan",
+      file: "IMG_6131.jpeg",
+      title: "一截枯枝",
+      location: "蓝月谷",
+      date: "2024.10.20 中午",
+      text: "蓝色水面前，一截枝干像安静的标点。越是简单的画面，越能记住当时的清冷。"
+    },
+    IMG_6132: {
+      region: "yunnan",
+      file: "IMG_6132.jpeg",
+      title: "大理第一锅",
+      location: "大理餐桌",
+      date: "2024.10.20 晚上",
+      text: "汤在锅里慢慢翻着，蘑菇和热气一起升起来。到大理后的第一顿饭，很适合把节奏放慢。"
+    },
+    IMG_6133: {
+      region: "yunnan",
+      file: "IMG_6133.jpeg",
+      title: "辣炒见手青",
+      location: "大理餐桌",
+      date: "2024.10.20 晚上",
+      text: "辣椒和见手青炒得很香，颜色也很有存在感。味道再诱人也要省着点吃，湖边城市的夜晚先从这一口热菜开始。"
+    },
+    IMG_6138: {
+      region: "yunnan",
+      file: "IMG_6138.jpeg",
+      title: "大理城门",
+      location: "大理古城",
+      date: "2024.10.21 上午",
+      text: "城门把人群聚到一起，远处的云压得很低。走进去之前，已经能感觉到这座城的从容。"
+    },
+    IMG_6144: {
+      region: "yunnan",
+      file: "IMG_6144.jpeg",
+      title: "白塔入云",
+      location: "崇圣寺三塔",
+      date: "2024.10.21 中午",
+      text: "塔身从树影后面立起来，天色微暗，反而让线条更清楚。古意在这里被拉得很高。"
+    },
+    IMG_6146: {
+      region: "yunnan",
+      file: "IMG_6146.jpeg",
+      title: "树影中的塔",
+      location: "崇圣寺三塔",
+      date: "2024.10.21 中午",
+      text: "树枝把塔身围住，云从后面慢慢铺开。大理的静，有时候就藏在这种不着急的画面里。"
+    },
+    IMG_6147: {
+      region: "yunnan",
+      file: "IMG_6147.jpeg",
+      title: "洱海边",
+      location: "洱海",
+      date: "2024.10.21 下午",
+      text: "水面铺得很平，远山和云连在一起。站在湖边，前几天的山路和街巷都慢慢沉下来。"
+    },
+    IMG_6150: {
+      region: "yunnan",
+      file: "IMG_6150.jpeg",
+      title: "湖边木栈道",
+      location: "洱海",
+      date: "2024.10.21 下午",
+      text: "人群沿着水边散开，岸线把视线带向远处。风一吹，城市的声音就轻了。"
+    },
+    IMG_6154: {
+      region: "yunnan",
+      file: "IMG_6154.jpeg",
+      title: "云下的一桌",
+      location: "大理餐桌",
+      date: "2024.10.21 下午",
+      text: "餐桌旁能看见远处的水和天，食物摆得热闹。大理把吃饭也变成了看风景的一部分。"
+    },
+    IMG_6159: {
+      region: "yunnan",
+      file: "IMG_6159.jpeg",
+      title: "夜市入口",
+      location: "西双版纳",
+      date: "2024.10.22 晚上",
+      text: "灯牌、摊位和人流一起亮起来，夜晚被热带的颜色推到眼前。旅程进入了完全不同的温度。"
+    },
+    IMG_6161: {
+      region: "yunnan",
+      file: "IMG_6161.jpeg",
+      title: "舞台灯光",
+      location: "西双版纳",
+      date: "2024.10.22 晚上",
+      text: "手机屏幕、舞台和围观的人群叠在一起，夜色很热闹。每一束光都像在把空气加热。"
+    },
+    IMG_6162: {
+      region: "yunnan",
+      file: "IMG_6162.jpeg",
+      title: "榴莲手心",
+      location: "西双版纳夜市",
+      date: "2024.10.22 晚上",
+      text: "一小盒水果被捧在手里，香气不用靠近也能想象。夜市的快乐，常常就是这么直接。"
+    },
+    IMG_6163: {
+      region: "yunnan",
+      file: "IMG_6163.jpeg",
+      title: "窗外的绿",
+      location: "西双版纳",
+      date: "2024.10.23 上午",
+      text: "房间里还带着刚醒来的凌乱，窗外已经是一片浓绿。热带的早晨，像从玻璃外涌进来。"
+    },
+    IMG_6165: {
+      region: "yunnan",
+      file: "IMG_6165.jpeg",
+      title: "睡莲池",
+      location: "西双版纳热带植物园",
+      date: "2024.10.23 上午",
+      text: "水面被叶片铺满，花藏在绿意之间。这里的安静不是空旷，而是被植物慢慢填满。"
+    },
+    IMG_6167: {
+      region: "yunnan",
+      file: "IMG_6167.jpeg",
+      title: "池边栈台",
+      location: "西双版纳热带植物园",
+      date: "2024.10.23 上午",
+      text: "站在水边的小平台上，身后是一整片湿润的绿。光线柔下来，人也跟着放松。"
+    },
+    IMG_6170: {
+      region: "yunnan",
+      file: "IMG_6170.jpeg",
+      title: "大叶之间",
+      location: "西双版纳热带植物园",
+      date: "2024.10.23 上午",
+      text: "叶子比人还醒目，把画面撑得很满。走在这里，会觉得绿色不只是颜色，也是一种气候。"
+    },
+    IMG_6171: {
+      region: "yunnan",
+      file: "IMG_6171.jpeg",
+      title: "路边水果摊",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "篮子里的水果摊在地上，颜色像被太阳晒得更甜。停下来挑一袋，就是南方旅途的日常。"
+    },
+    IMG_6172: {
+      region: "yunnan",
+      file: "IMG_6172.jpeg",
+      title: "摊位前",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "橙黄和浅绿一层层堆在面前，挑选也变成一种小小的停留。热带的味道很容易被带走。"
+    },
+    IMG_6173: {
+      region: "yunnan",
+      file: "IMG_6173.jpeg",
+      title: "金色屋顶",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "屋顶在树影里露出尖角，金色被阳光照得更亮。城市的南方感，在这一眼里很清楚。"
+    },
+    IMG_6174: {
+      region: "yunnan",
+      file: "IMG_6174.jpeg",
+      title: "窗边绿影",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "叶片贴着窗边伸过来，外面的光被筛成柔软的绿色。细节很小，却很像这里。"
+    },
+    IMG_6175: {
+      region: "yunnan",
+      file: "IMG_6175.jpeg",
+      title: "林间小路",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "路被树荫包住，空气也显得更湿。走在里面，不需要急着抵达哪里。"
+    },
+    IMG_6177: {
+      region: "yunnan",
+      file: "IMG_6177.jpeg",
+      title: "白塔与蓝天",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "白色塔身在蓝天下很干净，周围的树把它衬得更亮。阳光在这里有一种清脆的质感。"
+    },
+    IMG_6179: {
+      region: "yunnan",
+      file: "IMG_6179.jpeg",
+      title: "林中的金像",
+      location: "西双版纳",
+      date: "2024.10.23 下午",
+      text: "金色从树影里显出来，旁边的绿意把声音都压低。热闹之外，也有庄重的一面。"
+    },
+    IMG_6180: {
+      region: "yunnan",
+      file: "IMG_6180.jpeg",
+      title: "买回来的甜",
+      location: "西双版纳",
+      date: "2024.10.23 傍晚",
+      text: "一袋袋水果摊在桌上，像把白天的阳光都带回了房间。旅途的收获有时就是这些可以分着吃的甜。"
+    },
+    IMG_6184: {
+      region: "yunnan",
+      file: "IMG_6184.jpeg",
+      title: "星光夜市",
+      location: "西双版纳星光夜市",
+      date: "2024.10.23 晚上",
+      text: "金色建筑和人群一起亮起来，夜市像一整片灯海。最后几天的兴奋，被这一眼推到最高。"
+    },
+    IMG_6186: {
+      region: "yunnan",
+      file: "IMG_6186.jpeg",
+      title: "粉色夜场",
+      location: "西双版纳",
+      date: "2024.10.23 晚上",
+      text: "舞台灯把夜色染成粉紫色，音乐和人声贴得很近。西双版纳的夜晚很会把人留住。"
+    },
+    IMG_6187: {
+      region: "yunnan",
+      file: "IMG_6187.jpeg",
+      title: "夜里的果袋",
+      location: "西双版纳",
+      date: "2024.10.23 晚上",
+      text: "切好的水果装在袋子里，颜色被室内灯照得很软。热带夜晚的一点满足，简单又具体。"
+    },
+    IMG_6190: {
+      region: "yunnan",
+      file: "IMG_6190.jpeg",
+      title: "红果缀满树",
+      location: "西双版纳热带植物园",
+      date: "2024.10.24 上午",
+      text: "树干上挂满细小的红色，像植物自己留下的装饰。越往林子里走，越容易被这些细节抓住。"
+    },
+    IMG_6192: {
+      region: "yunnan",
+      file: "IMG_6192.jpeg",
+      title: "草地中央",
+      location: "西双版纳热带植物园",
+      date: "2024.10.24 上午",
+      text: "草地在树之间展开，远处的白桦和绿意把空间撑开。人站在中间，显得很轻。"
+    },
+    IMG_6198: {
+      region: "yunnan",
+      file: "IMG_6198.jpeg",
+      title: "叶间果实",
+      location: "西双版纳热带植物园",
+      date: "2024.10.24 上午",
+      text: "一颗果实藏在大叶之间，绿色一层叠一层。这里的植物总能把普通散步变成观察。"
+    },
+    IMG_6200: {
+      region: "yunnan",
+      file: "IMG_6200.jpeg",
+      title: "树上的菠萝蜜",
+      location: "西双版纳热带植物园",
+      date: "2024.10.24 上午",
+      text: "沉甸甸的果实挂在树干上，阳光从叶缝里落下来。热带的丰盛感，几乎不用解释。"
+    },
+    IMG_6201: {
+      region: "yunnan",
+      file: "IMG_6201.jpeg",
+      title: "高树路旁",
+      location: "西双版纳热带植物园",
+      date: "2024.10.24 上午",
+      text: "笔直的树沿着路边排开，天空从叶冠之间露出来。最后一段路，明亮得很轻松。"
     }
   }
 };

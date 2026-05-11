@@ -20,11 +20,11 @@ function photo(id) {
 }
 
 function regionPath(region) {
-  return asset(`${region.id}/`);
+  return asset(`${region.id}/index.html`);
 }
 
 function themePath(region, theme) {
-  return asset(`${region.id}/${theme.path || theme.id}/`);
+  return asset(`${region.id}/${theme.path || theme.id}/index.html`);
 }
 
 function renderHeader(activeRegion) {
@@ -55,7 +55,7 @@ function renderIndex() {
         <p class="eyebrow">Travel Notes</p>
         <h1>把旅行整理成可以回看的地方</h1>
         <p>${region.deck}</p>
-        <a class="button" href="${regionPath(region)}">进入成都</a>
+        <a class="button" href="${regionPath(region)}">进入${region.name}</a>
       </div>
     </section>
     <section class="section">
