@@ -245,7 +245,7 @@ window.TRAVEL_DATA = {
       hero: "IMG_6147",
       intro:
         "到了大理，天色和水面一起放宽。城门有热闹的入口，白塔在树影里抬高，洱海边的风把前几天的紧凑行程吹得柔和下来。",
-      photoIds: ["IMG_6132", "IMG_6133", "IMG_6138", "IMG_6144", "IMG_6146", "IMG_6147", "IMG_6150", "IMG_6154"]
+      photoIds: ["IMG_6132", "IMG_6133", "IMG_6138", "IMG_6144", "IMG_6143", "IMG_6147", "IMG_6150", "IMG_6154"]
     },
     "yn-xishuangbanna": {
       id: "yn-xishuangbanna",
@@ -263,7 +263,7 @@ window.TRAVEL_DATA = {
         "IMG_6161",
         "IMG_6162",
         "IMG_6163",
-        "IMG_6165",
+        "IMG_6168",
         "IMG_6167",
         "IMG_6170",
         "IMG_6171",
@@ -881,6 +881,14 @@ window.TRAVEL_DATA = {
       date: "2024.10.21 中午",
       text: "树枝把塔身围住，云从后面慢慢铺开。大理的静，有时候就藏在这种不着急的画面里。"
     },
+    IMG_6143: {
+      region: "yunnan",
+      file: "IMG_6143.jpeg",
+      title: "三塔与云",
+      location: "崇圣寺三塔",
+      date: "2024.10.21 中午",
+      text: "三座塔在云下排开，山影从后面隐约透出来。比起近看一座塔，这一张更像把大理的天色也一起收住了。"
+    },
     IMG_6147: {
       region: "yunnan",
       file: "IMG_6147.jpeg",
@@ -945,13 +953,21 @@ window.TRAVEL_DATA = {
       date: "2024.10.23 上午",
       text: "水面被叶片铺满，花藏在绿意之间。这里的安静不是空旷，而是被植物慢慢填满。"
     },
+    IMG_6168: {
+      region: "yunnan",
+      file: "IMG_6168.jpeg",
+      title: "野象谷山林",
+      location: "野象谷",
+      date: "2024.10.23 上午",
+      text: "山林在阳光下层层铺开，树冠一直延到远处的坡上。到了野象谷，西双版纳的绿变得更野、更深。"
+    },
     IMG_6167: {
       region: "yunnan",
       file: "IMG_6167.jpeg",
       title: "池边栈台",
-      location: "西双版纳热带植物园",
+      location: "野象谷",
       date: "2024.10.23 上午",
-      text: "站在水边的小平台上，身后是一整片湿润的绿。光线柔下来，人也跟着放松。"
+      text: "站在水边的小平台上，身后是一整片湿润的绿。野象谷的光线柔下来，人也跟着放松。"
     },
     IMG_6170: {
       region: "yunnan",

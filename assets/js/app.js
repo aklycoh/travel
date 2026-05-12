@@ -170,7 +170,6 @@ function renderTheme() {
 
   const otherThemes = region.themes
     .filter((id) => id !== theme.id)
-    .slice(0, 3)
     .map((id) => {
       const item = data.themes[id];
       return `<a href="${themePath(region, item)}">${item.name}</a>`;
