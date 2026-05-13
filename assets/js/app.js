@@ -27,6 +27,27 @@ function themePath(region, theme) {
   return asset(`${region.id}/${theme.path || theme.id}/index.html`);
 }
 
+function readMinutes(theme) {
+  return Math.max(3, Math.round((theme.photoIds?.length || 4) * 0.7));
+}
+
+function byline(minutes) {
+  return `Travel Notes · ${minutes} min read`;
+}
+
+function captionLine(item) {
+  return `摄影: Travel Notes · ${item.location} · ${item.date}`;
+}
+
+function renderHeroFigure(item, alt) {
+  return `
+    <figure class="hero-figure">
+      <img src="${item.large}" alt="${alt}">
+      <figcaption>${captionLine(item)}</figcaption>
+    </figure>
+  `;
+}
+
 function renderHeader(activeRegion) {
   const nav = $("#site-nav");
   if (!nav) return;
@@ -50,12 +71,12 @@ function renderIndex() {
   const hero = photo(region.hero);
   $("#app").innerHTML = `
     <section class="home-hero">
-      <img src="${hero.large}" alt="${region.title}">
+      ${renderHeroFigure(hero, region.title)}
       <div class="home-hero__content">
         <p class="eyebrow">Travel Notes</p>
         <h1>把旅行整理成可以回看的地方</h1>
         <p>${region.deck}</p>
-        <a class="button" href="${regionPath(region)}">进入${region.name}</a>
+        <a class="text-link" href="${regionPath(region)}">进入${region.name}</a>
       </div>
     </section>
     <section class="section">
@@ -73,6 +94,7 @@ function renderIndex() {
                 <span>${item.eyebrow}</span>
                 <h3>${item.name}</h3>
                 <p>${item.location}</p>
+                <small>${byline(4)}</small>
               </a>
             `;
           })
@@ -97,6 +119,7 @@ function renderRegion() {
             <span>${theme.kicker}</span>
             <h3>${theme.title}</h3>
             <p>${theme.deck}</p>
+            <small>${byline(readMinutes(theme))}</small>
           </div>
         </a>
       `;
@@ -108,7 +131,10 @@ function renderRegion() {
       const item = photo(id);
       return `
         <article class="photo-story">
-          <img src="${item.large}" alt="${item.title}" loading="lazy">
+          <figure>
+            <img src="${item.large}" alt="${item.title}" loading="lazy">
+            <figcaption>${captionLine(item)}</figcaption>
+          </figure>
           <div>
             <p class="meta">${item.location} · ${item.date}</p>
             <h3>${item.title}</h3>
@@ -121,7 +147,7 @@ function renderRegion() {
 
   $("#app").innerHTML = `
     <section class="destination-hero">
-      <img src="${hero.large}" alt="${region.title}">
+      ${renderHeroFigure(hero, region.title)}
       <div>
         <p class="eyebrow">${region.eyebrow}</p>
         <h1>${region.title}</h1>
@@ -158,7 +184,10 @@ function renderTheme() {
   const cards = photos
     .map((item, index) => `
       <article class="theme-photo ${index % 3 === 0 ? "theme-photo--wide" : ""}">
-        <img src="${item.large}" alt="${item.title}" loading="lazy">
+        <figure>
+          <img src="${item.large}" alt="${item.title}" loading="lazy">
+          <figcaption>${captionLine(item)}</figcaption>
+        </figure>
         <div>
           <p class="meta">${item.location} · ${item.date}</p>
           <h3>${item.title}</h3>
@@ -178,12 +207,13 @@ function renderTheme() {
 
   $("#app").innerHTML = `
     <section class="article-hero">
-      <img src="${hero.large}" alt="${theme.title}">
+      ${renderHeroFigure(hero, theme.title)}
       <div>
         <a class="back-link" href="${regionPath(region)}">返回${region.name}</a>
         <p class="eyebrow">${theme.kicker}</p>
         <h1>${theme.title}</h1>
         <p>${theme.intro}</p>
+        <p class="story-byline">${byline(readMinutes(theme))}</p>
       </div>
     </section>
     <section class="section">
