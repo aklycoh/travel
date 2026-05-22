@@ -1664,10 +1664,10 @@ window.TRAVEL_DATA = {
     GS_F_BOILED_LAMB: {
       region: "gansu",
       file: "gs_f_boiled_lamb.jpeg",
-      title: "清切羊肉",
+      title: "手抓羊肉",
       location: "兰州餐桌",
       date: "甘肃旅程",
-      text: "羊肉切得整齐，味道看起来不复杂，却很考验本身的鲜香。西北餐桌常有这样的底气。"
+      text: "羊肉按骨切开，旁边蘸一点辣油就很有滋味。手抓羊肉看起来朴素，却最能吃出西北餐桌的底气。"
     },
     GS_F_SKEWERS: {
       region: "gansu",
