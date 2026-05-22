@@ -339,6 +339,11 @@ a {
   grid-column: span 8;
 }
 
+.story-grid:has(.story-card:nth-child(3):last-child) .story-card,
+.story-grid:has(.story-card:nth-child(3):last-child) .story-card:nth-child(1) {
+  grid-column: span 4;
+}
+
 .featured-list {
   display: grid;
   gap: 44px;

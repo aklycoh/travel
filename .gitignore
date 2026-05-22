@@ -1,5 +1,10 @@
-/IMG_*.jpeg
-yunnan/*.JPG
-chongqing-photos/
 .DS_Store
 .codex-photo-index.html
+_raw_photos/
+
+# Safety net for newly imported raw photos before they are moved into _raw_photos/.
+/IMG_*.jpeg
+/IMG_*.jpg
+/IMG_*.JPG
+/IMG_*.HEIC
+/*-photos/

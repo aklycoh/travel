@@ -38,6 +38,19 @@ window.TRAVEL_DATA = {
       hero: "IMG_6112",
       featurePhotos: ["IMG_6079", "IMG_6090", "IMG_6131", "IMG_6147", "IMG_6184"],
       themes: ["yn-route", "yn-lijiang", "yn-snow", "yn-dali", "yn-xishuangbanna"]
+    },
+    {
+      id: "gansu",
+      name: "甘肃",
+      eyebrow: "Gansu",
+      title: "甘肃：黄河、丹霞和丝路",
+      deck:
+        "从兰州黄河边出发，经过武威的寺塔与城楼，走过张掖丹霞和峡谷地貌，再到嘉峪关、敦煌与一桌桌西北风味，这组照片把甘肃的辽阔、厚重和热气放在一起。",
+      dates: "甘肃片段",
+      location: "兰州、武威、张掖、嘉峪关、敦煌",
+      hero: "GS_N_DANXIA_WIDE",
+      featurePhotos: ["GS_N_YELLOW_RIVER", "GS_C_ANCIENT_TOWER", "GS_N_DANXIA_COLORS", "GS_C_MOGAO_CLIFF", "GS_F_NOODLES"],
+      themes: ["gs-nature", "gs-culture", "gs-food"]
     }
   ],
   themes: {
@@ -282,6 +295,109 @@ window.TRAVEL_DATA = {
         "IMG_6198",
         "IMG_6200",
         "IMG_6201"
+      ]
+    },
+    "gs-nature": {
+      id: "gs-nature",
+      path: "nature",
+      name: "自然风光",
+      kicker: "Nature",
+      title: "黄河、丹霞与沙山",
+      deck:
+        "黄河从城市边穿过，丹霞把山体染成层层颜色，峡谷和沙山则把甘肃的空间感继续推远。",
+      hero: "GS_N_DANXIA_WIDE",
+      intro:
+        "甘肃的自然风光有一种很直接的尺度。兰州黄河边是湿润的灰黄，张掖丹霞是明亮的红与金，峡谷里只有窄窄的天光，到了敦煌，沙山又把视线放到更远。",
+      photoIds: [
+        "GS_N_YELLOW_RIVER",
+        "GS_N_ZHONGSHAN_BRIDGE",
+        "GS_N_DANXIA_PORTRAIT",
+        "GS_N_DANXIA_WIDE",
+        "GS_N_DANXIA_VALLEY",
+        "GS_N_DANXIA_LOOKOUT",
+        "GS_N_DANXIA_COLORS",
+        "GS_N_DANXIA_CANYON",
+        "GS_N_DANXIA_SHADOW",
+        "GS_N_CANYON_WALK",
+        "GS_N_CANYON_BOARDWALK",
+        "GS_N_CANYON_WALL",
+        "GS_N_CANYON_SKY",
+        "GS_N_GORGE_STAIR",
+        "GS_N_GORGE_LOOKOUT",
+        "GS_N_DESERT_PERSON",
+        "GS_N_CRESCENT_LAKE",
+        "GS_N_DUNES_GROVE"
+      ]
+    },
+    "gs-culture": {
+      id: "gs-culture",
+      path: "culture",
+      name: "文化",
+      kicker: "Culture",
+      title: "丝路上的城关与壁画",
+      deck:
+        "白塔寺、鸠摩罗什寺、武威城楼、嘉峪关城墙和敦煌壁画，让这条路不只是风景，更像一段被时间反复擦亮的长廊。",
+      hero: "GS_C_MOGAO_CLIFF",
+      intro:
+        "甘肃的文化感不是单一景点给出来的，而是一路累积起来的：武威白塔寺、鸠摩罗什寺和凉州城楼，张掖大佛寺，嘉峪关的城墙，敦煌石窟与壁画，把旅程从城市带进更长的历史。",
+      photoIds: [
+        "GS_C_BUDDHA_TERRACE",
+        "GS_C_WHITE_PAGODA",
+        "GS_C_TEMPLE_GATE",
+        "GS_C_ANCIENT_TOWER",
+        "GS_C_CITY_GATE",
+        "GS_C_OLD_HOUSE",
+        "GS_C_WEATHERED_DOOR",
+        "GS_C_SLEEPING_BUDDHA",
+        "GS_C_MURAL_HALL",
+        "GS_C_PAINTED_STATUE",
+        "GS_C_XIJIN_TILE",
+        "GS_C_JIAYUGUAN_GATE",
+        "GS_C_HERO_PASS",
+        "GS_C_RAMMED_WALL",
+        "GS_C_FORT_TOWER",
+        "GS_C_MOGAO_CLIFF",
+        "GS_C_MOGAO_RED_EAVES",
+        "GS_C_MOGAO_DOOR_PAINTING",
+        "GS_C_MOGAO_DETAIL",
+        "GS_C_MOGAO_CEILING",
+        "GS_C_MOGAO_BUDDHA_WALL",
+        "GS_C_MOGAO_CALLIGRAPHY",
+        "GS_C_THOUSAND_BUDDHAS"
+      ]
+    },
+    "gs-food": {
+      id: "gs-food",
+      path: "food",
+      name: "美食",
+      kicker: "Food",
+      title: "面、肉、茶和甜醅子",
+      deck:
+        "牛肉面、面皮子、灰豆子、奶皮子、杏皮茶和烤串，把西北旅程里最踏实的一面端到了桌上。",
+      hero: "GS_F_NOODLES",
+      intro:
+        "甘肃的吃法很有力量，也很会安慰赶路的人。清汤牛肉面是开场，武威的小吃把行程接住，烤土豆和羊肉把夜市点热，甜醅子、灰豆子和杏皮茶又把粗粝的风吹得柔软一点。",
+      photoIds: [
+        "GS_F_NOODLES",
+        "GS_F_MIANPI",
+        "GS_F_GREY_BEANS",
+        "GS_F_POTATO",
+        "GS_F_POTATO_CHIPS",
+        "GS_F_NAIPI",
+        "GS_F_HAND_NAIPI",
+        "GS_F_TIANPEIZI",
+        "GS_F_APRICOT_TEA",
+        "GS_F_CHAOBOLA",
+        "GS_F_LAMB_PANCAKE",
+        "GS_F_LATIAOZI",
+        "GS_F_LAMB_RICE",
+        "GS_F_SHACONG",
+        "GS_F_BOILED_LAMB",
+        "GS_F_SKEWERS",
+        "GS_F_BREAD_TEA",
+        "GS_F_MARKET",
+        "GS_F_FOOD_STREET",
+        "GS_F_DAPANJI"
       ]
     }
   },
@@ -1104,6 +1220,494 @@ window.TRAVEL_DATA = {
       location: "西双版纳热带植物园",
       date: "2024.10.24 上午",
       text: "笔直的树沿着路边排开，天空从叶冠之间露出来。最后一段路，明亮得很轻松。"
+    },
+    GS_N_YELLOW_RIVER: {
+      region: "gansu",
+      file: "gs_n_yellow_river.jpeg",
+      title: "黄河边的风",
+      location: "兰州黄河边",
+      date: "甘肃旅程",
+      text: "河水贴着城市慢慢流过，岸边的柳树和人影让兰州的开场显得很生活。"
+    },
+    GS_N_ZHONGSHAN_BRIDGE: {
+      region: "gansu",
+      file: "gs_n_zhongshan_bridge.jpeg",
+      title: "铁桥与河水",
+      location: "兰州中山桥一带",
+      date: "甘肃旅程",
+      text: "铁桥横在黄河上，水面带着厚重的颜色。城市的地标不是摆在那里，而是被每天的河风反复经过。"
+    },
+    GS_N_DANXIA_PORTRAIT: {
+      region: "gansu",
+      file: "gs_n_danxia_portrait.jpeg",
+      title: "彩丘前",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "人站在彩色山体前，比例一下被拉小。甘肃的辽阔，常常就是这样从身后展开。"
+    },
+    GS_N_DANXIA_WIDE: {
+      region: "gansu",
+      file: "gs_n_danxia_wide.jpeg",
+      title: "丹霞铺开",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "山脊一层层向远处推开，红、黄和褐色在阳光下分得很清楚，像大地自己留下的纹路。"
+    },
+    GS_N_DANXIA_VALLEY: {
+      region: "gansu",
+      file: "gs_n_danxia_valley.jpeg",
+      title: "褶皱里的路",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "远处的步道和近处的山纹一起弯折，人在里面移动得很慢，风景却一直往外扩。"
+    },
+    GS_N_DANXIA_LOOKOUT: {
+      region: "gansu",
+      file: "gs_n_danxia_lookout.jpeg",
+      title: "看台上的停留",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "站在栏杆边看出去，山色像被阳光一层层翻开。拍照只是停留的理由，真正记住的是那阵风。"
+    },
+    GS_N_DANXIA_COLORS: {
+      region: "gansu",
+      file: "gs_n_danxia_colors.jpeg",
+      title: "颜色起伏",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "红色岩层和浅色山坡交错在一起，画面明亮得像被西北的太阳重新调过色。"
+    },
+    GS_N_DANXIA_CANYON: {
+      region: "gansu",
+      file: "gs_n_danxia_canyon.jpeg",
+      title: "远处的峡谷",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "峡谷像被时间慢慢刻出来，阴影落在褐色山体上，让远处也有了层次。"
+    },
+    GS_N_DANXIA_SHADOW: {
+      region: "gansu",
+      file: "gs_n_danxia_shadow.jpeg",
+      title: "丹霞的阴影",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "光线从高处压下来，沟壑里留下深色的影。颜色之外，地貌本身也足够有力量。"
+    },
+    GS_N_CANYON_WALK: {
+      region: "gansu",
+      file: "gs_n_canyon_walk.jpeg",
+      title: "红岩栈道",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "栈道贴着红色岩壁向前，人在岩层之间穿行，像走进一条被山体夹住的时间线。"
+    },
+    GS_N_CANYON_BOARDWALK: {
+      region: "gansu",
+      file: "gs_n_canyon_boardwalk.jpeg",
+      title: "峡谷里的阶梯",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "木阶从峡谷中间抬上去，阳光只照亮一部分岩壁，剩下的都留给凉意和回声。"
+    },
+    GS_N_CANYON_WALL: {
+      region: "gansu",
+      file: "gs_n_canyon_wall.jpeg",
+      title: "一线岩壁",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "窄路两边是高高的岩壁，纹理近得几乎可以读出来。风景在这里从远眺变成了贴身经过。"
+    },
+    GS_N_CANYON_SKY: {
+      region: "gansu",
+      file: "gs_n_canyon_sky.jpeg",
+      title: "岩缝里的天",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "抬头只看见一条蓝色的天，岩壁把光收得很窄，反而让天空显得更亮。"
+    },
+    GS_N_GORGE_STAIR: {
+      region: "gansu",
+      file: "gs_n_gorge_stair.jpeg",
+      title: "上行的木梯",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "木梯顺着岩壁往上走，脚下是热土，头顶是强光，每一步都带着干燥的西北感。"
+    },
+    GS_N_GORGE_LOOKOUT: {
+      region: "gansu",
+      file: "gs_n_gorge_lookout.jpeg",
+      title: "荒原远望",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "从高处看出去，褐色荒原一直铺到远处，空间大得让人下意识安静下来。"
+    },
+    GS_N_DESERT_PERSON: {
+      region: "gansu",
+      file: "gs_n_desert_person.jpeg",
+      title: "沙山脚下",
+      location: "敦煌鸣沙山",
+      date: "甘肃旅程",
+      text: "沙丘在身后缓慢起伏，人的影子很小。到了敦煌，风景换成了更明亮也更干燥的质地。"
+    },
+    GS_N_CRESCENT_LAKE: {
+      region: "gansu",
+      file: "gs_n_crescent_lake.jpeg",
+      title: "月牙泉远处",
+      location: "敦煌鸣沙山月牙泉",
+      date: "甘肃旅程",
+      text: "沙山之间突然出现一片绿和水，亭台在远处压住画面，像荒漠里的一点回声。"
+    },
+    GS_N_DUNES_GROVE: {
+      region: "gansu",
+      file: "gs_n_dunes_grove.jpeg",
+      title: "沙山与树影",
+      location: "敦煌鸣沙山月牙泉",
+      date: "甘肃旅程",
+      text: "树影、栏杆和沙山叠在一起，柔软的沙线把旅程最后的自然风景慢慢收住。"
+    },
+    GS_C_BUDDHA_TERRACE: {
+      region: "gansu",
+      file: "gs_c_buddha_terrace.jpeg",
+      title: "白塔寺的佛像",
+      location: "武威白塔寺",
+      date: "甘肃旅程",
+      text: "佛像立在灰天之下，台阶和栏杆把空间收得庄重。武威白塔寺里有安静的宗教气息。"
+    },
+    GS_C_WHITE_PAGODA: {
+      region: "gansu",
+      file: "gs_c_white_pagoda.jpeg",
+      title: "白塔寺白塔",
+      location: "武威白塔寺",
+      date: "甘肃旅程",
+      text: "白色塔身在树影旁显得很清净，灰天之下更显得沉静。"
+    },
+    GS_C_TEMPLE_GATE: {
+      region: "gansu",
+      file: "gs_c_temple_gate.jpeg",
+      title: "鸠摩罗什寺山门",
+      location: "武威鸠摩罗什寺",
+      date: "甘肃旅程",
+      text: "红柱、蓝匾和彩画把入口装点得很明亮，武威的文化线索从这座寺院前慢慢展开。"
+    },
+    GS_C_ANCIENT_TOWER: {
+      region: "gansu",
+      file: "gs_c_ancient_tower.jpeg",
+      title: "鸠摩罗什寺塔",
+      location: "武威鸠摩罗什寺",
+      date: "甘肃旅程",
+      text: "石塔站在院落中央，天色压得很低，反而让塔身的线条更稳。"
+    },
+    GS_C_CITY_GATE: {
+      region: "gansu",
+      file: "gs_c_city_gate.jpeg",
+      title: "凉州城楼前",
+      location: "武威凉州城区",
+      date: "甘肃旅程",
+      text: "城楼把人带回一种更古老的尺度，台阶、门洞和广场一起把时间拉开。"
+    },
+    GS_C_OLD_HOUSE: {
+      region: "gansu",
+      file: "gs_c_old_house.jpeg",
+      title: "老宅门楼",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "木门和匾额被岁月磨得发暗，门口的人影让这座老建筑仍然有日常的温度。"
+    },
+    GS_C_WEATHERED_DOOR: {
+      region: "gansu",
+      file: "gs_c_weathered_door.jpeg",
+      title: "斑驳门板",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "旧门上的痕迹像一层层被留下来的时间。没有鲜艳颜色，却很能让人停下来。"
+    },
+    GS_C_SLEEPING_BUDDHA: {
+      region: "gansu",
+      file: "gs_c_sleeping_buddha.jpeg",
+      title: "殿中的卧佛",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "昏暗殿内，卧佛被柱子和壁画围住。人站在下方，声音自然放轻。"
+    },
+    GS_C_MURAL_HALL: {
+      region: "gansu",
+      file: "gs_c_mural_hall.jpeg",
+      title: "壁画上的人物",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "壁画色彩已经旧了，人物却仍然清楚。看得久一点，会觉得时间并没有完全退远。"
+    },
+    GS_C_PAINTED_STATUE: {
+      region: "gansu",
+      file: "gs_c_painted_statue.jpeg",
+      title: "彩塑侧影",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "彩塑站在木构之间，衣纹和颜色都带着旧意。它不需要完整解释，已经足够有存在感。"
+    },
+    GS_C_XIJIN_TILE: {
+      region: "gansu",
+      file: "gs_c_xijin_tile.jpeg",
+      title: "西晋地砖",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "一块地砖把很远的年代带到眼前，花纹留在石面上，像历史给旅程留下的小签名。"
+    },
+    GS_C_JIAYUGUAN_GATE: {
+      region: "gansu",
+      file: "gs_c_jiayuguan_gate.jpeg",
+      title: "嘉峪关入口",
+      location: "嘉峪关",
+      date: "甘肃旅程",
+      text: "城门前的阳光很硬，人群从门洞前经过，关城的轮廓显得格外清楚。"
+    },
+    GS_C_HERO_PASS: {
+      region: "gansu",
+      file: "gs_c_hero_pass.jpeg",
+      title: "天下雄关",
+      location: "嘉峪关",
+      date: "甘肃旅程",
+      text: "匾额立在风沙里，四个字把边关的气势直接写出来。到这里，丝路忽然有了具体的门。"
+    },
+    GS_C_RAMMED_WALL: {
+      region: "gansu",
+      file: "gs_c_rammed_wall.jpeg",
+      title: "夯土城墙",
+      location: "嘉峪关",
+      date: "甘肃旅程",
+      text: "墙体在阳光下显出层层土色，线条朴素，却把边塞的力量留得很实。"
+    },
+    GS_C_FORT_TOWER: {
+      region: "gansu",
+      file: "gs_c_fort_tower.jpeg",
+      title: "关城楼阁",
+      location: "嘉峪关",
+      date: "甘肃旅程",
+      text: "楼阁立在高墙之上，蓝天和黄土把画面分得很干净，像一段历史的剪影。"
+    },
+    GS_C_MOGAO_CLIFF: {
+      region: "gansu",
+      file: "gs_c_mogao_cliff.jpeg",
+      title: "石窟外墙",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "洞窟沿着崖壁排开，栈道一层层连着。还没进入洞内，敦煌的厚度已经扑面而来。"
+    },
+    GS_C_MOGAO_RED_EAVES: {
+      region: "gansu",
+      file: "gs_c_mogao_red_eaves.jpeg",
+      title: "九层楼",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "红色檐角贴着崖壁向上，建筑像从石壁里长出来，把宗教和地貌接在一起。"
+    },
+    GS_C_MOGAO_DOOR_PAINTING: {
+      region: "gansu",
+      file: "gs_c_mogao_door_painting.jpeg",
+      title: "门上的彩绘",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "门板上的图案已经斑驳，线条却还在。细节越旧，越让人愿意多看一眼。"
+    },
+    GS_C_MOGAO_DETAIL: {
+      region: "gansu",
+      file: "gs_c_mogao_detail.jpeg",
+      title: "壁画细部",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "人物、树木和建筑被画在同一片旧色里，细节密得像一段被保存下来的故事。"
+    },
+    GS_C_MOGAO_CEILING: {
+      region: "gansu",
+      file: "gs_c_mogao_ceiling.jpeg",
+      title: "藻井图案",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "图案从中心向四周展开，颜色褪去后仍然有秩序。它让抬头这件事变得很有仪式感。"
+    },
+    GS_C_MOGAO_BUDDHA_WALL: {
+      region: "gansu",
+      file: "gs_c_mogao_buddha_wall.jpeg",
+      title: "佛国壁面",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "壁面上人物层层排列，红与绿沉在旧色里。热闹的画面反而带着很深的安静。"
+    },
+    GS_C_MOGAO_CALLIGRAPHY: {
+      region: "gansu",
+      file: "gs_c_mogao_calligraphy.jpeg",
+      title: "纸上的墨迹",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "墨迹竖着落下，笔画像还带着人的手劲。文物有时不需要巨大，只要一行字就够近。"
+    },
+    GS_C_THOUSAND_BUDDHAS: {
+      region: "gansu",
+      file: "gs_c_thousand_buddhas.jpeg",
+      title: "千佛排列",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "一尊尊小佛排成整面墙，重复里有一种稳定的力量。站在前面，会被数量和时间同时击中。"
+    },
+    GS_F_NOODLES: {
+      region: "gansu",
+      file: "gs_f_noodles.jpeg",
+      title: "兰州牛肉面",
+      location: "兰州餐桌",
+      date: "甘肃旅程",
+      text: "清汤、红油、葱花和面条放在同一个碗里，热气一起升上来。甘肃的第一口，很适合从这里开始。"
+    },
+    GS_F_MIANPI: {
+      region: "gansu",
+      file: "gs_f_mianpi.jpeg",
+      title: "古浪面皮子",
+      location: "武威小吃",
+      date: "甘肃旅程",
+      text: "面皮子裹着辣油和芝麻，颜色很直接。西北小吃的爽利，在这一盘里很清楚。"
+    },
+    GS_F_GREY_BEANS: {
+      region: "gansu",
+      file: "gs_f_grey_beans.jpeg",
+      title: "灰豆子",
+      location: "兰州小吃",
+      date: "甘肃旅程",
+      text: "甜汤颜色很深，豆子圆圆地沉在碗里。它不张扬，却把走累后的晚上安稳接住。"
+    },
+    GS_F_POTATO: {
+      region: "gansu",
+      file: "gs_f_potato.jpeg",
+      title: "烤土豆",
+      location: "张掖夜市",
+      date: "甘肃旅程",
+      text: "土豆块撒上调料，外面带一点焦香。很简单，也很有路边摊的快乐。"
+    },
+    GS_F_POTATO_CHIPS: {
+      region: "gansu",
+      file: "gs_f_potato_chips.jpeg",
+      title: "烤土豆片",
+      location: "武威夜市",
+      date: "甘肃旅程",
+      text: "薄片一层层叠在烤架上，辣椒面把香气推得很近。夜市的热闹有时就是这一串。"
+    },
+    GS_F_NAIPI: {
+      region: "gansu",
+      file: "gs_f_naipi.jpeg",
+      title: "兰州奶皮子",
+      location: "兰州小吃",
+      date: "甘肃旅程",
+      text: "奶皮子在杯子里柔软地卷起，凉意和奶香让干燥的路程忽然变得温和。"
+    },
+    GS_F_HAND_NAIPI: {
+      region: "gansu",
+      file: "gs_f_hand_naipi.jpeg",
+      title: "手工奶皮子",
+      location: "兰州小吃",
+      date: "甘肃旅程",
+      text: "黑芝麻和枸杞点在奶香上，甜味很轻，却刚好把西北的风沙压下去一点。"
+    },
+    GS_F_TIANPEIZI: {
+      region: "gansu",
+      file: "gs_f_tianpeizi.jpeg",
+      title: "甜醅子",
+      location: "兰州小吃",
+      date: "甘肃旅程",
+      text: "麦粒泡在清甜的汤里，吃起来有发酵后的微微香气。它像这趟旅程里一口很本地的甜。"
+    },
+    GS_F_APRICOT_TEA: {
+      region: "gansu",
+      file: "gs_f_apricot_tea.jpeg",
+      title: "杏皮茶",
+      location: "敦煌街头",
+      date: "甘肃旅程",
+      text: "杯子握在手里，酸甜味像从西北的水果里直接取出来。走在太阳下，这一口特别及时。"
+    },
+    GS_F_CHAOBOLA: {
+      region: "gansu",
+      file: "gs_f_chaobola.jpeg",
+      title: "炒拨拉",
+      location: "张掖餐桌",
+      date: "甘肃旅程",
+      text: "铁盘里肉和菜炒得很满，油光、辣椒和锅气都很足。看一眼就知道这顿不会清淡。"
+    },
+    GS_F_LAMB_PANCAKE: {
+      region: "gansu",
+      file: "gs_f_lamb_pancake.jpeg",
+      title: "敦煌羊肉焖饼",
+      location: "敦煌餐桌",
+      date: "甘肃旅程",
+      text: "饼吸了汤汁，羊肉和青椒把味道撑起来。敦煌的晚饭，带着很踏实的分量。"
+    },
+    GS_F_LATIAOZI: {
+      region: "gansu",
+      file: "gs_f_latiaozi.jpeg",
+      title: "新疆拉条子",
+      location: "张掖餐桌",
+      date: "甘肃旅程",
+      text: "面条拌着肉和辣味，颜色厚重，口感也很有劲。赶路之后，这种主食很让人放心。"
+    },
+    GS_F_LAMB_RICE: {
+      region: "gansu",
+      file: "gs_f_lamb_rice.jpeg",
+      title: "羊肉炒饭",
+      location: "张掖餐桌",
+      date: "甘肃旅程",
+      text: "米饭炒得粒粒分明，羊肉香气压在里面。简单一盘，也能把人从风景里拉回现实。"
+    },
+    GS_F_SHACONG: {
+      region: "gansu",
+      file: "gs_f_shacong.jpeg",
+      title: "凉拌沙葱",
+      location: "武威餐桌",
+      date: "甘肃旅程",
+      text: "沙葱拌得清爽，颜色绿得很利落。重口味之间，有这样一盘刚好解腻。"
+    },
+    GS_F_BOILED_LAMB: {
+      region: "gansu",
+      file: "gs_f_boiled_lamb.jpeg",
+      title: "清切羊肉",
+      location: "兰州餐桌",
+      date: "甘肃旅程",
+      text: "羊肉切得整齐，味道看起来不复杂，却很考验本身的鲜香。西北餐桌常有这样的底气。"
+    },
+    GS_F_SKEWERS: {
+      region: "gansu",
+      file: "gs_f_skewers.jpeg",
+      title: "一把烤串",
+      location: "武威夜市",
+      date: "甘肃旅程",
+      text: "烤串摆满铁盘，调料和火候把夜晚一下点热。旅行中的快乐，有时就是不用等太久的香气。"
+    },
+    GS_F_BREAD_TEA: {
+      region: "gansu",
+      file: "gs_f_bread_tea.jpeg",
+      title: "饼和茶",
+      location: "武威餐桌",
+      date: "甘肃旅程",
+      text: "一张饼、一杯茶、一碟蘸料，组合很朴素，却有西北饭桌的日常感。"
+    },
+    GS_F_MARKET: {
+      region: "gansu",
+      file: "gs_f_market.jpeg",
+      title: "市场里的红枣",
+      location: "武威市场",
+      date: "甘肃旅程",
+      text: "摊位上堆着红枣和干货，颜色沉稳又丰盛。这里不只是买东西，也是看见当地生活。"
+    },
+    GS_F_FOOD_STREET: {
+      region: "gansu",
+      file: "gs_f_food_street.jpeg",
+      title: "夜色里的食街",
+      location: "敦煌夜市",
+      date: "甘肃旅程",
+      text: "灯牌一排排亮起来，游客和摊主在路中间交错。甘肃的夜晚，常常是被吃食照亮的。"
+    },
+    GS_F_DAPANJI: {
+      region: "gansu",
+      file: "gs_f_dapanji.jpeg",
+      title: "夜市柜台",
+      location: "敦煌夜市",
+      date: "甘肃旅程",
+      text: "柜台前挂着明亮的招牌，烤串和热菜等着上桌。还没吃到，气氛已经先到了。"
     }
   }
 };
