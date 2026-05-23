@@ -29,7 +29,7 @@ Keep the project simple and file-based. Prefer extending the existing data model
 
 Photo records should include:
 
-- `region`: required for any region other than the legacy Chengdu default.
+- `region`: required for every photo record. Do not rely on a renderer fallback.
 - `file`: filename inside both `assets/images/<region>/large/` and `assets/images/<region>/thumb/`.
 - `title`, `location`, `date`, `text`: displayed in cards/articles.
 
@@ -56,7 +56,11 @@ Use `path` when the route folder differs from the theme id or when the id has a 
 7. Add all used photo records to `photos`.
 8. Verify every `hero`, `featurePhotos`, and `photoIds` entry points to an existing photo record and image file.
 
-For cache busting, keep the query versions on HTML links/scripts in sync when changing shared CSS or JS data, for example `?v=20260522`.
+For cache busting, keep the query versions on HTML links/scripts in sync when changing shared CSS or JS data. Use the current project date-style version and bump it consistently across all page shells, for example `?v=20260523j`. Prefer the helper script instead of hand-editing every HTML file:
+
+```sh
+node scripts/bump-version.mjs 20260523j
+```
 
 ## Image Guidelines
 
@@ -158,7 +162,8 @@ for (const [themeId, theme] of Object.entries(data.themes)) {
   }
 }
 for (const [id, photo] of Object.entries(data.photos)) {
-  const region = photo.region || 'chengdu';
+  if (!photo.region) missing.push(`missing region ${id}`);
+  const region = photo.region;
   for (const size of ['large', 'thumb']) {
     const path = `assets/images/${region}/${size}/${photo.file}`;
     if (!fs.existsSync(path)) missing.push(`missing file ${id}:${path}`);

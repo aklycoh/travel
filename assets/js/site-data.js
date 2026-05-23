@@ -438,6 +438,7 @@ window.TRAVEL_DATA = {
   },
   photos: {
     IMG_5270: {
+      region: "chengdu",
       file: "IMG_5270.jpeg",
       title: "抵达之前",
       location: "飞往成都的路上",
@@ -445,6 +446,7 @@ window.TRAVEL_DATA = {
       text: "窗外是一片很亮的云，旅程还没有真正开始，心里已经先空出了一小块地方。"
     },
     IMG_5271: {
+      region: "chengdu",
       file: "IMG_5271.jpeg",
       title: "清晨同路",
       location: "成都地铁",
@@ -452,6 +454,7 @@ window.TRAVEL_DATA = {
       text: "城市刚醒来的时候，人也还带着一点困意。两个人坐在同一段车厢里，像把这一天慢慢接住。"
     },
     IMG_5273: {
+      region: "chengdu",
       file: "IMG_5273.jpeg",
       title: "第一碗热汤",
       location: "成都市区",
@@ -459,6 +462,7 @@ window.TRAVEL_DATA = {
       text: "一碗面端上来，热气先把早晨叫醒。味道不必隆重，只要踏实，就已经很好。"
     },
     IMG_5276: {
+      region: "chengdu",
       file: "IMG_5276.jpeg",
       title: "菜市场的颜色",
       location: "成都市区",
@@ -466,6 +470,7 @@ window.TRAVEL_DATA = {
       text: "摊位挨着摊位，蔬菜和水果把一天铺得很鲜活。这里不是景点，却很像城市真正的开场。"
     },
     IMG_5278: {
+      region: "chengdu",
       file: "IMG_5278.jpeg",
       title: "树影小路",
       location: "成都公园",
@@ -473,6 +478,7 @@ window.TRAVEL_DATA = {
       text: "树荫把路压得很低，脚步也自然慢下来。成都的舒服，有时候就是这样安静的一段路。"
     },
     IMG_5280: {
+      region: "chengdu",
       file: "IMG_5280.jpeg",
       title: "茶馆的上午",
       location: "成都茶馆",
@@ -480,6 +486,7 @@ window.TRAVEL_DATA = {
       text: "竹椅、木桌、半开的天光，时间在这里没有被催促。坐一会儿，就像真正到了成都。"
     },
     IMG_5285: {
+      region: "chengdu",
       file: "IMG_5285.jpeg",
       title: "老墙与花",
       location: "成都老街",
@@ -487,6 +494,7 @@ window.TRAVEL_DATA = {
       text: "灰墙很旧，花却开得很认真。新旧之间没有冲突，只是一起过着日子。"
     },
     IMG_5286: {
+      region: "chengdu",
       file: "IMG_5286.jpeg",
       title: "苔痕",
       location: "成都老街",
@@ -494,6 +502,7 @@ window.TRAVEL_DATA = {
       text: "一角石壁、一点青苔，细小的绿意让老建筑有了呼吸。"
     },
     IMG_5289: {
+      region: "chengdu",
       file: "IMG_5289.jpeg",
       title: "红灯笼下",
       location: "成都武侯祠一带",
@@ -501,6 +510,7 @@ window.TRAVEL_DATA = {
       text: "门前人来人往，红灯笼把入口照得热闹。历史在这里没有沉睡，它和游客一起站在阳光里。"
     },
     IMG_5292: {
+      region: "chengdu",
       file: "IMG_5292.jpeg",
       title: "一锅热辣",
       location: "成都市区",
@@ -508,6 +518,7 @@ window.TRAVEL_DATA = {
       text: "锅底翻着小小的浪，辣味和香气一起升起来。走了一上午，终于可以坐下来，好好吃一顿。"
     },
     IMG_5293: {
+      region: "chengdu",
       file: "IMG_5293.jpeg",
       title: "竹影",
       location: "成都杜甫草堂一带",
@@ -515,6 +526,7 @@ window.TRAVEL_DATA = {
       text: "竹子把光切得很细，风吹过的时候，整片绿色都像在轻声说话。"
     },
     IMG_5295: {
+      region: "chengdu",
       file: "IMG_5295.jpeg",
       title: "石上文字",
       location: "成都杜甫草堂一带",
@@ -522,6 +534,7 @@ window.TRAVEL_DATA = {
       text: "文字刻在石头上，安静得像一句留下来的叮嘱。走近看，时间也慢了下来。"
     },
     IMG_5297: {
+      region: "chengdu",
       file: "IMG_5297.jpeg",
       title: "夜色刚亮",
       location: "成都街头",
@@ -529,6 +542,7 @@ window.TRAVEL_DATA = {
       text: "招牌亮起来以后，街道有了另一种表情。白天的城市退后一点，夜晚的成都开始说话。"
     },
     IMG_5298: {
+      region: "chengdu",
       file: "IMG_5298.jpeg",
       title: "路边小摊",
       location: "成都街头",
@@ -536,6 +550,7 @@ window.TRAVEL_DATA = {
       text: "小摊前围着人，灯光落在纸牌和笑声上。旅行里最轻的快乐，常常就是停下来买一点吃的。"
     },
     IMG_5301: {
+      region: "chengdu",
       file: "IMG_5301.jpeg",
       title: "冰粉与夜风",
       location: "成都街头",
@@ -543,6 +558,7 @@ window.TRAVEL_DATA = {
       text: "夜风里看见冰粉的招牌，忽然觉得这座城市很会照顾人。辣过之后，还有一口清甜。"
     },
     IMG_5309: {
+      region: "chengdu",
       file: "IMG_5309.jpeg",
       title: "面具的凝视",
       location: "三星堆博物馆",
@@ -550,6 +566,7 @@ window.TRAVEL_DATA = {
       text: "灯光落在面具上，表情像从很远的时间里看过来。那一刻，喧闹都被隔在展柜外面。"
     },
     IMG_5318: {
+      region: "chengdu",
       file: "IMG_5318.jpeg",
       title: "展厅里的光",
       location: "三星堆博物馆",
@@ -557,6 +574,7 @@ window.TRAVEL_DATA = {
       text: "展厅很暗，文物被光单独托起。人们放轻声音，像怕惊动这些古老的形状。"
     },
     IMG_5321: {
+      region: "chengdu",
       file: "IMG_5321.jpeg",
       title: "金色面具",
       location: "三星堆博物馆",
@@ -564,6 +582,7 @@ window.TRAVEL_DATA = {
       text: "金色并不张扬，反而有一种沉静的力量。隔着玻璃看它，像看见一个遥远文明留下的呼吸。"
     },
     IMG_5323: {
+      region: "chengdu",
       file: "IMG_5323.jpeg",
       title: "青铜的轮廓",
       location: "三星堆博物馆",
@@ -571,6 +590,7 @@ window.TRAVEL_DATA = {
       text: "青铜器的线条很奇异，也很坚定。它不像答案，更像一个还在发光的问题。"
     },
     IMG_5329: {
+      region: "chengdu",
       file: "IMG_5329.jpeg",
       title: "手里的小吃",
       location: "成都街头",
@@ -578,6 +598,7 @@ window.TRAVEL_DATA = {
       text: "用纸袋包着的食物最有旅途感。边走边吃，连赶路也变得亲切。"
     },
     IMG_5331: {
+      region: "chengdu",
       file: "IMG_5331.jpeg",
       title: "山门石阶",
       location: "青城山一带",
@@ -585,6 +606,7 @@ window.TRAVEL_DATA = {
       text: "石阶一级一级向上，山门被树影半遮着。还没有进入深处，心已经先安静了。"
     },
     IMG_5333: {
+      region: "chengdu",
       file: "IMG_5333.jpeg",
       title: "都江堰的水声",
       location: "都江堰",
@@ -592,6 +614,7 @@ window.TRAVEL_DATA = {
       text: "水从山边推过来，颜色很浅，声音却很有力量。站在岸边，会突然理解这里为什么值得被记住。"
     },
     IMG_5336: {
+      region: "chengdu",
       file: "IMG_5336.jpeg",
       title: "江水绕山",
       location: "都江堰",
@@ -599,6 +622,7 @@ window.TRAVEL_DATA = {
       text: "山壁、江水和远处的人群都在同一张照片里。风景很大，人也因此变得轻。"
     },
     IMG_5346: {
+      region: "chengdu",
       file: "IMG_5346.jpeg",
       title: "水边停留",
       location: "都江堰",
@@ -606,6 +630,7 @@ window.TRAVEL_DATA = {
       text: "在水边站一会儿，不急着拍完，也不急着离开。风从江面过来，把人吹得很清醒。"
     },
     IMG_5347: {
+      region: "chengdu",
       file: "IMG_5347.jpeg",
       title: "古城门前",
       location: "都江堰",
@@ -613,6 +638,7 @@ window.TRAVEL_DATA = {
       text: "门楼的线条很繁复，人群从下面慢慢经过。热闹和古意在这里并肩站着。"
     },
     IMG_5349: {
+      region: "chengdu",
       file: "IMG_5349.jpeg",
       title: "水边合影",
       location: "都江堰",
@@ -620,6 +646,7 @@ window.TRAVEL_DATA = {
       text: "背景里是水和树，镜头前是笑起来的人。比起风景，同行的人更像旅程的中心。"
     },
     IMG_5351: {
+      region: "chengdu",
       file: "IMG_5351.jpeg",
       title: "林间牌坊",
       location: "青城山",
@@ -627,6 +654,7 @@ window.TRAVEL_DATA = {
       text: "木牌坊立在林子里，阳光从枝叶间漏下来。山路从这里开始变得有仪式感。"
     },
     IMG_5354: {
+      region: "chengdu",
       file: "IMG_5354.jpeg",
       title: "石龙",
       location: "青城山",
@@ -634,6 +662,7 @@ window.TRAVEL_DATA = {
       text: "石头被摸得有了温度，纹路里积着湿润的青绿。它守在路边，像陪人走过很多年。"
     },
     IMG_5361: {
+      region: "chengdu",
       file: "IMG_5361.jpeg",
       title: "江边大佛",
       location: "乐山大佛",
@@ -642,6 +671,7 @@ window.TRAVEL_DATA = {
       text: "红色山壁贴着江水，大佛在雾气里显得很安稳。人群在脚下移动，山却一直沉默。"
     },
     IMG_5365: {
+      region: "chengdu",
       file: "IMG_5365.jpeg",
       title: "江对岸的塔",
       location: "乐山",
@@ -649,6 +679,7 @@ window.TRAVEL_DATA = {
       text: "塔藏在一片绿色里，隔着江看过去，像一个安静的句号。"
     },
     IMG_5368: {
+      region: "chengdu",
       file: "IMG_5368.jpeg",
       title: "花边街口",
       location: "乐山街头",
@@ -656,6 +687,7 @@ window.TRAVEL_DATA = {
       text: "街口摆着花，旁边就是来来往往的人。旅途中这样的角落很小，却让城市有了温度。"
     },
     IMG_5369: {
+      region: "chengdu",
       file: "IMG_5369.jpeg",
       title: "晚饭之后",
       location: "乐山",
@@ -663,6 +695,7 @@ window.TRAVEL_DATA = {
       text: "桌上还剩一点汤和油光，像一顿饭刚刚结束时的余温。吃饱以后，夜路也变得柔软。"
     },
     IMG_5371: {
+      region: "chengdu",
       file: "IMG_5371.jpeg",
       title: "夜里的小店",
       location: "乐山",
@@ -670,6 +703,7 @@ window.TRAVEL_DATA = {
       text: "红色招牌亮在街边，桌椅还没收。地方小，却有一种让人放心坐下来的热闹。"
     },
     IMG_5375: {
+      region: "chengdu",
       file: "IMG_5375.jpeg",
       title: "山里的相遇",
       location: "峨眉山",
@@ -677,6 +711,7 @@ window.TRAVEL_DATA = {
       text: "雾气压在树枝上，山里的生命忽然出现在眼前。那一瞬间，路途多了一点野性的安静。"
     },
     IMG_5379: {
+      region: "chengdu",
       file: "IMG_5379.jpeg",
       title: "山路有光",
       location: "峨眉山",
@@ -684,6 +719,7 @@ window.TRAVEL_DATA = {
       text: "阳光落在山路尽头，雾还没有完全散开。走在这里，会觉得疲惫也有一点清亮。"
     },
     IMG_5381: {
+      region: "chengdu",
       file: "IMG_5381.jpeg",
       title: "一盘青椒",
       location: "峨眉山下",
@@ -691,6 +727,7 @@ window.TRAVEL_DATA = {
       text: "绿色的菜端上桌，带着锅气和一点辛香。山路之后，家常味道格外让人踏实。"
     },
     IMG_5383: {
+      region: "chengdu",
       file: "IMG_5383.jpeg",
       title: "最后一碗",
       location: "峨眉山下",
@@ -1711,7 +1748,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_wuwei_hand_lamb.jpeg",
       title: "武威手抓羊肉",
       location: "武威餐桌",
-      date: "2026.05.23 上午",
+      date: "2026.05.15 中午",
       text: "羊肉装在长盘里，旁边是辣椒面和蒜汁。到了武威，这一口手抓羊肉更像是旅途里扎实的一顿。"
     },
     GS_F_SKEWERS: {

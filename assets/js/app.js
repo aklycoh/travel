@@ -10,7 +10,7 @@ function asset(path) {
 
 function photo(id) {
   const item = data.photos[id];
-  const regionId = item.region || "chengdu";
+  const regionId = item.region;
   return {
     id,
     ...item,
@@ -59,13 +59,40 @@ function renderHeroFigure(item, alt) {
 function renderHeader(activeRegion) {
   const nav = $("#site-nav");
   if (!nav) return;
+  const header = nav.closest(".site-header");
+  let menuButton = header?.querySelector(".site-menu-toggle");
+  if (header && !menuButton) {
+    menuButton = document.createElement("button");
+    menuButton.className = "site-menu-toggle";
+    menuButton.type = "button";
+    menuButton.setAttribute("aria-controls", "site-nav");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "打开地区导航");
+    menuButton.innerHTML = "<span></span><span></span><span></span>";
+    header.insertBefore(menuButton, nav);
+    menuButton.addEventListener("click", () => {
+      const open = header.classList.toggle("is-nav-open");
+      menuButton.setAttribute("aria-expanded", String(open));
+      menuButton.setAttribute("aria-label", open ? "关闭地区导航" : "打开地区导航");
+    });
+  }
   const regions = data.regions
     .map((region) => {
       const active = activeRegion === region.id ? "is-active" : "";
-      return `<a class="${active}" href="${regionPath(region)}">${region.name}</a>`;
+      const current = active ? ` aria-current="page"` : "";
+      return `<a class="${active}" href="${regionPath(region)}"${current}>${region.name}</a>`;
     })
     .join("");
-  nav.innerHTML = `<a href="${asset("index.html")}">旅行记录</a>${regions}`;
+  const homeCurrent = page === "home" ? ` aria-current="page"` : "";
+  nav.innerHTML = `<a href="${asset("index.html")}"${homeCurrent}>旅行记录</a>${regions}`;
+  if (!nav.dataset.menuBound) {
+    nav.addEventListener("click", () => {
+      header?.classList.remove("is-nav-open");
+      menuButton?.setAttribute("aria-expanded", "false");
+      menuButton?.setAttribute("aria-label", "打开地区导航");
+    });
+    nav.dataset.menuBound = "true";
+  }
 }
 
 function renderImage(id, className = "") {
@@ -98,11 +125,13 @@ function renderIndex() {
             const cover = photo(item.hero);
             return `
               <a class="region-card" href="${regionPath(item)}">
-                <img src="${cover.large}" alt="${item.name}">
-                <span>${item.eyebrow}</span>
-                <h3>${item.name}</h3>
-                <p>${item.location}</p>
-                <small>${byline(4)}</small>
+                <article>
+                  <img src="${cover.thumb}" alt="${item.name}" loading="lazy">
+                  <span>${item.eyebrow}</span>
+                  <h3>${item.name}</h3>
+                  <p>${item.location}</p>
+                  <small>${byline(4)}</small>
+                </article>
               </a>
             `;
           })
@@ -122,13 +151,15 @@ function renderRegion() {
       const cover = photo(theme.hero);
       return `
         <a class="story-card" href="${themePath(region, theme)}">
-          <img src="${cover.large}" alt="${theme.title}">
-          <div>
-            <span>${theme.kicker}</span>
-            <h3>${theme.title}</h3>
-            <p>${theme.deck}</p>
-            <small>${byline(readMinutes(theme))}</small>
-          </div>
+          <article>
+            <img src="${cover.thumb}" alt="${theme.title}" loading="lazy">
+            <div>
+              <span>${theme.kicker}</span>
+              <h3>${theme.title}</h3>
+              <p>${theme.deck}</p>
+              <small>${byline(readMinutes(theme))}</small>
+            </div>
+          </article>
         </a>
       `;
     })
@@ -173,7 +204,7 @@ function renderRegion() {
       </div>
       <div class="story-grid">${themeCards}</div>
     </section>
-    <section class="section section--dark">
+    <section class="section section--featured">
       <div class="section-heading">
         <p class="eyebrow">Selected</p>
         <h2>几张先记住的照片</h2>
