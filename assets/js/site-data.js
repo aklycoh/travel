@@ -310,23 +310,35 @@ window.TRAVEL_DATA = {
         "甘肃的自然风光有一种很直接的尺度。兰州黄河边是湿润的灰黄，张掖丹霞是明亮的红与金，峡谷里只有窄窄的天光，到了敦煌，沙山又把视线放到更远。",
       photoIds: [
         "GS_N_YELLOW_RIVER",
+        "GS_N_RIVER_CANOPY",
+        "GS_N_RIVER_SELFIE",
         "GS_N_ZHONGSHAN_BRIDGE",
         "GS_N_DANXIA_PORTRAIT",
         "GS_N_DANXIA_WIDE",
+        "GS_N_DANXIA_TOGETHER",
         "GS_N_DANXIA_VALLEY",
         "GS_N_DANXIA_LOOKOUT",
         "GS_N_DANXIA_COLORS",
         "GS_N_DANXIA_CANYON",
         "GS_N_DANXIA_SHADOW",
+        "GS_N_PINGSHANHU_PORTRAIT",
+        "GS_N_PINGSHANHU_SIGN",
         "GS_N_CANYON_WALK",
         "GS_N_CANYON_BOARDWALK",
+        "GS_N_CANYON_STONE_PILE",
+        "GS_N_CANYON_SCALE",
+        "GS_N_CANYON_SELFIE",
         "GS_N_CANYON_WALL",
         "GS_N_CANYON_SKY",
+        "GS_N_CANYON_TALL_WALL",
         "GS_N_GORGE_STAIR",
+        "GS_N_CANYON_DEEP_VIEW",
         "GS_N_GORGE_LOOKOUT",
         "GS_N_DESERT_PERSON",
+        "GS_N_MINGSHA_MAN",
         "GS_N_CRESCENT_LAKE",
-        "GS_N_DUNES_GROVE"
+        "GS_N_DUNES_GROVE",
+        "GS_N_CRESCENT_LAKE_GATE"
       ]
     },
     "gs-culture": {
@@ -346,23 +358,39 @@ window.TRAVEL_DATA = {
         "GS_C_TEMPLE_GATE",
         "GS_C_ANCIENT_TOWER",
         "GS_C_CITY_GATE",
+        "GS_C_WUWEI_GATE_SELFIE",
+        "GS_C_WUWEI_HOTEL_LOBBY",
         "GS_C_OLD_HOUSE",
         "GS_C_WEATHERED_DOOR",
         "GS_C_SLEEPING_BUDDHA",
         "GS_C_MURAL_HALL",
         "GS_C_PAINTED_STATUE",
+        "GS_C_DAFOSI_GARDEN",
+        "GS_C_DAFOSI_CAT",
         "GS_C_XIJIN_TILE",
         "GS_C_JIAYUGUAN_GATE",
         "GS_C_HERO_PASS",
         "GS_C_RAMMED_WALL",
+        "GS_C_JIAYUGUAN_WALL_TOWER",
         "GS_C_FORT_TOWER",
+        "GS_C_MOGAO_EARTHEN_WALL",
         "GS_C_MOGAO_CLIFF",
         "GS_C_MOGAO_RED_EAVES",
+        "GS_C_MOGAO_PLAZA",
+        "GS_C_MOGAO_EAVES_SIDE",
         "GS_C_MOGAO_DOOR_PAINTING",
         "GS_C_MOGAO_DETAIL",
         "GS_C_MOGAO_CEILING",
+        "GS_C_MOGAO_MURAL_FIGURES",
         "GS_C_MOGAO_BUDDHA_WALL",
+        "GS_C_MOGAO_HORSE_DETAIL",
+        "GS_C_MOGAO_RIDER_DETAIL",
         "GS_C_MOGAO_CALLIGRAPHY",
+        "GS_C_MOGAO_STORY_PANEL",
+        "GS_C_MOGAO_RED_HORSE",
+        "GS_C_MOGAO_GATE",
+        "GS_C_MOGAO_LINE_DETAIL",
+        "GS_C_MOGAO_CLAY_STATUE",
         "GS_C_THOUSAND_BUDDHAS"
       ]
     },
@@ -379,13 +407,17 @@ window.TRAVEL_DATA = {
         "甘肃的吃法很有力量，也很会安慰赶路的人。清汤牛肉面是开场，武威的小吃把行程接住，烤土豆和羊肉把夜市点热，甜醅子、灰豆子和杏皮茶又把粗粝的风吹得柔软一点。",
       photoIds: [
         "GS_F_NOODLES",
+        "GS_F_LANZHOU_NIGHT_STREET",
+        "GS_F_LANZHOU_COFFEE",
         "GS_F_MIANPI",
+        "GS_F_MIANPI_STALL",
         "GS_F_GREY_BEANS",
         "GS_F_POTATO",
         "GS_F_POTATO_CHIPS",
         "GS_F_NAIPI",
         "GS_F_HAND_NAIPI",
         "GS_F_TIANPEIZI",
+        "GS_F_LANZHOU_FAREWELL_NAIPI",
         "GS_F_APRICOT_TEA",
         "GS_F_CHAOBOLA",
         "GS_F_LAMB_PANCAKE",
@@ -396,6 +428,7 @@ window.TRAVEL_DATA = {
         "GS_F_SKEWERS",
         "GS_F_BREAD_TEA",
         "GS_F_MARKET",
+        "GS_F_ZHANGYE_FIGS",
         "GS_F_FOOD_STREET",
         "GS_F_DAPANJI"
       ]
@@ -1708,6 +1741,270 @@ window.TRAVEL_DATA = {
       location: "敦煌夜市",
       date: "甘肃旅程",
       text: "柜台前挂着明亮的招牌，烤串和热菜等着上桌。还没吃到，气氛已经先到了。"
+    },
+    GS_C_WUWEI_HOTEL_LOBBY: {
+      region: "gansu",
+      file: "gs_c_wuwei_hotel_lobby.jpeg",
+      title: "武威落脚处",
+      location: "武威酒店",
+      date: "甘肃旅程",
+      text: "大堂的灯和地面纹样把赶路的一晚安放下来。旅程里这样的落脚处，也会成为回忆的背景。"
+    },
+    GS_F_LANZHOU_FAREWELL_NAIPI: {
+      region: "gansu",
+      file: "gs_f_lanzhou_farewell_naipi.jpeg",
+      title: "别了，兰州",
+      location: "兰州中川机场",
+      date: "甘肃旅程",
+      text: "离开前再拿一杯奶皮子，像给兰州这段路收一个柔软的尾。"
+    },
+    GS_F_ZHANGYE_FIGS: {
+      region: "gansu",
+      file: "gs_f_zhangye_figs.jpeg",
+      title: "张掖红色无花果",
+      location: "张掖",
+      date: "甘肃旅程",
+      text: "红色无花果装在手里，颜色新鲜得很直接。风景之外，路边水果也把当地味道留下来。"
+    },
+    GS_N_DANXIA_TOGETHER: {
+      region: "gansu",
+      file: "gs_n_danxia_together.jpeg",
+      title: "丹霞前合影",
+      location: "张掖丹霞",
+      date: "甘肃旅程",
+      text: "彩色山体在身后铺开，人站在风里，显得轻而明亮。"
+    },
+    GS_N_PINGSHANHU_PORTRAIT: {
+      region: "gansu",
+      file: "gs_n_pingshanhu_portrait.jpeg",
+      title: "红岩前",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "红色岩层堆叠在身后，阳光很硬，人的轮廓也被照得更清楚。"
+    },
+    GS_N_MINGSHA_MAN: {
+      region: "gansu",
+      file: "gs_n_mingsha_man.jpeg",
+      title: "沙地里的身影",
+      location: "敦煌鸣沙山",
+      date: "甘肃旅程",
+      text: "人站在沙地中央，远处的沙山被风吹成柔软的曲线。"
+    },
+    GS_F_LANZHOU_NIGHT_STREET: {
+      region: "gansu",
+      file: "gs_f_lanzhou_night_street.jpeg",
+      title: "兰州夜里的食街",
+      location: "兰州夜市",
+      date: "甘肃旅程",
+      text: "木色门面和招牌挤在一起，夜晚刚亮，吃饭的气氛已经先围上来。"
+    },
+    GS_N_RIVER_CANOPY: {
+      region: "gansu",
+      file: "gs_n_river_canopy.jpeg",
+      title: "黄河边的雨棚",
+      location: "兰州黄河边",
+      date: "甘肃旅程",
+      text: "沿河的木栈道被雨棚盖住，柳树和河水在旁边慢慢展开。"
+    },
+    GS_N_RIVER_SELFIE: {
+      region: "gansu",
+      file: "gs_n_river_selfie.jpeg",
+      title: "黄河边合影",
+      location: "兰州黄河边",
+      date: "甘肃旅程",
+      text: "身后是黄河和山坡，两个人靠近镜头，旅程从城市边的河风里留下证据。"
+    },
+    GS_F_LANZHOU_COFFEE: {
+      region: "gansu",
+      file: "gs_f_lanzhou_coffee.jpeg",
+      title: "赶路前的咖啡",
+      location: "兰州",
+      date: "甘肃旅程",
+      text: "短暂停在咖啡柜台前，屏幕、灯光和行李一起构成旅途里的中转片段。"
+    },
+    GS_C_WUWEI_GATE_SELFIE: {
+      region: "gansu",
+      file: "gs_c_wuwei_gate_selfie.jpeg",
+      title: "凉州城楼合影",
+      location: "武威凉州城区",
+      date: "甘肃旅程",
+      text: "城楼在身后抬起，门洞和台阶把武威的城市记忆放进同一张照片。"
+    },
+    GS_F_MIANPI_STALL: {
+      region: "gansu",
+      file: "gs_f_mianpi_stall.jpeg",
+      title: "面皮子小店",
+      location: "武威小吃店",
+      date: "甘肃旅程",
+      text: "柜台前有人正在点餐，墙上的菜单写着各种面皮。真正的地方味道常在这样的店口出现。"
+    },
+    GS_C_DAFOSI_GARDEN: {
+      region: "gansu",
+      file: "gs_c_dafosi_garden.jpeg",
+      title: "大佛寺院中",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "院子里的树影和灯杆把古建筑围住，热烈阳光下仍然有一块安静。"
+    },
+    GS_C_DAFOSI_CAT: {
+      region: "gansu",
+      file: "gs_c_dafosi_cat.jpeg",
+      title: "寺边白猫",
+      location: "张掖大佛寺",
+      date: "甘肃旅程",
+      text: "白猫躺在墙边，旁边写着禁烟提示。严肃的古寺角落，也有很松弛的一秒。"
+    },
+    GS_N_PINGSHANHU_SIGN: {
+      region: "gansu",
+      file: "gs_n_pingshanhu_sign.jpeg",
+      title: "平山湖大峡谷入口",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "牌子立在红岩前，峡谷还没有真正展开，干燥的气息已经很近。"
+    },
+    GS_N_CANYON_STONE_PILE: {
+      region: "gansu",
+      file: "gs_n_canyon_stone_pile.jpeg",
+      title: "红岩下的小石堆",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "小石堆靠在岩壁脚下，尺度很小，却让峡谷里的路有了人的痕迹。"
+    },
+    GS_N_CANYON_SCALE: {
+      region: "gansu",
+      file: "gs_n_canyon_scale.jpeg",
+      title: "峡谷中的人",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "人站在高高岩壁前，才看出这片红色地貌真正的尺度。"
+    },
+    GS_N_CANYON_SELFIE: {
+      region: "gansu",
+      file: "gs_n_canyon_selfie.jpeg",
+      title: "峡谷自拍",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "近处是同行的人，身后是温热的红岩。风景很大，镜头把它拉回到身边。"
+    },
+    GS_N_CANYON_TALL_WALL: {
+      region: "gansu",
+      file: "gs_n_canyon_tall_wall.jpeg",
+      title: "高墙之下",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "岩壁从身边直直升起，脚下的路被压得很窄，人也自然放慢。"
+    },
+    GS_N_CANYON_DEEP_VIEW: {
+      region: "gansu",
+      file: "gs_n_canyon_deep_view.jpeg",
+      title: "峡谷深处",
+      location: "张掖平山湖大峡谷",
+      date: "甘肃旅程",
+      text: "从高处向下看，岩层和步道交错在一起，像一条被风和时间刻出的路线。"
+    },
+    GS_C_JIAYUGUAN_WALL_TOWER: {
+      region: "gansu",
+      file: "gs_c_jiayuguan_wall_tower.jpeg",
+      title: "城墙上的楼阁",
+      location: "嘉峪关",
+      date: "甘肃旅程",
+      text: "楼阁从长墙上抬起，墙体一路延向远处，边关的线条干净而有力。"
+    },
+    GS_C_MOGAO_EARTHEN_WALL: {
+      region: "gansu",
+      file: "gs_c_mogao_earthen_wall.jpeg",
+      title: "石窟外的土墙",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "土色墙体贴着崖面延伸，质地朴素，却把敦煌的厚度稳稳托住。"
+    },
+    GS_C_MOGAO_PLAZA: {
+      region: "gansu",
+      file: "gs_c_mogao_plaza.jpeg",
+      title: "莫高窟广场",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "人站在石窟外的广场上，背后是层层崖壁和栈道，抵达感很清楚。"
+    },
+    GS_C_MOGAO_EAVES_SIDE: {
+      region: "gansu",
+      file: "gs_c_mogao_eaves_side.jpeg",
+      title: "九层楼侧影",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "红色木构贴着山体向上，树影从旁边压过来，让建筑显得更高。"
+    },
+    GS_C_MOGAO_MURAL_FIGURES: {
+      region: "gansu",
+      file: "gs_c_mogao_mural_figures.jpeg",
+      title: "壁画人物",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "人物线条在旧色里仍然清楚，眉眼和衣纹像从很远的时间里留下来。"
+    },
+    GS_C_MOGAO_HORSE_DETAIL: {
+      region: "gansu",
+      file: "gs_c_mogao_horse_detail.jpeg",
+      title: "壁画里的奔马",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "马匹在残损的画面里仍然有速度，褪色反而让那种动势更耐看。"
+    },
+    GS_C_MOGAO_RIDER_DETAIL: {
+      region: "gansu",
+      file: "gs_c_mogao_rider_detail.jpeg",
+      title: "骑者细部",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "骑马人物被保存成一块斑驳的细节，颜色淡了，姿态还在。"
+    },
+    GS_C_MOGAO_STORY_PANEL: {
+      region: "gansu",
+      file: "gs_c_mogao_story_panel.jpeg",
+      title: "壁画故事",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "两个人物在浅色背景里相对而坐，像一个故事被安静截取下来。"
+    },
+    GS_C_MOGAO_RED_HORSE: {
+      region: "gansu",
+      file: "gs_c_mogao_red_horse.jpeg",
+      title: "红马",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "红色马匹在蓝绿底色上向前跃起，残损的边缘让它更像一段时间的切片。"
+    },
+    GS_C_MOGAO_GATE: {
+      region: "gansu",
+      file: "gs_c_mogao_gate.jpeg",
+      title: "莫高窟牌楼",
+      location: "敦煌莫高窟",
+      date: "甘肃旅程",
+      text: "木牌楼立在广场入口，游客从下面经过，正式走进敦煌的下一层。"
+    },
+    GS_C_MOGAO_LINE_DETAIL: {
+      region: "gansu",
+      file: "gs_c_mogao_line_detail.jpeg",
+      title: "线刻纹样",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "细密线条在灰白表面上交织，近看像时间留下的一张纹理地图。"
+    },
+    GS_C_MOGAO_CLAY_STATUE: {
+      region: "gansu",
+      file: "gs_c_mogao_clay_statue.jpeg",
+      title: "彩塑头像",
+      location: "敦煌莫高窟相关展陈",
+      date: "甘肃旅程",
+      text: "彩塑面部还保留着淡淡颜色，安静地把目光停在展厅里。"
+    },
+    GS_N_CRESCENT_LAKE_GATE: {
+      region: "gansu",
+      file: "gs_n_crescent_lake_gate.jpeg",
+      title: "月牙泉入口",
+      location: "敦煌鸣沙山月牙泉",
+      date: "甘肃旅程",
+      text: "牌楼和沙山同在一张画面里，游客套着防沙鞋进出，荒漠旅程也有了日常的入口。"
     }
   }
 };
