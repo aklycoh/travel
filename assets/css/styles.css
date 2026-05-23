@@ -174,10 +174,10 @@ a {
 
 .eyebrow {
   margin: 0;
-  color: var(--ink);
+  color: var(--muted);
   font-size: 12px;
   font-weight: 800;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
@@ -222,39 +222,53 @@ a {
 .section {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 70px 0;
+  padding: 92px 0;
 }
 
 .section--featured {
   width: min(1180px, calc(100% - 40px));
   max-width: none;
-  padding: 70px 0;
+  padding: 92px 0;
   background: var(--paper);
   color: var(--ink);
 }
 
 .section-heading {
-  display: grid;
-  grid-template-columns: minmax(160px, 280px) 1fr;
-  gap: 28px;
-  align-items: start;
-  margin-bottom: 34px;
-  border-top: 1px solid var(--line);
-  padding-top: 22px;
-}
-
-.section--featured .section-heading {
-  border-top-color: var(--line);
+  display: block;
+  max-width: 980px;
+  margin-bottom: 42px;
 }
 
 .section-heading h2 {
   margin: 0;
-  max-width: 820px;
   font-family: "Noto Serif SC", Georgia, "Times New Roman", serif;
-  font-size: clamp(30px, 4vw, 52px);
-  line-height: 1.2;
-  font-weight: 900;
-  letter-spacing: 0;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.section-heading .eyebrow::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 1px;
+  margin: 12px 0 18px;
+  background: var(--gold);
+}
+
+.section-heading .eyebrow {
+  margin-bottom: 0;
+}
+
+.section-heading--label h2 {
+  max-width: 14em;
+  font-size: clamp(28px, 3vw, 34px);
+  line-height: 1.15;
+}
+
+.section-heading--deck h2 {
+  max-width: 28em;
+  font-size: clamp(30px, 3vw, 40px);
+  line-height: 1.15;
 }
 
 .region-grid {
@@ -563,7 +577,6 @@ a {
     width: min(100% - 32px, 1180px);
   }
 
-  .section-heading,
   .photo-story,
   .theme-photo--wide {
     grid-template-columns: 1fr;

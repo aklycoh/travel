@@ -115,7 +115,7 @@ function renderIndex() {
       </div>
     </section>
     <section class="section">
-      <div class="section-heading">
+      <div class="section-heading section-heading--label">
         <p class="eyebrow">Destinations</p>
         <h2>地区</h2>
       </div>
@@ -198,14 +198,14 @@ function renderRegion() {
       </div>
     </section>
     <section class="section">
-      <div class="section-heading">
+      <div class="section-heading section-heading--label">
         <p class="eyebrow">Stories</p>
         <h2>${region.name}主题</h2>
       </div>
       <div class="story-grid">${themeCards}</div>
     </section>
     <section class="section section--featured">
-      <div class="section-heading">
+      <div class="section-heading section-heading--label">
         <p class="eyebrow">Selected</p>
         <h2>几张先记住的照片</h2>
       </div>
@@ -256,7 +256,7 @@ function renderTheme() {
       </div>
     </section>
     <section class="section">
-      <div class="section-heading">
+      <div class="section-heading section-heading--deck">
         <p class="eyebrow">${region.name}</p>
         <h2>${lineBreaks(theme.deck)}</h2>
       </div>

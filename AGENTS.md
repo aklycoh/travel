@@ -56,10 +56,10 @@ Use `path` when the route folder differs from the theme id or when the id has a 
 7. Add all used photo records to `photos`.
 8. Verify every `hero`, `featurePhotos`, and `photoIds` entry points to an existing photo record and image file.
 
-For cache busting, keep the query versions on HTML links/scripts in sync when changing shared CSS or JS data. Use the current project date-style version and bump it consistently across all page shells, for example `?v=20260523j`. Prefer the helper script instead of hand-editing every HTML file:
+For cache busting, keep the query versions on HTML links/scripts in sync when changing shared CSS or JS data. Use the current project date-style version and bump it consistently across all page shells, for example `?v=20260523o`. Prefer the helper script instead of hand-editing every HTML file:
 
 ```sh
-node scripts/bump-version.mjs 20260523j
+node scripts/bump-version.mjs 20260523o
 ```
 
 ## Image Guidelines
