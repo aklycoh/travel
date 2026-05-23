@@ -39,10 +39,18 @@ function captionLine(item) {
   return `摄影: Travel Notes · ${item.location} · ${item.date}`;
 }
 
+function lineBreaks(text) {
+  return String(text).replace(/\n/g, "<br>");
+}
+
+function imageStyle(item) {
+  return item.objectPosition ? ` style="object-position: ${item.objectPosition}"` : "";
+}
+
 function renderHeroFigure(item, alt) {
   return `
     <figure class="hero-figure">
-      <img src="${item.large}" alt="${alt}">
+      <img src="${item.large}" alt="${alt}"${imageStyle(item)}>
       <figcaption>${captionLine(item)}</figcaption>
     </figure>
   `;
@@ -62,7 +70,7 @@ function renderHeader(activeRegion) {
 
 function renderImage(id, className = "") {
   const item = photo(id);
-  return `<img class="${className}" src="${item.large}" alt="${item.title}" loading="lazy">`;
+  return `<img class="${className}" src="${item.large}" alt="${item.title}" loading="lazy"${imageStyle(item)}>`;
 }
 
 function renderIndex() {
@@ -185,7 +193,7 @@ function renderTheme() {
     .map((item, index) => `
       <article class="theme-photo ${index % 3 === 0 ? "theme-photo--wide" : ""}">
         <figure>
-          <img src="${item.large}" alt="${item.title}" loading="lazy">
+          <img src="${item.large}" alt="${item.title}" loading="lazy"${imageStyle(item)}>
           <figcaption>${captionLine(item)}</figcaption>
         </figure>
         <div>
@@ -219,7 +227,7 @@ function renderTheme() {
     <section class="section">
       <div class="section-heading">
         <p class="eyebrow">${region.name}</p>
-        <h2>${theme.deck}</h2>
+        <h2>${lineBreaks(theme.deck)}</h2>
       </div>
       <div class="theme-grid">${cards}</div>
     </section>

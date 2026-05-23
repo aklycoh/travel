@@ -215,7 +215,7 @@ window.TRAVEL_DATA = {
       kicker: "Wuhan",
       title: "出发前，先经过江城",
       deck:
-        "江边的天光、大学门口的树影和一顿热饭，把正式进入云南之前的那一天也留了下来。",
+        "江边的天光、大学门口的\n树影和一顿热饭，把正式\n进入云南之前的那一天也留了下来。",
       hero: "IMG_6079",
       intro:
         "旅程有时候不是从目的地开始，而是从途中那个刚好停下来的城市开始。武汉的江面很宽，校园路口很亮，饭桌上的热气让转场也有了自己的分量。",
@@ -258,7 +258,7 @@ window.TRAVEL_DATA = {
       hero: "IMG_6147",
       intro:
         "到了大理，天色和水面一起放宽。城门有热闹的入口，白塔在树影里抬高，洱海边的风把前几天的紧凑行程吹得柔和下来。",
-      photoIds: ["IMG_6132", "IMG_6133", "IMG_6138", "IMG_6144", "IMG_6143", "IMG_6147", "IMG_6150", "IMG_6154"]
+      photoIds: ["IMG_6132", "IMG_6133", "IMG_6138", "IMG_6143", "IMG_6144", "IMG_6146", "IMG_6147", "IMG_6150", "IMG_6154"]
     },
     "yn-xishuangbanna": {
       id: "yn-xishuangbanna",
@@ -276,6 +276,7 @@ window.TRAVEL_DATA = {
         "IMG_6161",
         "IMG_6162",
         "IMG_6163",
+        "IMG_6165",
         "IMG_6168",
         "IMG_6167",
         "IMG_6170",
@@ -304,7 +305,7 @@ window.TRAVEL_DATA = {
       kicker: "Nature",
       title: "黄河、丹霞与沙山",
       deck:
-        "黄河从城市边穿过，丹霞把山体染成层层颜色，峡谷和沙山则把甘肃的空间感继续推远。",
+        "黄河从城市边穿过，\n丹霞把山体染成层层颜色，\n峡谷和沙山，\n则把甘肃的空间感继续推远。",
       hero: "GS_N_DANXIA_WIDE",
       intro:
         "甘肃的自然风光有一种很直接的尺度。兰州黄河边是湿润的灰黄，张掖丹霞是明亮的红与金，峡谷里只有窄窄的天光，到了敦煌，沙山又把视线放到更远。",
@@ -425,6 +426,7 @@ window.TRAVEL_DATA = {
         "GS_F_LAMB_RICE",
         "GS_F_SHACONG",
         "GS_F_BOILED_LAMB",
+        "GS_F_WUWEI_HAND_LAMB",
         "GS_F_SKEWERS",
         "GS_F_BREAD_TEA",
         "GS_F_MARKET",
@@ -543,8 +545,8 @@ window.TRAVEL_DATA = {
     IMG_5309: {
       file: "IMG_5309.jpeg",
       title: "面具的凝视",
-      location: "金沙遗址博物馆",
-      date: "2023.10.13 夜晚",
+      location: "三星堆博物馆",
+      date: "2023.10.14 上午",
       text: "灯光落在面具上，表情像从很远的时间里看过来。那一刻，喧闹都被隔在展柜外面。"
     },
     IMG_5318: {
@@ -636,6 +638,7 @@ window.TRAVEL_DATA = {
       title: "江边大佛",
       location: "乐山大佛",
       date: "2023.10.16 下午",
+      objectPosition: "center 30%",
       text: "红色山壁贴着江水，大佛在雾气里显得很安稳。人群在脚下移动，山却一直沉默。"
     },
     IMG_5365: {
@@ -1098,9 +1101,9 @@ window.TRAVEL_DATA = {
       region: "yunnan",
       file: "IMG_6165.jpeg",
       title: "睡莲池",
-      location: "西双版纳热带植物园",
+      location: "野象谷",
       date: "2024.10.23 上午",
-      text: "水面被叶片铺满，花藏在绿意之间。这里的安静不是空旷，而是被植物慢慢填满。"
+      text: "水面被叶片铺满，花藏在绿意之间。野象谷的安静不是空旷，而是被植物慢慢填满。"
     },
     IMG_6168: {
       region: "yunnan",
@@ -1122,9 +1125,9 @@ window.TRAVEL_DATA = {
       region: "yunnan",
       file: "IMG_6170.jpeg",
       title: "大叶之间",
-      location: "西双版纳热带植物园",
+      location: "野象谷",
       date: "2024.10.23 上午",
-      text: "叶子比人还醒目，把画面撑得很满。走在这里，会觉得绿色不只是颜色，也是一种气候。"
+      text: "叶子比人还醒目，把画面撑得很满。走在野象谷，会觉得绿色不只是颜色，也是一种气候。"
     },
     IMG_6171: {
       region: "yunnan",
@@ -1196,6 +1199,7 @@ window.TRAVEL_DATA = {
       title: "星光夜市",
       location: "西双版纳星光夜市",
       date: "2024.10.23 晚上",
+      objectPosition: "center bottom",
       text: "金色建筑和人群一起亮起来，夜市像一整片灯海。最后几天的兴奋，被这一眼推到最高。"
     },
     IMG_6186: {
@@ -1259,7 +1263,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_yellow_river.jpeg",
       title: "黄河边的风",
       location: "兰州黄河边",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "河水贴着城市慢慢流过，岸边的柳树和人影让兰州的开场显得很生活。"
     },
     GS_N_ZHONGSHAN_BRIDGE: {
@@ -1267,7 +1271,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_zhongshan_bridge.jpeg",
       title: "铁桥与河水",
       location: "兰州中山桥一带",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "铁桥横在黄河上，水面带着厚重的颜色。城市的地标不是摆在那里，而是被每天的河风反复经过。"
     },
     GS_N_DANXIA_PORTRAIT: {
@@ -1275,7 +1279,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_portrait.jpeg",
       title: "彩丘前",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "人站在彩色山体前，比例一下被拉小。甘肃的辽阔，常常就是这样从身后展开。"
     },
     GS_N_DANXIA_WIDE: {
@@ -1283,7 +1287,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_wide.jpeg",
       title: "丹霞铺开",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "山脊一层层向远处推开，红、黄和褐色在阳光下分得很清楚，像大地自己留下的纹路。"
     },
     GS_N_DANXIA_VALLEY: {
@@ -1291,7 +1295,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_valley.jpeg",
       title: "褶皱里的路",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "远处的步道和近处的山纹一起弯折，人在里面移动得很慢，风景却一直往外扩。"
     },
     GS_N_DANXIA_LOOKOUT: {
@@ -1299,7 +1303,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_lookout.jpeg",
       title: "看台上的停留",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "站在栏杆边看出去，山色像被阳光一层层翻开。拍照只是停留的理由，真正记住的是那阵风。"
     },
     GS_N_DANXIA_COLORS: {
@@ -1307,7 +1311,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_colors.jpeg",
       title: "颜色起伏",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "红色岩层和浅色山坡交错在一起，画面明亮得像被西北的太阳重新调过色。"
     },
     GS_N_DANXIA_CANYON: {
@@ -1315,7 +1319,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_canyon.jpeg",
       title: "远处的峡谷",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "峡谷像被时间慢慢刻出来，阴影落在褐色山体上，让远处也有了层次。"
     },
     GS_N_DANXIA_SHADOW: {
@@ -1323,7 +1327,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_shadow.jpeg",
       title: "丹霞的阴影",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "光线从高处压下来，沟壑里留下深色的影。颜色之外，地貌本身也足够有力量。"
     },
     GS_N_CANYON_WALK: {
@@ -1331,7 +1335,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_walk.jpeg",
       title: "红岩栈道",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "栈道贴着红色岩壁向前，人在岩层之间穿行，像走进一条被山体夹住的时间线。"
     },
     GS_N_CANYON_BOARDWALK: {
@@ -1339,7 +1343,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_boardwalk.jpeg",
       title: "峡谷里的阶梯",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "木阶从峡谷中间抬上去，阳光只照亮一部分岩壁，剩下的都留给凉意和回声。"
     },
     GS_N_CANYON_WALL: {
@@ -1347,7 +1351,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_wall.jpeg",
       title: "一线岩壁",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "窄路两边是高高的岩壁，纹理近得几乎可以读出来。风景在这里从远眺变成了贴身经过。"
     },
     GS_N_CANYON_SKY: {
@@ -1355,23 +1359,23 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_sky.jpeg",
       title: "岩缝里的天",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "抬头只看见一条蓝色的天，岩壁把光收得很窄，反而让天空显得更亮。"
     },
     GS_N_GORGE_STAIR: {
       region: "gansu",
       file: "gs_n_gorge_stair.jpeg",
-      title: "上行的木梯",
+      title: "上行的铁梯",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
-      text: "木梯顺着岩壁往上走，脚下是热土，头顶是强光，每一步都带着干燥的西北感。"
+      date: "2026.05.18 下午",
+      text: "铁梯顺着岩壁往上走，脚下是热土，头顶是强光，每一步都带着干燥的西北感。"
     },
     GS_N_GORGE_LOOKOUT: {
       region: "gansu",
       file: "gs_n_gorge_lookout.jpeg",
       title: "荒原远望",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 下午",
       text: "从高处看出去，褐色荒原一直铺到远处，空间大得让人下意识安静下来。"
     },
     GS_N_DESERT_PERSON: {
@@ -1379,7 +1383,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_desert_person.jpeg",
       title: "沙山脚下",
       location: "敦煌鸣沙山",
-      date: "甘肃旅程",
+      date: "2026.05.21 上午",
       text: "沙丘在身后缓慢起伏，人的影子很小。到了敦煌，风景换成了更明亮也更干燥的质地。"
     },
     GS_N_CRESCENT_LAKE: {
@@ -1387,7 +1391,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_crescent_lake.jpeg",
       title: "月牙泉远处",
       location: "敦煌鸣沙山月牙泉",
-      date: "甘肃旅程",
+      date: "2026.05.21 上午",
       text: "沙山之间突然出现一片绿和水，亭台在远处压住画面，像荒漠里的一点回声。"
     },
     GS_N_DUNES_GROVE: {
@@ -1395,7 +1399,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_dunes_grove.jpeg",
       title: "沙山与树影",
       location: "敦煌鸣沙山月牙泉",
-      date: "甘肃旅程",
+      date: "2026.05.21 上午",
       text: "树影、栏杆和沙山叠在一起，柔软的沙线把旅程最后的自然风景慢慢收住。"
     },
     GS_C_BUDDHA_TERRACE: {
@@ -1403,7 +1407,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_buddha_terrace.jpeg",
       title: "白塔寺的佛像",
       location: "武威白塔寺",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "佛像立在灰天之下，台阶和栏杆把空间收得庄重。武威白塔寺里有安静的宗教气息。"
     },
     GS_C_WHITE_PAGODA: {
@@ -1411,7 +1415,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_white_pagoda.jpeg",
       title: "白塔寺白塔",
       location: "武威白塔寺",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "白色塔身在树影旁显得很清净，灰天之下更显得沉静。"
     },
     GS_C_TEMPLE_GATE: {
@@ -1419,7 +1423,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_temple_gate.jpeg",
       title: "鸠摩罗什寺山门",
       location: "武威鸠摩罗什寺",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "红柱、蓝匾和彩画把入口装点得很明亮，武威的文化线索从这座寺院前慢慢展开。"
     },
     GS_C_ANCIENT_TOWER: {
@@ -1427,7 +1431,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_ancient_tower.jpeg",
       title: "鸠摩罗什寺塔",
       location: "武威鸠摩罗什寺",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "石塔站在院落中央，天色压得很低，反而让塔身的线条更稳。"
     },
     GS_C_CITY_GATE: {
@@ -1435,7 +1439,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_city_gate.jpeg",
       title: "凉州城楼前",
       location: "武威凉州城区",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "城楼把人带回一种更古老的尺度，台阶、门洞和广场一起把时间拉开。"
     },
     GS_C_OLD_HOUSE: {
@@ -1443,7 +1447,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_old_house.jpeg",
       title: "老宅门楼",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "木门和匾额被岁月磨得发暗，门口的人影让这座老建筑仍然有日常的温度。"
     },
     GS_C_WEATHERED_DOOR: {
@@ -1451,7 +1455,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_weathered_door.jpeg",
       title: "斑驳门板",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "旧门上的痕迹像一层层被留下来的时间。没有鲜艳颜色，却很能让人停下来。"
     },
     GS_C_SLEEPING_BUDDHA: {
@@ -1459,7 +1463,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_sleeping_buddha.jpeg",
       title: "殿中的卧佛",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "昏暗殿内，卧佛被柱子和壁画围住。人站在下方，声音自然放轻。"
     },
     GS_C_MURAL_HALL: {
@@ -1467,7 +1471,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mural_hall.jpeg",
       title: "壁画上的人物",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "壁画色彩已经旧了，人物却仍然清楚。看得久一点，会觉得时间并没有完全退远。"
     },
     GS_C_PAINTED_STATUE: {
@@ -1475,7 +1479,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_painted_statue.jpeg",
       title: "彩塑侧影",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "彩塑站在木构之间，衣纹和颜色都带着旧意。它不需要完整解释，已经足够有存在感。"
     },
     GS_C_XIJIN_TILE: {
@@ -1483,7 +1487,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_xijin_tile.jpeg",
       title: "西晋地砖",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "一块地砖把很远的年代带到眼前，花纹留在石面上，像历史给旅程留下的小签名。"
     },
     GS_C_JIAYUGUAN_GATE: {
@@ -1491,7 +1495,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_jiayuguan_gate.jpeg",
       title: "嘉峪关入口",
       location: "嘉峪关",
-      date: "甘肃旅程",
+      date: "2026.05.19 中午",
       text: "城门前的阳光很硬，人群从门洞前经过，关城的轮廓显得格外清楚。"
     },
     GS_C_HERO_PASS: {
@@ -1499,7 +1503,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_hero_pass.jpeg",
       title: "天下雄关",
       location: "嘉峪关",
-      date: "甘肃旅程",
+      date: "2026.05.19 中午",
       text: "匾额立在风沙里，四个字把边关的气势直接写出来。到这里，丝路忽然有了具体的门。"
     },
     GS_C_RAMMED_WALL: {
@@ -1507,7 +1511,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_rammed_wall.jpeg",
       title: "夯土城墙",
       location: "嘉峪关",
-      date: "甘肃旅程",
+      date: "2026.05.19 中午",
       text: "墙体在阳光下显出层层土色，线条朴素，却把边塞的力量留得很实。"
     },
     GS_C_FORT_TOWER: {
@@ -1515,7 +1519,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_fort_tower.jpeg",
       title: "关城楼阁",
       location: "嘉峪关",
-      date: "甘肃旅程",
+      date: "2026.05.19 下午",
       text: "楼阁立在高墙之上，蓝天和黄土把画面分得很干净，像一段历史的剪影。"
     },
     GS_C_MOGAO_CLIFF: {
@@ -1523,7 +1527,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_cliff.jpeg",
       title: "石窟外墙",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 中午",
       text: "洞窟沿着崖壁排开，栈道一层层连着。还没进入洞内，敦煌的厚度已经扑面而来。"
     },
     GS_C_MOGAO_RED_EAVES: {
@@ -1531,7 +1535,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_red_eaves.jpeg",
       title: "九层楼",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "红色檐角贴着崖壁向上，建筑像从石壁里长出来，把宗教和地貌接在一起。"
     },
     GS_C_MOGAO_DOOR_PAINTING: {
@@ -1539,7 +1543,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_door_painting.jpeg",
       title: "门上的彩绘",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "门板上的图案已经斑驳，线条却还在。细节越旧，越让人愿意多看一眼。"
     },
     GS_C_MOGAO_DETAIL: {
@@ -1547,7 +1551,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_detail.jpeg",
       title: "壁画细部",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "人物、树木和建筑被画在同一片旧色里，细节密得像一段被保存下来的故事。"
     },
     GS_C_MOGAO_CEILING: {
@@ -1555,7 +1559,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_ceiling.jpeg",
       title: "藻井图案",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "图案从中心向四周展开，颜色褪去后仍然有秩序。它让抬头这件事变得很有仪式感。"
     },
     GS_C_MOGAO_BUDDHA_WALL: {
@@ -1563,7 +1567,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_buddha_wall.jpeg",
       title: "佛国壁面",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "壁面上人物层层排列，红与绿沉在旧色里。热闹的画面反而带着很深的安静。"
     },
     GS_C_MOGAO_CALLIGRAPHY: {
@@ -1571,7 +1575,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_calligraphy.jpeg",
       title: "纸上的墨迹",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "墨迹竖着落下，笔画像还带着人的手劲。文物有时不需要巨大，只要一行字就够近。"
     },
     GS_C_THOUSAND_BUDDHAS: {
@@ -1579,7 +1583,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_thousand_buddhas.jpeg",
       title: "千佛排列",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "一尊尊小佛排成整面墙，重复里有一种稳定的力量。站在前面，会被数量和时间同时击中。"
     },
     GS_F_NOODLES: {
@@ -1587,7 +1591,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_noodles.jpeg",
       title: "兰州牛肉面",
       location: "兰州餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.15 清晨",
       text: "清汤、红油、葱花和面条放在同一个碗里，热气一起升上来。甘肃的第一口，很适合从这里开始。"
     },
     GS_F_MIANPI: {
@@ -1595,7 +1599,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_mianpi.jpeg",
       title: "古浪面皮子",
       location: "武威小吃",
-      date: "甘肃旅程",
+      date: "2026.05.16 上午",
       text: "面皮子裹着辣油和芝麻，颜色很直接。西北小吃的爽利，在这一盘里很清楚。"
     },
     GS_F_GREY_BEANS: {
@@ -1603,15 +1607,15 @@ window.TRAVEL_DATA = {
       file: "gs_f_grey_beans.jpeg",
       title: "灰豆子",
       location: "兰州小吃",
-      date: "甘肃旅程",
-      text: "甜汤颜色很深，豆子圆圆地沉在碗里。它不张扬，却把走累后的晚上安稳接住。"
+      date: "2026.05.14 晚上",
+      text: "甜汤颜色很深，豆子圆圆地沉在碗里，让走累后的夜晚更加安静。"
     },
     GS_F_POTATO: {
       region: "gansu",
       file: "gs_f_potato.jpeg",
       title: "烤土豆",
       location: "张掖夜市",
-      date: "甘肃旅程",
+      date: "2026.05.16 傍晚",
       text: "土豆块撒上调料，外面带一点焦香。很简单，也很有路边摊的快乐。"
     },
     GS_F_POTATO_CHIPS: {
@@ -1619,7 +1623,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_potato_chips.jpeg",
       title: "烤土豆片",
       location: "武威夜市",
-      date: "甘肃旅程",
+      date: "2026.05.15 晚上",
       text: "薄片一层层叠在烤架上，辣椒面把香气推得很近。夜市的热闹有时就是这一串。"
     },
     GS_F_NAIPI: {
@@ -1627,7 +1631,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_naipi.jpeg",
       title: "兰州奶皮子",
       location: "兰州小吃",
-      date: "甘肃旅程",
+      date: "2026.05.22 上午",
       text: "奶皮子在杯子里柔软地卷起，凉意和奶香让干燥的路程忽然变得温和。"
     },
     GS_F_HAND_NAIPI: {
@@ -1635,7 +1639,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_hand_naipi.jpeg",
       title: "手工奶皮子",
       location: "兰州小吃",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "黑芝麻和枸杞点在奶香上，甜味很轻，却刚好把西北的风沙压下去一点。"
     },
     GS_F_TIANPEIZI: {
@@ -1643,7 +1647,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_tianpeizi.jpeg",
       title: "甜醅子",
       location: "兰州小吃",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "麦粒泡在清甜的汤里，吃起来有发酵后的微微香气。它像这趟旅程里一口很本地的甜。"
     },
     GS_F_APRICOT_TEA: {
@@ -1651,7 +1655,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_apricot_tea.jpeg",
       title: "杏皮茶",
       location: "敦煌街头",
-      date: "甘肃旅程",
+      date: "2026.05.20 晚上",
       text: "杯子握在手里，酸甜味像从西北的水果里直接取出来。走在太阳下，这一口特别及时。"
     },
     GS_F_CHAOBOLA: {
@@ -1659,7 +1663,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_chaobola.jpeg",
       title: "炒拨拉",
       location: "张掖餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.17 晚上",
       text: "铁盘里肉和菜炒得很满，油光、辣椒和锅气都很足。看一眼就知道这顿不会清淡。"
     },
     GS_F_LAMB_PANCAKE: {
@@ -1667,7 +1671,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_lamb_pancake.jpeg",
       title: "敦煌羊肉焖饼",
       location: "敦煌餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.19 晚上",
       text: "饼吸了汤汁，羊肉和青椒把味道撑起来。敦煌的晚饭，带着很踏实的分量。"
     },
     GS_F_LATIAOZI: {
@@ -1675,7 +1679,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_latiaozi.jpeg",
       title: "新疆拉条子",
       location: "张掖餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.16 傍晚",
       text: "面条拌着肉和辣味，颜色厚重，口感也很有劲。赶路之后，这种主食很让人放心。"
     },
     GS_F_LAMB_RICE: {
@@ -1683,7 +1687,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_lamb_rice.jpeg",
       title: "羊肉炒饭",
       location: "张掖餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.16 傍晚",
       text: "米饭炒得粒粒分明，羊肉香气压在里面。简单一盘，也能把人从风景里拉回现实。"
     },
     GS_F_SHACONG: {
@@ -1691,7 +1695,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_shacong.jpeg",
       title: "凉拌沙葱",
       location: "武威餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.15 晚上",
       text: "沙葱拌得清爽，颜色绿得很利落。重口味之间，有这样一盘刚好解腻。"
     },
     GS_F_BOILED_LAMB: {
@@ -1699,31 +1703,39 @@ window.TRAVEL_DATA = {
       file: "gs_f_boiled_lamb.jpeg",
       title: "手抓羊肉",
       location: "兰州餐桌",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "羊肉按骨切开，旁边蘸一点辣油就很有滋味。手抓羊肉看起来朴素，却最能吃出西北餐桌的底气。"
+    },
+    GS_F_WUWEI_HAND_LAMB: {
+      region: "gansu",
+      file: "gs_f_wuwei_hand_lamb.jpeg",
+      title: "武威手抓羊肉",
+      location: "武威餐桌",
+      date: "2026.05.23 上午",
+      text: "羊肉装在长盘里，旁边是辣椒面和蒜汁。到了武威，这一口手抓羊肉更像是旅途里扎实的一顿。"
     },
     GS_F_SKEWERS: {
       region: "gansu",
       file: "gs_f_skewers.jpeg",
       title: "一把烤串",
       location: "武威夜市",
-      date: "甘肃旅程",
+      date: "2026.05.15 晚上",
       text: "烤串摆满铁盘，调料和火候把夜晚一下点热。旅行中的快乐，有时就是不用等太久的香气。"
     },
     GS_F_BREAD_TEA: {
       region: "gansu",
       file: "gs_f_bread_tea.jpeg",
-      title: "饼和茶",
+      title: "烤馕与炼乳",
       location: "武威餐桌",
-      date: "甘肃旅程",
-      text: "一张饼、一杯茶、一碟蘸料，组合很朴素，却有西北饭桌的日常感。"
+      date: "2026.05.15 晚上",
+      text: "烤馕切成扇形，旁边配着炼乳和特制辣酱。甜口和辣味一起上桌，是武威餐桌上很直接的组合。"
     },
     GS_F_MARKET: {
       region: "gansu",
       file: "gs_f_market.jpeg",
       title: "市场里的红枣",
       location: "武威市场",
-      date: "甘肃旅程",
+      date: "2026.05.16 上午",
       text: "摊位上堆着红枣和干货，颜色沉稳又丰盛。这里不只是买东西，也是看见当地生活。"
     },
     GS_F_FOOD_STREET: {
@@ -1731,7 +1743,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_food_street.jpeg",
       title: "夜色里的食街",
       location: "敦煌夜市",
-      date: "甘肃旅程",
+      date: "2026.05.20 晚上",
       text: "灯牌一排排亮起来，游客和摊主在路中间交错。甘肃的夜晚，常常是被吃食照亮的。"
     },
     GS_F_DAPANJI: {
@@ -1739,7 +1751,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_dapanji.jpeg",
       title: "夜市柜台",
       location: "敦煌夜市",
-      date: "甘肃旅程",
+      date: "2026.05.20 晚上",
       text: "柜台前挂着明亮的招牌，烤串和热菜等着上桌。还没吃到，气氛已经先到了。"
     },
     GS_C_WUWEI_HOTEL_LOBBY: {
@@ -1747,7 +1759,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_wuwei_hotel_lobby.jpeg",
       title: "武威落脚处",
       location: "武威酒店",
-      date: "甘肃旅程",
+      date: "2026.05.15 晚上",
       text: "大堂的灯和地面纹样把赶路的一晚安放下来。旅程里这样的落脚处，也会成为回忆的背景。"
     },
     GS_F_LANZHOU_FAREWELL_NAIPI: {
@@ -1755,7 +1767,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_lanzhou_farewell_naipi.jpeg",
       title: "别了，兰州",
       location: "兰州中川机场",
-      date: "甘肃旅程",
+      date: "2026.05.22 中午",
       text: "离开前再拿一杯奶皮子，像给兰州这段路收一个柔软的尾。"
     },
     GS_F_ZHANGYE_FIGS: {
@@ -1763,7 +1775,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_zhangye_figs.jpeg",
       title: "张掖红色无花果",
       location: "张掖",
-      date: "甘肃旅程",
+      date: "2026.05.17 傍晚",
       text: "红色无花果装在手里，颜色新鲜得很直接。风景之外，路边水果也把当地味道留下来。"
     },
     GS_N_DANXIA_TOGETHER: {
@@ -1771,7 +1783,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_danxia_together.jpeg",
       title: "丹霞前合影",
       location: "张掖丹霞",
-      date: "甘肃旅程",
+      date: "2026.05.17 下午",
       text: "彩色山体在身后铺开，人站在风里，显得轻而明亮。"
     },
     GS_N_PINGSHANHU_PORTRAIT: {
@@ -1779,7 +1791,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_pingshanhu_portrait.jpeg",
       title: "红岩前",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "红色岩层堆叠在身后，阳光很硬，人的轮廓也被照得更清楚。"
     },
     GS_N_MINGSHA_MAN: {
@@ -1787,7 +1799,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_mingsha_man.jpeg",
       title: "沙地里的身影",
       location: "敦煌鸣沙山",
-      date: "甘肃旅程",
+      date: "2026.05.21 上午",
       text: "人站在沙地中央，远处的沙山被风吹成柔软的曲线。"
     },
     GS_F_LANZHOU_NIGHT_STREET: {
@@ -1795,39 +1807,39 @@ window.TRAVEL_DATA = {
       file: "gs_f_lanzhou_night_street.jpeg",
       title: "兰州夜里的食街",
       location: "兰州夜市",
-      date: "甘肃旅程",
+      date: "2026.05.14 傍晚",
       text: "木色门面和招牌挤在一起，夜晚刚亮，吃饭的气氛已经先围上来。"
     },
     GS_N_RIVER_CANOPY: {
       region: "gansu",
       file: "gs_n_river_canopy.jpeg",
-      title: "黄河边的雨棚",
+      title: "黄河边的茶馆",
       location: "兰州黄河边",
-      date: "甘肃旅程",
-      text: "沿河的木栈道被雨棚盖住，柳树和河水在旁边慢慢展开。"
+      date: "2026.05.14 晚上",
+      text: "茶馆沿着黄河排开，椅子面向河水。坐下来喝茶看河，是兰州很日常也很舒服的一刻。"
     },
     GS_N_RIVER_SELFIE: {
       region: "gansu",
       file: "gs_n_river_selfie.jpeg",
       title: "黄河边合影",
       location: "兰州黄河边",
-      date: "甘肃旅程",
+      date: "2026.05.14 晚上",
       text: "身后是黄河和山坡，两个人靠近镜头，旅程从城市边的河风里留下证据。"
     },
     GS_F_LANZHOU_COFFEE: {
       region: "gansu",
       file: "gs_f_lanzhou_coffee.jpeg",
-      title: "赶路前的咖啡",
-      location: "兰州",
-      date: "甘肃旅程",
-      text: "短暂停在咖啡柜台前，屏幕、灯光和行李一起构成旅途里的中转片段。"
+      title: "离开前的小酒店前台",
+      location: "兰州小酒店",
+      date: "2026.05.15 清晨",
+      text: "离开前在小酒店前台短暂停留，屏幕、灯光和行李一起构成旅途里的中转片段。"
     },
     GS_C_WUWEI_GATE_SELFIE: {
       region: "gansu",
       file: "gs_c_wuwei_gate_selfie.jpeg",
       title: "凉州城楼合影",
       location: "武威凉州城区",
-      date: "甘肃旅程",
+      date: "2026.05.15 下午",
       text: "城楼在身后抬起，门洞和台阶把武威的城市记忆放进同一张照片。"
     },
     GS_F_MIANPI_STALL: {
@@ -1835,7 +1847,7 @@ window.TRAVEL_DATA = {
       file: "gs_f_mianpi_stall.jpeg",
       title: "面皮子小店",
       location: "武威小吃店",
-      date: "甘肃旅程",
+      date: "2026.05.16 上午",
       text: "柜台前有人正在点餐，墙上的菜单写着各种面皮。真正的地方味道常在这样的店口出现。"
     },
     GS_C_DAFOSI_GARDEN: {
@@ -1843,7 +1855,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_dafosi_garden.jpeg",
       title: "大佛寺院中",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "院子里的树影和灯杆把古建筑围住，热烈阳光下仍然有一块安静。"
     },
     GS_C_DAFOSI_CAT: {
@@ -1851,7 +1863,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_dafosi_cat.jpeg",
       title: "寺边白猫",
       location: "张掖大佛寺",
-      date: "甘肃旅程",
+      date: "2026.05.17 上午",
       text: "白猫躺在墙边，旁边写着禁烟提示。严肃的古寺角落，也有很松弛的一秒。"
     },
     GS_N_PINGSHANHU_SIGN: {
@@ -1859,7 +1871,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_pingshanhu_sign.jpeg",
       title: "平山湖大峡谷入口",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "牌子立在红岩前，峡谷还没有真正展开，干燥的气息已经很近。"
     },
     GS_N_CANYON_STONE_PILE: {
@@ -1867,7 +1879,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_stone_pile.jpeg",
       title: "红岩下的小石堆",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "小石堆靠在岩壁脚下，尺度很小，却让峡谷里的路有了人的痕迹。"
     },
     GS_N_CANYON_SCALE: {
@@ -1875,7 +1887,8 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_scale.jpeg",
       title: "峡谷中的人",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
+      objectPosition: "center bottom",
       text: "人站在高高岩壁前，才看出这片红色地貌真正的尺度。"
     },
     GS_N_CANYON_SELFIE: {
@@ -1883,7 +1896,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_selfie.jpeg",
       title: "峡谷自拍",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 中午",
       text: "近处是同行的人，身后是温热的红岩。风景很大，镜头把它拉回到身边。"
     },
     GS_N_CANYON_TALL_WALL: {
@@ -1891,7 +1904,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_tall_wall.jpeg",
       title: "高墙之下",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 下午",
       text: "岩壁从身边直直升起，脚下的路被压得很窄，人也自然放慢。"
     },
     GS_N_CANYON_DEEP_VIEW: {
@@ -1899,7 +1912,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_canyon_deep_view.jpeg",
       title: "峡谷深处",
       location: "张掖平山湖大峡谷",
-      date: "甘肃旅程",
+      date: "2026.05.18 下午",
       text: "从高处向下看，岩层和步道交错在一起，像一条被风和时间刻出的路线。"
     },
     GS_C_JIAYUGUAN_WALL_TOWER: {
@@ -1907,7 +1920,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_jiayuguan_wall_tower.jpeg",
       title: "城墙上的楼阁",
       location: "嘉峪关",
-      date: "甘肃旅程",
+      date: "2026.05.19 下午",
       text: "楼阁从长墙上抬起，墙体一路延向远处，边关的线条干净而有力。"
     },
     GS_C_MOGAO_EARTHEN_WALL: {
@@ -1915,7 +1928,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_earthen_wall.jpeg",
       title: "石窟外的土墙",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 中午",
       text: "土色墙体贴着崖面延伸，质地朴素，却把敦煌的厚度稳稳托住。"
     },
     GS_C_MOGAO_PLAZA: {
@@ -1923,7 +1936,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_plaza.jpeg",
       title: "莫高窟广场",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "人站在石窟外的广场上，背后是层层崖壁和栈道，抵达感很清楚。"
     },
     GS_C_MOGAO_EAVES_SIDE: {
@@ -1931,7 +1944,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_eaves_side.jpeg",
       title: "九层楼侧影",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "红色木构贴着山体向上，树影从旁边压过来，让建筑显得更高。"
     },
     GS_C_MOGAO_MURAL_FIGURES: {
@@ -1939,7 +1952,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_mural_figures.jpeg",
       title: "壁画人物",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "人物线条在旧色里仍然清楚，眉眼和衣纹像从很远的时间里留下来。"
     },
     GS_C_MOGAO_HORSE_DETAIL: {
@@ -1947,7 +1960,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_horse_detail.jpeg",
       title: "壁画里的奔马",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "马匹在残损的画面里仍然有速度，褪色反而让那种动势更耐看。"
     },
     GS_C_MOGAO_RIDER_DETAIL: {
@@ -1955,7 +1968,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_rider_detail.jpeg",
       title: "骑者细部",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "骑马人物被保存成一块斑驳的细节，颜色淡了，姿态还在。"
     },
     GS_C_MOGAO_STORY_PANEL: {
@@ -1963,7 +1976,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_story_panel.jpeg",
       title: "壁画故事",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "两个人物在浅色背景里相对而坐，像一个故事被安静截取下来。"
     },
     GS_C_MOGAO_RED_HORSE: {
@@ -1971,7 +1984,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_red_horse.jpeg",
       title: "红马",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "红色马匹在蓝绿底色上向前跃起，残损的边缘让它更像一段时间的切片。"
     },
     GS_C_MOGAO_GATE: {
@@ -1979,7 +1992,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_gate.jpeg",
       title: "莫高窟牌楼",
       location: "敦煌莫高窟",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "木牌楼立在广场入口，游客从下面经过，正式走进敦煌的下一层。"
     },
     GS_C_MOGAO_LINE_DETAIL: {
@@ -1987,7 +2000,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_line_detail.jpeg",
       title: "线刻纹样",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "细密线条在灰白表面上交织，近看像时间留下的一张纹理地图。"
     },
     GS_C_MOGAO_CLAY_STATUE: {
@@ -1995,7 +2008,7 @@ window.TRAVEL_DATA = {
       file: "gs_c_mogao_clay_statue.jpeg",
       title: "彩塑头像",
       location: "敦煌莫高窟相关展陈",
-      date: "甘肃旅程",
+      date: "2026.05.20 下午",
       text: "彩塑面部还保留着淡淡颜色，安静地把目光停在展厅里。"
     },
     GS_N_CRESCENT_LAKE_GATE: {
@@ -2003,7 +2016,7 @@ window.TRAVEL_DATA = {
       file: "gs_n_crescent_lake_gate.jpeg",
       title: "月牙泉入口",
       location: "敦煌鸣沙山月牙泉",
-      date: "甘肃旅程",
+      date: "2026.05.21 上午",
       text: "牌楼和沙山同在一张画面里，游客套着防沙鞋进出，荒漠旅程也有了日常的入口。"
     }
   }

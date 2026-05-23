@@ -233,8 +233,8 @@ a {
   margin: 0;
   max-width: 820px;
   font-family: "Noto Serif SC", Georgia, "Times New Roman", serif;
-  font-size: clamp(30px, 4.4vw, 58px);
-  line-height: 1.04;
+  font-size: clamp(30px, 4vw, 52px);
+  line-height: 1.2;
   font-weight: 900;
   letter-spacing: 0;
 }

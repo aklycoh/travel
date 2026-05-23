@@ -119,6 +119,22 @@ The `data-base` value is important because `app.js` builds all links and image p
 - Maintain responsive behavior in the existing breakpoints, especially the mobile single-column layout.
 - Avoid nested cards or decorative UI. The site should feel like a clean photo essay, not a dashboard or marketing page.
 
+## Chinese Heading Typography
+
+- Do not leave long Chinese editorial headings entirely to browser auto-wrapping. Browser line breaks can split phrases such as `一顿`, `那一天`, `黄河边`, or `大学门口`, which makes the title feel subtly wrong even when the words are correct.
+- For long `deck`, `title`, or section heading copy, choose deliberate line breaks at semantic boundaries: punctuation, clause boundaries, or complete short phrases. Avoid breaking between a numeral and classifier, demonstrative and noun, place-name components, or closely bound verb-object phrases.
+- If a heading feels visually heavy, first fix the line breaks, then adjust typography. Heavy serif Chinese headings need more breathing room when they span multiple lines; use a slightly looser line-height, usually around `1.18` to `1.25`, before reaching for broad layout changes.
+- For a two-line block, prefer a natural punctuation break when it fits. If it does not fit at the current column width, use a three-line block where every line ends at a phrase boundary. For example:
+
+```text
+江边的天光、大学门口的
+树影和一顿热饭，把正式
+进入云南之前的那一天也留了下来。
+```
+
+- When manual line breaks are needed in data copy, store them as `\n` in `assets/js/site-data.js` and render them intentionally, for example by converting `\n` to `<br>` in `assets/js/app.js`. Do not hard-code page-specific HTML shells for one heading.
+- After changing heading typography, inspect the affected page at desktop and mobile widths. Confirm the heading does not split words awkwardly, does not become a dense block of ink, and does not overlap nearby photography or text.
+
 ## Validation Checklist
 
 Run these checks after content or image changes:
