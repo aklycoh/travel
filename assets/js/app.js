@@ -1,4 +1,4 @@
-const data = window.TRAVEL_DATA;
+const data = window.TRAVEL_DATA || { regions: [], themes: {}, photos: {} };
 const page = document.body.dataset.page;
 const base = document.body.dataset.base || "./";
 
@@ -10,6 +10,9 @@ function asset(path) {
 
 function photo(id) {
   const item = data.photos[id];
+  if (!item) throw new Error(`Missing photo: ${id}`);
+  if (!item.region) throw new Error(`Missing region for photo: ${id}`);
+  if (!item.file) throw new Error(`Missing file for photo: ${id}`);
   const regionId = item.region;
   return {
     id,
@@ -47,12 +50,39 @@ function imageStyle(item) {
   return item.objectPosition ? ` style="object-position: ${item.objectPosition}"` : "";
 }
 
+function renderImg(item, alt, options = {}) {
+  const {
+    className = "",
+    loading = "lazy",
+    fetchpriority = "auto",
+    thumbMedia = "(max-width: 560px)"
+  } = options;
+  const classAttr = className ? ` class="${className}"` : "";
+  const fetchAttr = fetchpriority === "auto" ? "" : ` fetchpriority="${fetchpriority}"`;
+  return `<picture><source media="${thumbMedia}" srcset="${item.thumb}"><img${classAttr} src="${item.large}" alt="${alt}" loading="${loading}" decoding="async"${fetchAttr}${imageStyle(item)}></picture>`;
+}
+
 function renderHeroFigure(item, alt) {
   return `
     <figure class="hero-figure">
-      <img src="${item.large}" alt="${alt}"${imageStyle(item)}>
+      ${renderImg(item, alt, {
+        loading: "eager",
+        fetchpriority: "high"
+      })}
       <figcaption>${captionLine(item)}</figcaption>
     </figure>
+  `;
+}
+
+function renderError(error) {
+  console.error(error);
+  renderHeader();
+  $("#app").innerHTML = `
+    <section class="render-error">
+      <p class="eyebrow">Travel Notes</p>
+      <h1>这个页面暂时没有渲染出来</h1>
+      <p>${error.message}</p>
+    </section>
   `;
 }
 
@@ -97,7 +127,7 @@ function renderHeader(activeRegion) {
 
 function renderImage(id, className = "") {
   const item = photo(id);
-  return `<img class="${className}" src="${item.large}" alt="${item.title}" loading="lazy"${imageStyle(item)}>`;
+  return renderImg(item, item.title, { className });
 }
 
 function renderIndex() {
@@ -126,7 +156,7 @@ function renderIndex() {
             return `
               <a class="region-card" href="${regionPath(item)}">
                 <article>
-                  <img src="${cover.thumb}" alt="${item.name}" loading="lazy">
+                  ${renderImg(cover, item.name)}
                   <span>${item.eyebrow}</span>
                   <h3>${item.name}</h3>
                   <p>${item.location}</p>
@@ -152,7 +182,7 @@ function renderRegion() {
       return `
         <a class="story-card" href="${themePath(region, theme)}">
           <article>
-            <img src="${cover.thumb}" alt="${theme.title}" loading="lazy">
+            ${renderImg(cover, theme.title)}
             <div>
               <span>${theme.kicker}</span>
               <h3>${theme.title}</h3>
@@ -171,7 +201,7 @@ function renderRegion() {
       return `
         <article class="photo-story">
           <figure>
-            <img src="${item.large}" alt="${item.title}" loading="lazy">
+            ${renderImg(item, item.title)}
             <figcaption>${captionLine(item)}</figcaption>
           </figure>
           <div>
@@ -224,7 +254,7 @@ function renderTheme() {
     .map((item, index) => `
       <article class="theme-photo ${index % 3 === 0 ? "theme-photo--wide" : ""}">
         <figure>
-          <img src="${item.large}" alt="${item.title}" loading="lazy"${imageStyle(item)}>
+          ${renderImg(item, item.title)}
           <figcaption>${captionLine(item)}</figcaption>
         </figure>
         <div>
@@ -269,6 +299,11 @@ function renderTheme() {
   `;
 }
 
-if (page === "home") renderIndex();
-if (page === "region") renderRegion();
-if (page === "theme") renderTheme();
+try {
+  if (page === "home") renderIndex();
+  else if (page === "region") renderRegion();
+  else if (page === "theme") renderTheme();
+  else throw new Error(`Unknown page type: ${page || "(empty)"}`);
+} catch (error) {
+  renderError(error);
+}

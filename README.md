@@ -19,3 +19,13 @@
 4. 在 `assets/js/site-data.js` 里添加地区、主题和照片数据。
 
 原则：城市页面目录只放网页，`assets/images/` 只放网页展示图，原始照片统一放在 `_raw_photos/`。
+
+## 校验
+
+改完照片或 `assets/js/site-data.js` 后运行：
+
+```sh
+node scripts/validate-data.mjs
+```
+
+脚本会检查地区、主题、照片 id、照片 `region` 字段，以及 `large` / `thumb` 图片文件是否都存在。
