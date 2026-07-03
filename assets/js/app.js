@@ -130,18 +130,40 @@ function renderImage(id, className = "") {
   return renderImg(item, item.title, { className });
 }
 
+function regionPhotoCount(regionId) {
+  return Object.values(data.photos).filter((item) => item.region === regionId).length;
+}
+
+function renderFooter() {
+  if (document.querySelector(".site-footer")) return;
+  const footer = document.createElement("footer");
+  footer.className = "site-footer";
+  const links = data.regions
+    .map((region) => `<a href="${regionPath(region)}">${region.name}</a>`)
+    .join("");
+  footer.innerHTML = `
+    <div>
+      <p class="brand-line">Travel Notes</p>
+      <nav aria-label="地区">${links}</nav>
+      <small>用照片把旅行整理成可以回看的地方</small>
+    </div>
+  `;
+  document.body.appendChild(footer);
+}
+
 function renderIndex() {
   renderHeader();
-  const region = data.regions[0];
-  const hero = photo(region.hero);
+  const home = data.home || data.regions[0];
+  const hero = photo(home.hero);
+  const photoTotal = Object.keys(data.photos).length;
   $("#app").innerHTML = `
     <section class="home-hero">
-      ${renderHeroFigure(hero, region.title)}
+      ${renderHeroFigure(hero, "旅行记录")}
       <div class="home-hero__content">
         <p class="eyebrow">Travel Notes</p>
-        <h1>把旅行整理成可以回看的地方</h1>
-        <p>${region.deck}</p>
-        <a class="text-link" href="${regionPath(region)}">进入${region.name}</a>
+        <h1>${lineBreaks(home.title || "把旅行整理成\n可以回看的地方")}</h1>
+        <p>${home.deck}</p>
+        <p class="hero-meta">${data.regions.length} 段旅程 · ${photoTotal} 张照片</p>
       </div>
     </section>
     <section class="section">
@@ -160,7 +182,7 @@ function renderIndex() {
                   <span>${item.eyebrow}</span>
                   <h3>${item.name}</h3>
                   <p>${item.location}</p>
-                  <small>${byline(4)}</small>
+                  <small>${item.themes.length} 个主题 · ${regionPhotoCount(item.id)} 张照片</small>
                 </article>
               </a>
             `;
@@ -173,6 +195,7 @@ function renderIndex() {
 
 function renderRegion() {
   const region = data.regions.find((item) => item.id === document.body.dataset.region);
+  if (!region) throw new Error(`Unknown region: ${document.body.dataset.region}`);
   renderHeader(region.id);
   const hero = photo(region.hero);
   const themeCards = region.themes
@@ -246,7 +269,9 @@ function renderRegion() {
 
 function renderTheme() {
   const region = data.regions.find((item) => item.id === document.body.dataset.region);
+  if (!region) throw new Error(`Unknown region: ${document.body.dataset.region}`);
   const theme = data.themes[document.body.dataset.theme];
+  if (!theme) throw new Error(`Unknown theme: ${document.body.dataset.theme}`);
   renderHeader(region.id);
   const hero = photo(theme.hero);
   const photos = theme.photoIds.map((id) => photo(id));
@@ -304,6 +329,7 @@ try {
   else if (page === "region") renderRegion();
   else if (page === "theme") renderTheme();
   else throw new Error(`Unknown page type: ${page || "(empty)"}`);
+  renderFooter();
 } catch (error) {
   renderError(error);
 }

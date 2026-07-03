@@ -1,4 +1,10 @@
 window.TRAVEL_DATA = {
+  home: {
+    hero: "IMG_6131",
+    title: "把旅行整理成\n可以回看的地方",
+    deck:
+      "成都的慢、重庆的高低、云南的颜色、甘肃的辽阔。四段旅程按地区和主题整理成照片故事，随时可以回看。"
+  },
   regions: [
     {
       id: "chengdu",

@@ -31,6 +31,7 @@ img {
 
 picture {
   display: block;
+  background: var(--soft);
 }
 
 figure {
@@ -198,8 +199,8 @@ a {
 
 .text-link::after,
 .button::after {
-  content: " ->";
-  padding-left: 6px;
+  content: "→";
+  padding-left: 8px;
 }
 
 .destination-hero dl {
@@ -383,6 +384,11 @@ a {
   grid-column: span 4;
 }
 
+.story-grid:has(.story-card:nth-child(5):last-child) .story-card:nth-child(4),
+.story-grid:has(.story-card:nth-child(5):last-child) .story-card:nth-child(5) {
+  grid-column: span 4;
+}
+
 .featured-list {
   display: grid;
   gap: 44px;
@@ -459,16 +465,19 @@ a {
 }
 
 .theme-photo--wide figure {
-  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  height: clamp(420px, 46vw, 560px);
 }
 
 .theme-photo--wide picture {
+  flex: 1;
+  min-height: 0;
   height: 100%;
 }
 
 .theme-photo--wide img {
   height: 100%;
-  min-height: 420px;
   aspect-ratio: auto;
 }
 
@@ -477,7 +486,8 @@ a {
 }
 
 .theme-photo--wide > div {
-  padding: 28px 0 28px 28px;
+  align-self: center;
+  padding: 28px 0 28px 36px;
 }
 
 .back-link {
@@ -489,7 +499,8 @@ a {
 }
 
 .back-link::before {
-  content: "<- ";
+  content: "← ";
+  padding-right: 2px;
 }
 
 .next-section {
@@ -519,6 +530,64 @@ a {
 .next-section a {
   border-bottom: 2px solid var(--gold);
   font-weight: 800;
+}
+
+.home-hero__content .hero-meta {
+  margin: 22px 0 0;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-footer {
+  margin-top: 40px;
+  border-top: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.site-footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px 40px;
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 34px 0 38px;
+}
+
+.site-footer .brand-line {
+  margin: 0;
+  font-weight: 800;
+}
+
+.site-footer .brand-line::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 9px;
+  margin-right: 10px;
+  background: var(--gold);
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.site-footer nav a:hover {
+  color: var(--ink);
+}
+
+.site-footer small {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .render-error {
@@ -634,6 +703,11 @@ a {
 
   .theme-photo--wide figure {
     min-height: 0;
+    height: auto;
+  }
+
+  .theme-photo--wide > div {
+    align-self: stretch;
   }
 
   .theme-photo--wide > div {
