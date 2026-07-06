@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>页面走丢了 · Travel Notes</title>
+    <link rel="icon" href="data:,">
+    <meta name="robots" content="noindex">
+    <style>
+      :root {
+        --ink: #151515;
+        --muted: #66645f;
+        --soft: #f7f5f0;
+        --line: #ded9cf;
+        --gold: #f6c400;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        background: var(--soft);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        line-height: 1.62;
+      }
+      main {
+        width: min(560px, 100%);
+        text-align: left;
+      }
+      .eyebrow {
+        margin: 0;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      .eyebrow::after {
+        content: "";
+        display: block;
+        width: 52px;
+        height: 1px;
+        margin: 12px 0 18px;
+        background: var(--gold);
+      }
+      h1 {
+        margin: 0 0 16px;
+        font-family: "Noto Serif SC", Georgia, "Times New Roman", serif;
+        font-size: clamp(38px, 7vw, 64px);
+        line-height: 1.06;
+        font-weight: 900;
+      }
+      p {
+        margin: 0 0 28px;
+        max-width: 44ch;
+        color: var(--muted);
+        font-size: clamp(16px, 2.2vw, 19px);
+      }
+      a.home {
+        display: inline-flex;
+        align-items: center;
+        width: fit-content;
+        padding-bottom: 5px;
+        border-bottom: 2px solid var(--gold);
+        color: var(--ink);
+        font-size: 14px;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      a.home::after {
+        content: "→";
+        padding-left: 8px;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --ink: #f2efe9; --muted: #a5a199; --soft: #1a1917; --line: #3a382f; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Travel Notes · 404</p>
+      <h1>这个页面走丢了</h1>
+      <p>你要找的照片故事可能被移动或还没写好。回到首页，重新从四段旅程开始看起。</p>
+      <a class="home" href="https://aklycoh.github.io/travel/">回到旅行记录</a>
+    </main>
+  </body>
+</html>

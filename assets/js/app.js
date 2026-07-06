@@ -4,6 +4,18 @@ const base = document.body.dataset.base || "./";
 
 const $ = (selector) => document.querySelector(selector);
 
+// Skip-link: first focusable element, visually hidden until focused (styles.css).
+(function addSkipLink() {
+  if (document.querySelector(".skip-link")) return;
+  const link = document.createElement("a");
+  link.className = "skip-link";
+  link.href = "#app";
+  link.textContent = "跳到正文";
+  document.body.insertBefore(link, document.body.firstChild);
+  const main = document.getElementById("app");
+  if (main && !main.hasAttribute("tabindex")) main.setAttribute("tabindex", "-1");
+})();
+
 function asset(path) {
   return `${base}${path}`;
 }
@@ -18,6 +30,7 @@ function photo(id) {
     id,
     ...item,
     large: asset(`assets/images/${regionId}/large/${item.file}`),
+    medium: asset(`assets/images/${regionId}/medium/${item.file}`),
     thumb: asset(`assets/images/${regionId}/thumb/${item.file}`)
   };
 }
@@ -50,24 +63,42 @@ function imageStyle(item) {
   return item.objectPosition ? ` style="object-position: ${item.objectPosition}"` : "";
 }
 
+// Rendered widths of the tiers, used to build a real srcset so the browser can
+// pick thumb (≤640px) / medium (≤900px) / large (≤1800px) by layout width.
+const IMG_WIDTHS = { thumb: 640, medium: 900, large: 1800 };
+
+function srcsetFor(item) {
+  return [
+    `${item.thumb} ${IMG_WIDTHS.thumb}w`,
+    `${item.medium} ${IMG_WIDTHS.medium}w`,
+    `${item.large} ${IMG_WIDTHS.large}w`
+  ].join(", ");
+}
+
 function renderImg(item, alt, options = {}) {
   const {
     className = "",
     loading = "lazy",
     fetchpriority = "auto",
-    thumbMedia = "(max-width: 560px)"
+    // Default: cards/photos render roughly half the viewport on wide screens and
+    // full width on phones. Heroes override with a wider `sizes`.
+    sizes = "(max-width: 860px) 100vw, 50vw"
   } = options;
   const classAttr = className ? ` class="${className}"` : "";
   const fetchAttr = fetchpriority === "auto" ? "" : ` fetchpriority="${fetchpriority}"`;
-  return `<picture><source media="${thumbMedia}" srcset="${item.thumb}"><img${classAttr} src="${item.large}" alt="${alt}" loading="${loading}" decoding="async"${fetchAttr}${imageStyle(item)}></picture>`;
+  // On small screens high-DPR math would otherwise pull the 1800px large file;
+  // this source caps phones at the medium tier (900px is plenty there).
+  const phoneSource = `<source media="(max-width: 560px)" srcset="${item.thumb} ${IMG_WIDTHS.thumb}w, ${item.medium} ${IMG_WIDTHS.medium}w" sizes="100vw">`;
+  return `<picture>${phoneSource}<img${classAttr} src="${item.medium}" srcset="${srcsetFor(item)}" sizes="${sizes}" alt="${alt}" loading="${loading}" decoding="async"${fetchAttr}${imageStyle(item)}></picture>`;
 }
 
 function renderHeroFigure(item, alt) {
   return `
-    <figure class="hero-figure">
+    <figure class="hero-figure" data-photo="${item.id}">
       ${renderImg(item, alt, {
         loading: "eager",
-        fetchpriority: "high"
+        fetchpriority: "high",
+        sizes: "100vw"
       })}
       <figcaption>${captionLine(item)}</figcaption>
     </figure>
@@ -223,7 +254,7 @@ function renderRegion() {
       const item = photo(id);
       return `
         <article class="photo-story">
-          <figure>
+          <figure data-photo="${item.id}">
             ${renderImg(item, item.title)}
             <figcaption>${captionLine(item)}</figcaption>
           </figure>
@@ -278,7 +309,7 @@ function renderTheme() {
   const cards = photos
     .map((item, index) => `
       <article class="theme-photo ${index % 3 === 0 ? "theme-photo--wide" : ""}">
-        <figure>
+        <figure data-photo="${item.id}">
           ${renderImg(item, item.title)}
           <figcaption>${captionLine(item)}</figcaption>
         </figure>
@@ -298,6 +329,10 @@ function renderTheme() {
       return `<a href="${themePath(region, item)}">${item.name}</a>`;
     })
     .join("");
+
+  const regionIndex = data.regions.findIndex((r) => r.id === region.id);
+  const nextRegion = data.regions[(regionIndex + 1) % data.regions.length];
+  const nextJourney = `<a class="next-journey" href="${regionPath(nextRegion)}">下一段旅程 → ${nextRegion.name}</a>`;
 
   $("#app").innerHTML = `
     <section class="article-hero">
@@ -319,9 +354,116 @@ function renderTheme() {
     </section>
     <section class="next-section">
       <p>继续看</p>
-      <nav>${otherThemes}</nav>
+      <nav>${otherThemes}${nextJourney}</nav>
     </section>
   `;
+}
+
+function initLightbox() {
+  const figures = Array.from(document.querySelectorAll("#app figure[data-photo]"));
+  if (!figures.length) return;
+  const sequence = figures.map((fig) => fig.dataset.photo);
+
+  const overlay = document.createElement("div");
+  overlay.className = "lightbox";
+  overlay.setAttribute("role", "dialog");
+  overlay.setAttribute("aria-modal", "true");
+  overlay.setAttribute("aria-label", "照片查看");
+  overlay.hidden = true;
+  overlay.innerHTML = `
+    <div class="lightbox__backdrop" data-close></div>
+    <div class="lightbox__stage">
+      <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="上一张">‹</button>
+      <figure class="lightbox__figure">
+        <img class="lightbox__img" alt="">
+        <figcaption class="lightbox__caption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="下一张">›</button>
+    </div>
+    <button class="lightbox__close" type="button" aria-label="关闭">×</button>
+  `;
+  document.body.appendChild(overlay);
+
+  const img = overlay.querySelector(".lightbox__img");
+  const caption = overlay.querySelector(".lightbox__caption");
+  const prevBtn = overlay.querySelector(".lightbox__nav--prev");
+  const nextBtn = overlay.querySelector(".lightbox__nav--next");
+  const closeBtn = overlay.querySelector(".lightbox__close");
+  const focusable = [closeBtn, prevBtn, nextBtn];
+
+  let index = 0;
+  let lastFocused = null;
+
+  function show(i) {
+    index = (i + sequence.length) % sequence.length;
+    const item = photo(sequence[index]);
+    img.src = item.large;
+    img.srcset = srcsetFor(item);
+    img.sizes = "100vw";
+    img.alt = item.title || "";
+    img.style.objectPosition = item.objectPosition || "";
+    caption.innerHTML = `<strong>${item.title || ""}</strong><span>${captionLine(item)}</span>`;
+    const single = sequence.length < 2;
+    prevBtn.hidden = single;
+    nextBtn.hidden = single;
+  }
+
+  function open(i, trigger) {
+    lastFocused = trigger || document.activeElement;
+    show(i);
+    overlay.hidden = false;
+    document.body.classList.add("lightbox-open");
+    requestAnimationFrame(() => overlay.classList.add("is-open"));
+    closeBtn.focus();
+  }
+
+  function close() {
+    overlay.classList.remove("is-open");
+    overlay.hidden = true;
+    document.body.classList.remove("lightbox-open");
+    if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
+  }
+
+  prevBtn.addEventListener("click", () => show(index - 1));
+  nextBtn.addEventListener("click", () => show(index + 1));
+  closeBtn.addEventListener("click", close);
+  overlay.querySelector(".lightbox__backdrop").addEventListener("click", close);
+
+  overlay.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      close();
+    } else if (event.key === "ArrowLeft") {
+      show(index - 1);
+    } else if (event.key === "ArrowRight") {
+      show(index + 1);
+    } else if (event.key === "Tab") {
+      // Minimal focus trap across the visible controls.
+      const visible = focusable.filter((el) => !el.hidden);
+      const first = visible[0];
+      const last = visible[visible.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+  });
+
+  figures.forEach((fig, i) => {
+    fig.classList.add("is-zoomable");
+    fig.setAttribute("role", "button");
+    fig.setAttribute("tabindex", "0");
+    fig.setAttribute("aria-label", "放大查看照片");
+    fig.addEventListener("click", () => open(i, fig));
+    fig.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        open(i, fig);
+      }
+    });
+  });
 }
 
 try {
@@ -330,6 +472,7 @@ try {
   else if (page === "theme") renderTheme();
   else throw new Error(`Unknown page type: ${page || "(empty)"}`);
   renderFooter();
+  if (page === "region" || page === "theme") initLightbox();
 } catch (error) {
   renderError(error);
 }
