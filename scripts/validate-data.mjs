@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
+import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 
 const MAX_LARGE_DIM = 1800;
@@ -92,6 +93,58 @@ for (const [id, photo] of Object.entries(data.photos || {})) {
       }
     }
   }
+}
+
+// Page shells: every region/theme in the data must have an HTML shell with the
+// right body data attributes, and all shells must share one ?v= asset version.
+// (The renderer 404s silently on a missing shell, so this is the only guard.)
+function shellCheck(path, page, regionId, themeId) {
+  if (!existsSync(path)) {
+    missing.push(`missing shell ${path}`);
+    return null;
+  }
+  const html = readFileSync(path, "utf8");
+  const body = html.match(/<body[^>]*>/)?.[0] || "";
+  const attr = (name) => body.match(new RegExp(`data-${name}="([^"]*)"`))?.[1];
+  if (attr("page") !== page) missing.push(`${path}: data-page should be "${page}"`);
+  if (regionId && attr("region") !== regionId) missing.push(`${path}: data-region should be "${regionId}"`);
+  if (themeId && attr("theme") !== themeId) missing.push(`${path}: data-theme should be "${themeId}"`);
+  const depth = path.split("/").length - 1;
+  const base = depth === 0 ? "./" : "../".repeat(depth);
+  if (attr("base") !== base) missing.push(`${path}: data-base should be "${base}"`);
+  if (!html.includes("<!-- meta:start")) missing.push(`${path}: missing meta block (run scripts/build-meta.mjs)`);
+  return [...html.matchAll(/\?v=([\w.-]+)/g)].map((m) => m[1]);
+}
+
+const versions = new Set();
+for (const shell of [
+  { path: "index.html", page: "home" },
+  ...(data.regions || []).flatMap((region) => [
+    { path: `${region.id}/index.html`, page: "region", regionId: region.id },
+    ...(region.themes || []).map((themeId) => {
+      const theme = data.themes?.[themeId];
+      return {
+        path: `${region.id}/${theme?.path || themeId}/index.html`,
+        page: "theme",
+        regionId: region.id,
+        themeId
+      };
+    })
+  ])
+]) {
+  for (const v of shellCheck(shell.path, shell.page, shell.regionId, shell.themeId) || []) {
+    versions.add(v);
+  }
+}
+if (versions.size > 1) {
+  missing.push(`inconsistent asset versions: ${[...versions].join(", ")} (run scripts/bump-version.mjs)`);
+}
+
+// Published images must not carry EXIF/GPS metadata.
+try {
+  execFileSync(process.execPath, ["scripts/strip-exif.mjs", "--check"], { stdio: "pipe" });
+} catch (error) {
+  missing.push(String(error.stderr || "strip-exif --check failed").trim());
 }
 
 if (missing.length) {

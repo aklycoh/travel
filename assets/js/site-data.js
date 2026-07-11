@@ -26,7 +26,7 @@ window.TRAVEL_DATA = {
       title: "重庆：灯火和山路之间",
       deck:
         "从洪崖洞的夜色、观音桥的热闹，到山城老街的石阶、渣滓洞的灰瓦和一桌火辣饭菜，这一组照片把重庆的高低起伏和烟火气放在一起。",
-      dates: "重庆片段",
+      dates: "2023.10.17 - 2023.10.19",
       location: "洪崖洞、观音桥、山城街巷、渣滓洞",
       hero: "IMG_5397",
       featurePhotos: ["IMG_5385", "IMG_5391", "IMG_5406", "IMG_5407", "IMG_5408"],
@@ -52,7 +52,7 @@ window.TRAVEL_DATA = {
       title: "甘肃：黄河、丹霞和丝路",
       deck:
         "从兰州黄河边出发，经过武威的寺塔与城楼，走过张掖丹霞和峡谷地貌，再到嘉峪关、敦煌与一桌桌西北风味，这组照片把甘肃的辽阔、厚重和热气放在一起。",
-      dates: "甘肃片段",
+      dates: "2026.05.14 - 2026.05.21",
       location: "兰州、武威、张掖、嘉峪关、敦煌",
       hero: "GS_N_DANXIA_WIDE",
       featurePhotos: ["GS_N_YELLOW_RIVER", "GS_C_ANCIENT_TOWER", "GS_N_DANXIA_COLORS", "GS_C_MOGAO_CLIFF", "GS_F_NOODLES"],
@@ -745,7 +745,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5385.jpeg",
       title: "观音桥的入口",
       location: "重庆观音桥",
-      date: "夜晚",
+      date: "2023.10.17 晚上",
       text: "招牌一层叠一层，食物的香气和人流一起涌过来。重庆的夜晚，是从这样的热闹里开始的。"
     },
     IMG_5389: {
@@ -753,7 +753,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5389.jpeg",
       title: "街边小景",
       location: "重庆街巷",
-      date: "夜晚",
+      date: "2023.10.18 下午",
       text: "木墙、红灯笼和一个熟悉的身影站在路边，像把城市的热闹稍微停顿了一下。"
     },
     IMG_5390: {
@@ -761,7 +761,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5390.jpeg",
       title: "山城门楼",
       location: "洪崖洞一带",
-      date: "白天",
+      date: "2023.10.18 下午",
       text: "楼层向上叠起，灯笼和招牌把入口装得很满。还没走进去，山城的坡度已经扑面而来。"
     },
     IMG_5391: {
@@ -769,7 +769,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5391.jpeg",
       title: "桥下看江",
       location: "重庆江边",
-      date: "白天",
+      date: "2023.10.18 下午",
       text: "红色大桥从身后穿过，江面在雾气里变得很浅。站在栏杆边，城市的高度忽然有了参照。"
     },
     IMG_5397: {
@@ -777,7 +777,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5397.jpeg",
       title: "洪崖洞夜色",
       location: "洪崖洞",
-      date: "夜晚",
+      date: "2023.10.18 傍晚",
       text: "金色灯带铺满屋檐，高楼在背后沉下来。重庆的夜景很会制造层次，热闹里也有一点雾。"
     },
     IMG_5398: {
@@ -785,7 +785,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5398.jpeg",
       title: "灯火的屋顶",
       location: "洪崖洞",
-      date: "夜晚",
+      date: "2023.10.18 傍晚",
       text: "从高处看下去，屋顶像一片被点亮的山坡。每一层都有声音，每一层都有光。"
     },
     IMG_5399: {
@@ -793,7 +793,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5399.jpeg",
       title: "楼群与金光",
       location: "洪崖洞",
-      date: "夜晚",
+      date: "2023.10.18 傍晚",
       text: "传统屋檐和现代高楼挤在同一个画面里，谁也没有退让。重庆的好看，正在这种拥挤里。"
     },
     IMG_5400: {
@@ -801,7 +801,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5400.jpeg",
       title: "一杯紫色的甜",
       location: "重庆街头",
-      date: "夜晚",
+      date: "2023.10.18 晚上",
       text: "走累之后停在饮品店前，明亮的紫色把夜路照得轻一点。旅行里这样的补给很小，却很必要。"
     },
     IMG_5403: {
@@ -809,7 +809,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5403.jpeg",
       title: "山坡上的绿",
       location: "重庆",
-      date: "白天",
+      date: "2023.10.19 上午",
       text: "大片叶子从墙边伸出来，远处隐约是山。热闹之外，重庆也有很湿润、很安静的一面。"
     },
     IMG_5404: {
@@ -817,7 +817,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5404.jpeg",
       title: "车窗外的校门",
       location: "西南政法大学",
-      date: "白天",
+      date: "2023.10.19 中午",
       text: "雨后的路面还带着光，校门从车窗边慢慢经过。不是专门停留，却也被这片树影记住了。"
     },
     IMG_5405: {
@@ -825,7 +825,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5405.jpeg",
       title: "另一所大学",
       location: "四川外国语大学",
-      date: "白天",
+      date: "2023.10.19 中午",
       text: "车窗里的城市一段一段往后退，学校的名字和街边的树一起闪过，像旅程中的一个注脚。"
     },
     IMG_5406: {
@@ -833,7 +833,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5406.jpeg",
       title: "渣滓洞的灰瓦",
       location: "渣滓洞",
-      date: "白天",
+      date: "2023.10.19 中午",
       text: "灰瓦屋顶层层压在绿色之间，山坡把旧址轻轻围住。这里的安静不是轻松的，而是会让人放慢脚步。"
     },
     IMG_5407: {
@@ -841,7 +841,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5407.jpeg",
       title: "红油一大盘",
       location: "重庆餐桌",
-      date: "晚饭",
+      date: "2023.10.19 下午",
       text: "辣椒、蒜瓣和红油把盘子填得很满。看一眼就知道，这顿饭不会温吞。"
     },
     IMG_5408: {
@@ -849,7 +849,7 @@ window.TRAVEL_DATA = {
       file: "IMG_5408.jpeg",
       title: "炭火烤鱼",
       location: "重庆餐桌",
-      date: "晚饭",
+      date: "2023.10.19 下午",
       text: "鱼还在热油里冒着香气，配菜贴着锅边吸足味道。最后的满足感，往往就停在这一桌。"
     },
     IMG_6079: {

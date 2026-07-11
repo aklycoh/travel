@@ -67,6 +67,26 @@ function imageStyle(item) {
 // pick thumb (≤640px) / medium (≤900px) / large (≤1800px) by layout width.
 const IMG_WIDTHS = { thumb: 640, medium: 900, large: 1800 };
 
+// Per-slot `sizes` values mirroring the CSS grid spans (12-col grid inside a
+// min(1180px, 100vw - 40px) container, single column under 860px). Keeping
+// these accurate is what lets high-DPI screens fetch medium instead of large.
+const SIZES = {
+  regionCard: "(max-width: 860px) 100vw, min(45vw, 280px)",
+  storyWide: "(max-width: 860px) 100vw, min(66vw, 780px)",
+  storyNarrow: "(max-width: 860px) 100vw, min(33vw, 380px)",
+  featured: "(max-width: 860px) 100vw, min(48vw, 575px)",
+  themeWide: "(max-width: 860px) 100vw, min(55vw, 650px)",
+  themeHalf: "(max-width: 860px) 100vw, min(50vw, 580px)"
+};
+
+// True when the story card at `index` spans 8 of 12 columns (see the
+// .story-card:nth-child rules and count-based :has overrides in styles.css).
+function storyCardIsWide(index, count) {
+  if (count === 3) return false;
+  if (count === 5) return index === 0;
+  return index === 0 || index === 3;
+}
+
 function srcsetFor(item) {
   return [
     `${item.thumb} ${IMG_WIDTHS.thumb}w`,
@@ -209,7 +229,7 @@ function renderIndex() {
             return `
               <a class="region-card" href="${regionPath(item)}">
                 <article>
-                  ${renderImg(cover, item.name)}
+                  ${renderImg(cover, item.name, { sizes: SIZES.regionCard })}
                   <span>${item.eyebrow}</span>
                   <h3>${item.name}</h3>
                   <p>${item.location}</p>
@@ -230,13 +250,14 @@ function renderRegion() {
   renderHeader(region.id);
   const hero = photo(region.hero);
   const themeCards = region.themes
-    .map((themeId) => {
+    .map((themeId, index) => {
       const theme = data.themes[themeId];
       const cover = photo(theme.hero);
+      const sizes = storyCardIsWide(index, region.themes.length) ? SIZES.storyWide : SIZES.storyNarrow;
       return `
         <a class="story-card" href="${themePath(region, theme)}">
           <article>
-            ${renderImg(cover, theme.title)}
+            ${renderImg(cover, theme.title, { sizes })}
             <div>
               <span>${theme.kicker}</span>
               <h3>${theme.title}</h3>
@@ -255,7 +276,7 @@ function renderRegion() {
       return `
         <article class="photo-story">
           <figure data-photo="${item.id}">
-            ${renderImg(item, item.title)}
+            ${renderImg(item, item.title, { sizes: SIZES.featured })}
             <figcaption>${captionLine(item)}</figcaption>
           </figure>
           <div>
@@ -310,7 +331,7 @@ function renderTheme() {
     .map((item, index) => `
       <article class="theme-photo ${index % 3 === 0 ? "theme-photo--wide" : ""}">
         <figure data-photo="${item.id}">
-          ${renderImg(item, item.title)}
+          ${renderImg(item, item.title, { sizes: index % 3 === 0 ? SIZES.themeWide : SIZES.themeHalf })}
           <figcaption>${captionLine(item)}</figcaption>
         </figure>
         <div>
