@@ -16,3 +16,10 @@ jobs:
           node-version: 20
       - name: Validate site data
         run: node scripts/validate-data.mjs
+      - name: Check generated metadata
+        run: node scripts/build-meta.mjs --check
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/js/app.js
+          node --check assets/js/site-data.js
+          for file in scripts/*.mjs; do node --check "$file"; done

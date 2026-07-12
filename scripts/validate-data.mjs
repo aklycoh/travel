@@ -6,7 +6,7 @@ const MAX_LARGE_DIM = 1800;
 
 // Pure-Node JPEG dimension reader (no `sips`, so it also runs on Linux CI).
 // Scans marker segments for a Start-Of-Frame (SOFn) and reads width/height.
-function longestSide(path) {
+function jpegDimensions(path) {
   const buf = readFileSync(path);
   if (buf.length < 4 || buf[0] !== 0xff || buf[1] !== 0xd8) return null; // not JPEG
   let off = 2;
@@ -31,7 +31,7 @@ function longestSide(path) {
     if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
       const height = buf.readUInt16BE(off + 3);
       const width = buf.readUInt16BE(off + 5);
-      return Math.max(width, height);
+      return { width, height };
     }
     off += len;
   }
@@ -42,8 +42,10 @@ global.window = {};
 
 const require = createRequire(import.meta.url);
 require("../assets/js/site-data.js");
+require("../assets/js/image-widths.js");
 
 const data = window.TRAVEL_DATA;
+const imageWidths = window.TRAVEL_IMAGE_WIDTHS || {};
 const missing = [];
 const photoIds = new Set(Object.keys(data.photos || {}));
 
@@ -80,19 +82,36 @@ for (const [id, photo] of Object.entries(data.photos || {})) {
     continue;
   }
 
+  const widthKey = `${photo.region}/${photo.file}`;
+  const recordedWidths = imageWidths[widthKey];
+  if (!recordedWidths) missing.push(`missing image width manifest entry ${id}:${widthKey}`);
+
   for (const size of ["large", "medium", "thumb"]) {
     const path = `assets/images/${photo.region}/${size}/${photo.file}`;
     if (!existsSync(path)) {
       missing.push(`missing file ${id}:${path}`);
       continue;
     }
+    const dimensions = jpegDimensions(path);
+    if (!dimensions) {
+      missing.push(`invalid JPEG ${id}:${path}`);
+      continue;
+    }
+    if (recordedWidths && recordedWidths[size] !== dimensions.width) {
+      missing.push(`stale image width ${id}:${size} manifest=${recordedWidths[size]} actual=${dimensions.width}`);
+    }
     if (size === "large") {
-      const side = longestSide(path);
+      const side = Math.max(dimensions.width, dimensions.height);
       if (side > MAX_LARGE_DIM) {
         missing.push(`oversize large ${id}:${path} is ${side}px (> ${MAX_LARGE_DIM}px)`);
       }
     }
   }
+}
+
+const expectedWidthKeys = new Set(Object.values(data.photos || {}).map((photo) => `${photo.region}/${photo.file}`));
+for (const key of Object.keys(imageWidths)) {
+  if (!expectedWidthKeys.has(key)) missing.push(`orphan image width manifest entry ${key}`);
 }
 
 // Page shells: every region/theme in the data must have an HTML shell with the
@@ -113,6 +132,9 @@ function shellCheck(path, page, regionId, themeId) {
   const base = depth === 0 ? "./" : "../".repeat(depth);
   if (attr("base") !== base) missing.push(`${path}: data-base should be "${base}"`);
   if (!html.includes("<!-- meta:start")) missing.push(`${path}: missing meta block (run scripts/build-meta.mjs)`);
+  for (const asset of ["styles.css", "site-data.js", "image-widths.js", "app.js"]) {
+    if (!html.includes(`${asset}?v=`)) missing.push(`${path}: missing versioned ${asset}`);
+  }
   return [...html.matchAll(/\?v=([\w.-]+)/g)].map((m) => m[1]);
 }
 

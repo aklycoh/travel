@@ -27,7 +27,7 @@ async function htmlFiles(dir) {
 }
 
 const files = await htmlFiles(".");
-const versionPattern = /(\b(?:styles\.css|site-data\.js|app\.js)\?v=)[^"']+/g;
+const versionPattern = /(\b(?:styles\.css|site-data\.js|image-widths\.js|app\.js)\?v=)[^"']+/g;
 
 for (const file of files) {
   const before = await readFile(file, "utf8");

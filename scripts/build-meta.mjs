@@ -16,6 +16,7 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const BASE_URL = "https://aklycoh.github.io/travel/";
+const checkOnly = process.argv.includes("--check");
 
 global.window = {};
 const require = createRequire(import.meta.url);
@@ -121,6 +122,7 @@ async function htmlShells(dir) {
 
 const shells = await htmlShells(root);
 let changed = 0;
+const drift = [];
 
 for (const file of shells) {
   const relPath = relative(root, file);
@@ -148,9 +150,12 @@ for (const file of shells) {
   html = html.replace(/([ \t]*)<\/head>/, `    ${block}\n$1</head>`);
 
   if (html !== before) {
-    await writeFile(file, html);
     changed++;
-    console.log(relPath);
+    if (checkOnly) drift.push(relPath);
+    else {
+      await writeFile(file, html);
+      console.log(relPath);
+    }
   }
 }
 
@@ -160,9 +165,26 @@ const urls = shells
   .sort()
   .map((url) => `  <url><loc>${url}</loc></url>`)
   .join("\n");
-await writeFile(
-  join(root, "sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`
-);
+const sitemapPath = join(root, "sitemap.xml");
+const expectedSitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+let currentSitemap = "";
+try {
+  currentSitemap = await readFile(sitemapPath, "utf8");
+} catch {
+  // Missing sitemap is treated as generated-file drift below.
+}
 
-console.log(`Updated ${changed} of ${shells.length} shells; sitemap.xml written.`);
+if (currentSitemap !== expectedSitemap) {
+  if (checkOnly) drift.push("sitemap.xml");
+  else await writeFile(sitemapPath, expectedSitemap);
+}
+
+if (checkOnly) {
+  if (drift.length) {
+    console.error(`Generated metadata is stale:\n${drift.join("\n")}\nRun node scripts/build-meta.mjs`);
+    process.exit(1);
+  }
+  console.log(`OK — ${shells.length} shells and sitemap.xml are current`);
+} else {
+  console.log(`Updated ${changed} of ${shells.length} shells; sitemap.xml written.`);
+}

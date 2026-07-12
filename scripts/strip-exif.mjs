@@ -113,17 +113,17 @@ for (const region of (await readdir(imagesDir, { withFileTypes: true })).filter(
   }
 }
 
-if (rotated.length) {
-  console.error(`SKIPPED — bake rotation with sips first:\n${rotated.join("\n")}`);
-}
-
 if (checkOnly) {
-  if (dirty.length) {
-    console.error(`EXIF metadata found in ${dirty.length} of ${scanned} images:\n${dirty.slice(0, 10).join("\n")}${dirty.length > 10 ? "\n…" : ""}`);
+  if (dirty.length || rotated.length) {
+    const found = [...dirty, ...rotated];
+    console.error(`EXIF metadata found in ${found.length} of ${scanned} images:\n${found.slice(0, 10).join("\n")}${found.length > 10 ? "\n…" : ""}`);
     process.exit(1);
   }
   console.log(`OK — ${scanned} images clean`);
 } else {
+  if (rotated.length) {
+    console.error(`SKIPPED — run with --bake to rotate and strip:\n${rotated.join("\n")}`);
+  }
   console.log(`Stripped ${cleaned} of ${scanned} images${rotated.length ? `, skipped ${rotated.length}` : ""}`);
   if (rotated.length) process.exit(1);
 }

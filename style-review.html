@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>风格 Review:对照 National Geographic Travel</title>
+    <style>
+      :root {
+        --ink: #151515;
+        --muted: #68645d;
+        --paper: #ffffff;
+        --line: #e5e1d8;
+        --gold: #ffcc00;
+        --red: #9a2f24;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Source Serif Pro", Georgia, "Times New Roman", serif;
+        line-height: 1.7;
+        font-size: 18px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 18px 32px;
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      .logo {
+        display: inline-block;
+        width: 36px;
+        height: 14px;
+        background: var(--gold);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 16px;
+        font-family: Inter, system-ui, sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+      main {
+        width: min(820px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 64px 0 120px;
+      }
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--red);
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      h1.title {
+        margin: 0 0 18px;
+        font-size: clamp(40px, 6vw, 64px);
+        line-height: 1.05;
+        letter-spacing: -0.01em;
+        font-weight: 700;
+      }
+      .deck {
+        margin: 0 0 40px;
+        font-size: 22px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      hr.rule {
+        border: 0;
+        border-top: 1px solid var(--line);
+        margin: 48px 0 32px;
+      }
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(26px, 3vw, 36px);
+        line-height: 1.15;
+        letter-spacing: -0.005em;
+      }
+      h3 {
+        margin: 28px 0 8px;
+        font-size: 22px;
+        line-height: 1.25;
+      }
+      p { margin: 0 0 16px; }
+      ul, ol { margin: 0 0 16px; padding-left: 22px; }
+      li { margin-bottom: 6px; }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 0.88em;
+        background: #f3efe5;
+        padding: 1px 6px;
+        border-radius: 3px;
+      }
+      .pullquote {
+        margin: 28px 0;
+        padding: 4px 0 4px 22px;
+        border-left: 4px solid var(--gold);
+        font-size: 24px;
+        line-height: 1.4;
+        font-style: italic;
+        color: var(--ink);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 24px 0;
+        font-size: 16px;
+        font-family: Inter, system-ui, sans-serif;
+      }
+      th, td {
+        text-align: left;
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--muted);
+        font-weight: 700;
+      }
+      .pri {
+        display: inline-block;
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        padding: 2px 8px;
+        border-radius: 2px;
+        background: var(--ink);
+        color: #fff;
+      }
+      .pri.p1 { background: #b35900; }
+      .pri.p2 { background: var(--muted); }
+      .callout {
+        margin: 28px 0;
+        padding: 18px 22px;
+        background: #faf7ef;
+        border-left: 4px solid var(--gold);
+        font-size: 17px;
+      }
+      footer {
+        margin-top: 64px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+        font-family: Inter, system-ui, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="logo" aria-hidden="true"></span>
+      <h1>Travel Notes · Style Review</h1>
+    </header>
+
+    <main>
+      <p class="eyebrow">Design Critique</p>
+      <h1 class="title">让站点更靠近 National Geographic Travel</h1>
+      <p class="deck">
+        目前站点已经具备杂志感的雏形,但整体读起来更像"深色封面 + 米色内页的作品集",
+        与 NatGeo Travel 的"白底 + 大衬线 + 照片自己负责所有暗色"还隔着几条具体的规则。
+        以下是基于现状的对照清单和改造路径。
+      </p>
+
+      <hr class="rule">
+
+      <h2>NatGeo 的视觉基因(参照系)</h2>
+      <ol>
+        <li><strong>白底为主</strong>,几乎不出现整块深色 section;照片自己负责"暗"。</li>
+        <li><strong>黄色只用在 logo 那个矩形和极少的提示色</strong>,不充当大面积装饰。</li>
+        <li><strong>大字号衬线标题</strong>(自家的 Geograph),收紧的字距,配窄一点的 sans 做小标签。</li>
+        <li><strong>首页是杂志格栅</strong>:一条头条 + 多条次级故事,而不是一张全屏 hero。</li>
+        <li>每个故事都有<strong>署名 / 日期 / 阅读时长 / 类别</strong>,提供阅读锚点。</li>
+        <li>照片下永远有<strong>摄影师署名</strong> —— NatGeo 的精神图腾。</li>
+        <li>分隔线是 <strong>1px hairline</strong>,几乎没有粗边框。</li>
+        <li>排版克制,留白巨大,几乎不用阴影、圆角、渐变叠层(除非是照片底部的可读性遮罩)。</li>
+      </ol>
+
+      <hr class="rule">
+
+      <h2>当前站点与 NatGeo 偏离的地方</h2>
+
+      <h3>1. 顶栏方向反了 ⚠️ 影响最大</h3>
+      <p>
+        <code>styles.css:38</code> 现在是<strong>深色 sticky header + 4px 金色底边</strong>,
+        这是 Vox / Eater / The Verge 的语言。NatGeo 顶栏是
+        <strong>纯白底 + 黑字 + 左上一个 NatGeo 黄色矩形 logo</strong>。
+      </p>
+      <p>→ 改成白底黑字、去掉 <code>border-bottom: 4px solid var(--gold)</code>,
+        品牌处放一个 24×8 左右的黄块作为 logo。整体气质会立刻往 NatGeo 靠。</p>
+
+      <h3>2. 首页 Hero 太"作品集"</h3>
+      <p>
+        <code>renderIndex()</code> 把一张照片拉满屏 + <code>opacity:0.62</code> +
+        黑色渐变 + 居中标题,这是摄影师个人站的范式。
+        NatGeo 首页是<strong>格栅</strong>:一条 lead story(大图 + 标题在图下方,而不是覆盖在图上)
+        + 4–6 条次级 story。
+      </p>
+      <p>→ 把 <code>.home-hero</code> 改成"一张大图,标题/导语在图下面的白色区域"。
+        这一动就脱离了 portfolio 味。</p>
+
+      <h3>3. 大面积深色 section 与 NatGeo 冲突</h3>
+      <p>
+        <code>styles.css:194</code> 把 "Selected" 一栏整块翻成 <code>#151515</code>。
+        NatGeo 几乎不会这样做 —— 它让深色发生在<strong>照片本身</strong>,而不是版面背景。
+      </p>
+      <p>→ 这个 section 改成白底,文字在图旁边,只让照片暗。
+        或者完全删掉这一区块,合并到上方主题网格里。</p>
+
+      <h3>4. 排版:衬线选错了一档</h3>
+      <ul>
+        <li><code>font-family: Georgia</code> 是合格的兜底,但 Georgia 的笔画偏胖、
+          x-height 偏大,跟 NatGeo Geograph 的"瘦高、锐利、收紧"完全不是一个性格。</li>
+        <li><code>Inter</code> 在 <code>font-family</code> 里写了
+          但<strong>没有 <code>&lt;link&gt;</code> 载入</strong>,实际渲染是 system-ui。</li>
+      </ul>
+      <p>→ 引入 Google Fonts:<strong>Source Serif 4</strong> 或
+        <strong>EB Garamond / Spectral</strong> 做标题,
+        <strong>Inter</strong> 或 <strong>IBM Plex Sans</strong> 做正文/小标签,
+        并真正 <code>&lt;link&gt;</code> 进来。标题加
+        <code>letter-spacing: -0.01em</code>,会立刻"瘦"下来。</p>
+
+      <h3>5. Eyebrow 小标签上的金色短条</h3>
+      <p>
+        <code>styles.css:152</code> 的 <code>.eyebrow::before</code> 画了一条 34×4 的金色横杠 ——
+        这是 Vox 的标志性元素,NatGeo 没有这种"前缀杠"。
+      </p>
+      <p>→ 删掉伪元素,留下纯 uppercase tracked 文本(<code>letter-spacing: 0.14em</code> 左右),
+        颜色用红或深灰即可。</p>
+
+      <h3>6. 卡片底部 4px 黑色粗边</h3>
+      <p>
+        <code>styles.css:234</code> <code>border-bottom: 4px solid var(--ink)</code>
+        是 Bloomberg / FT 的语言,NatGeo 不用;它用 1px hairline 或干脆无边。
+      </p>
+      <p>→ 删掉这条边,改成 hover 时图片轻微 <code>scale(1.02)</code>
+        + 标题底部出现细下划线。</p>
+
+      <h3>7. 按钮太"主题模板感"</h3>
+      <p>
+        <code>styles.css:159</code> 黄底黄边 + 粗体大写,像 Awesome 风 WordPress theme。
+        NatGeo CTA 通常是<strong>小写、细线、底部短下划线</strong>("Read the story →")
+        或一个朴素的描边小药丸。
+      </p>
+      <p>→ 改成下划线文本链接或细描边按钮,字号 13–14。</p>
+
+      <h3>8. 卡片信息缺"署名 / 日期 / 时长"</h3>
+      <p>
+        现在 region/story card 是 <code>[kicker → title → deck]</code>。
+        NatGeo 是 <code>[kicker → title → BY 张三 · 日期 · 5 min read]</code>。
+      </p>
+      <p>→ 数据里给每条 story 加 <code>byline</code>(可以填"摄影 / 文字 + 你的名字")
+        和 <code>readMinutes</code>,卡片底部和 hero 下方都展示。</p>
+
+      <h3>9. 照片缺图注 / 署名</h3>
+      <p>
+        NatGeo 每张大图正下方都有一行 <em>Photograph by X</em> 的小灰字。
+        你的 <code>.photo-story</code> / <code>.theme-photo</code> 里只有
+        <code>location · date</code>。
+      </p>
+      <p>→ 在主图 <code>&lt;img&gt;</code> 后加一个 <code>&lt;figcaption&gt;</code>,
+        小号、<code>color: var(--muted)</code>、<code>font-size: 12px</code>,
+        可以写"摄影:你的名字 · 镜头型号 / 地点"。一行字,杂志感立刻立起来。</p>
+
+      <h3>10. 红色用得太频繁</h3>
+      <p>
+        <code>--red: #9a2f24</code> 被用在 kicker、meta、card span 三处,
+        几乎每个小标签都是红的。NatGeo 的红只在"trending / 推荐"上偶尔出现,常态是黑或灰。
+      </p>
+      <p>→ kicker 用黑或深灰,只在地区分类标签(像"成都"那种)用一次红色。</p>
+
+      <h3>11. Section 标题双列布局可以保留</h3>
+      <p>
+        <code>styles.css:208</code> 用 <code>border-top: 1px hairline</code>
+        + <code>padding-top: 22px</code> 是对的方向,这一点已经很 NatGeo。
+        但 <code>.section--dark</code> 本身不该存在(见 #3)。
+      </p>
+
+      <h3>12. 移动端汉堡 / 抽屉缺失</h3>
+      <p>
+        现在 <code>@media (max-width:860px)</code> 把 nav 改成横向滚动条。
+        NatGeo 移动端是左上汉堡菜单 + 全屏抽屉。
+        横向滚动 nav 在内容多时会显得很乱。
+      </p>
+      <p>→ 中长期换成 hamburger drawer。</p>
+
+      <h3>13. 缺少"杂志小元素"</h3>
+      <p>NatGeo 的高级感很多来自这些细节:</p>
+      <ul>
+        <li>文章开头一个 <strong>drop cap</strong>(首字下沉的大写字母)。</li>
+        <li>段落中间有一条<strong>细短水平线</strong>做章节分隔。</li>
+        <li>引文用<strong>超大斜体衬线 pull quote</strong>,左侧黄色短竖线
+          (就像本页下面这段示意一样)。</li>
+      </ul>
+
+      <div class="pullquote">
+        NatGeo 是"白底 + 大衬线 + 照片自己负责所有暗色",
+        而你现在的站是"米色底 + 深色块 + 金色装饰条"。
+      </div>
+
+      <p>→ 主题页 <code>renderTheme()</code> 的 <code>theme.intro</code> 那段,
+        完全可以套这套排版。</p>
+
+      <hr class="rule">
+
+      <h2>改造优先级</h2>
+
+      <table>
+        <thead>
+          <tr><th>优先级</th><th>改动</th><th>收益</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="pri">P0</span></td>
+            <td>顶栏白底化、去掉 4px 金线、加黄色矩形 logo</td>
+            <td>一眼就像 NatGeo</td>
+          </tr>
+          <tr>
+            <td><span class="pri">P0</span></td>
+            <td>首页 hero 改为"图下标题"的杂志格栅</td>
+            <td>摆脱作品集观感</td>
+          </tr>
+          <tr>
+            <td><span class="pri">P0</span></td>
+            <td>真正加载一对衬线 + sans 字体</td>
+            <td>整站气质</td>
+          </tr>
+          <tr>
+            <td><span class="pri p1">P1</span></td>
+            <td>给每张照片加 <code>figcaption</code>(摄影署名)</td>
+            <td>杂志精神</td>
+          </tr>
+          <tr>
+            <td><span class="pri p1">P1</span></td>
+            <td>删掉 <code>.section--dark</code> 翻转区块</td>
+            <td>视觉统一</td>
+          </tr>
+          <tr>
+            <td><span class="pri p1">P1</span></td>
+            <td>卡片去除粗黑底边,改 hover 微动效</td>
+            <td>轻盈</td>
+          </tr>
+          <tr>
+            <td><span class="pri p2">P2</span></td>
+            <td>数据加 <code>byline</code> / <code>readMinutes</code></td>
+            <td>信息密度</td>
+          </tr>
+          <tr>
+            <td><span class="pri p2">P2</span></td>
+            <td>drop cap / pull quote / hairline 章节线</td>
+            <td>阅读质感</td>
+          </tr>
+          <tr>
+            <td><span class="pri p2">P2</span></td>
+            <td>红色降级,只留少量场景</td>
+            <td>调色克制</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        <strong>最关键的一句话:</strong>
+        把"米色底 + 深色块 + 金色装饰条"拨回到"白底 + 大衬线 + 照片自己负责所有暗色",
+        就完成了 80% 的风格靠拢。其余的署名、drop cap、hairline,是把它从 80 推到 95 的细节。
+      </div>
+
+      <footer>
+        本页本身的样式即按上述建议写成:白底、左上黄块 logo、衬线大标题、hairline 分隔、
+        左侧黄色短线的 pull quote。可以作为后续改造 <code>styles.css</code> 的视觉锚点。
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 const data = window.TRAVEL_DATA || { regions: [], themes: {}, photos: {} };
+const imageWidths = window.TRAVEL_IMAGE_WIDTHS || {};
 const page = document.body.dataset.page;
 const base = document.body.dataset.base || "./";
 
@@ -29,6 +30,7 @@ function photo(id) {
   return {
     id,
     ...item,
+    widths: imageWidths[`${regionId}/${item.file}`] || {},
     large: asset(`assets/images/${regionId}/large/${item.file}`),
     medium: asset(`assets/images/${regionId}/medium/${item.file}`),
     thumb: asset(`assets/images/${regionId}/thumb/${item.file}`)
@@ -89,9 +91,9 @@ function storyCardIsWide(index, count) {
 
 function srcsetFor(item) {
   return [
-    `${item.thumb} ${IMG_WIDTHS.thumb}w`,
-    `${item.medium} ${IMG_WIDTHS.medium}w`,
-    `${item.large} ${IMG_WIDTHS.large}w`
+    `${item.thumb} ${item.widths.thumb || IMG_WIDTHS.thumb}w`,
+    `${item.medium} ${item.widths.medium || IMG_WIDTHS.medium}w`,
+    `${item.large} ${item.widths.large || IMG_WIDTHS.large}w`
   ].join(", ");
 }
 
@@ -108,7 +110,7 @@ function renderImg(item, alt, options = {}) {
   const fetchAttr = fetchpriority === "auto" ? "" : ` fetchpriority="${fetchpriority}"`;
   // On small screens high-DPR math would otherwise pull the 1800px large file;
   // this source caps phones at the medium tier (900px is plenty there).
-  const phoneSource = `<source media="(max-width: 560px)" srcset="${item.thumb} ${IMG_WIDTHS.thumb}w, ${item.medium} ${IMG_WIDTHS.medium}w" sizes="100vw">`;
+  const phoneSource = `<source media="(max-width: 560px)" srcset="${item.thumb} ${item.widths.thumb || IMG_WIDTHS.thumb}w, ${item.medium} ${item.widths.medium || IMG_WIDTHS.medium}w" sizes="100vw">`;
   return `<picture>${phoneSource}<img${classAttr} src="${item.medium}" srcset="${srcsetFor(item)}" sizes="${sizes}" alt="${alt}" loading="${loading}" decoding="async"${fetchAttr}${imageStyle(item)}></picture>`;
 }
 
@@ -142,6 +144,20 @@ function renderHeader(activeRegion) {
   if (!nav) return;
   const header = nav.closest(".site-header");
   let menuButton = header?.querySelector(".site-menu-toggle");
+  const mobileNav = window.matchMedia("(max-width: 860px)");
+
+  function setNavOpen(open, focusTarget = "") {
+    const active = mobileNav.matches && open;
+    header?.classList.toggle("is-nav-open", active);
+    menuButton?.setAttribute("aria-expanded", String(active));
+    menuButton?.setAttribute("aria-label", active ? "关闭地区导航" : "打开地区导航");
+    nav.inert = mobileNav.matches && !active;
+    if (mobileNav.matches) nav.setAttribute("aria-hidden", String(!active));
+    else nav.removeAttribute("aria-hidden");
+    if (focusTarget === "menu") menuButton?.focus();
+    if (focusTarget === "first") nav.querySelector("a")?.focus();
+  }
+
   if (header && !menuButton) {
     menuButton = document.createElement("button");
     menuButton.className = "site-menu-toggle";
@@ -152,9 +168,8 @@ function renderHeader(activeRegion) {
     menuButton.innerHTML = "<span></span><span></span><span></span>";
     header.insertBefore(menuButton, nav);
     menuButton.addEventListener("click", () => {
-      const open = header.classList.toggle("is-nav-open");
-      menuButton.setAttribute("aria-expanded", String(open));
-      menuButton.setAttribute("aria-label", open ? "关闭地区导航" : "打开地区导航");
+      const open = !header.classList.contains("is-nav-open");
+      setNavOpen(open, open ? "first" : "menu");
     });
   }
   const regions = data.regions
@@ -168,12 +183,22 @@ function renderHeader(activeRegion) {
   nav.innerHTML = `<a href="${asset("index.html")}"${homeCurrent}>旅行记录</a>${regions}`;
   if (!nav.dataset.menuBound) {
     nav.addEventListener("click", () => {
-      header?.classList.remove("is-nav-open");
-      menuButton?.setAttribute("aria-expanded", "false");
-      menuButton?.setAttribute("aria-label", "打开地区导航");
+      setNavOpen(false);
     });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && header?.classList.contains("is-nav-open")) {
+        setNavOpen(false, "menu");
+      }
+    });
+    document.addEventListener("click", (event) => {
+      if (header?.classList.contains("is-nav-open") && !header.contains(event.target)) {
+        setNavOpen(false);
+      }
+    });
+    mobileNav.addEventListener("change", () => setNavOpen(false));
     nav.dataset.menuBound = "true";
   }
+  setNavOpen(false);
 }
 
 function renderImage(id, className = "") {

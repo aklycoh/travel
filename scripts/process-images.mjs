@@ -8,25 +8,22 @@
 //   medium  ≤ 900px longest side  → assets/images/<region>/medium/<file>
 //   thumb   ≤ 640px longest side  → assets/images/<region>/thumb/<file>
 //
-// It shells out to macOS `sips` (no npm deps). Existing tier files are skipped
-// so runs are deterministic and cause no churn; pass --force to rebuild them
-// from the current large masters.
-//
-// If `cwebp` is installed it ALSO emits a `.webp` sibling for every JPEG in all
-// three tiers. If `cwebp` is absent, WebP generation is skipped silently — no
-// tool is installed. (`avifenc` is detected too but only cwebp output is wired
-// into app.js.)
+// It shells out to macOS `sips` (no npm deps). Existing tier files are rebuilt
+// when their large master is newer; pass --force to rebuild everything.
+// It also writes assets/js/image-widths.js from the actual JPEG dimensions so
+// app.js can emit truthful srcset width descriptors.
 //
 // Usage:
 //   node scripts/process-images.mjs            # all regions
 //   node scripts/process-images.mjs chengdu    # one or more specific regions
 //   node scripts/process-images.mjs --force    # ignore up-to-date checks
+//   node scripts/process-images.mjs --manifest-only
 //
 // Run from the repository root.
 
-import { readdir, mkdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
-import { execFile, execFileSync } from "node:child_process";
+import { readdir, mkdir, readFile, writeFile } from "node:fs/promises";
+import { existsSync, statSync } from "node:fs";
+import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -34,44 +31,53 @@ import { fileURLToPath } from "node:url";
 const run = promisify(execFile);
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const imagesDir = join(root, "assets", "images");
+const manifestPath = join(root, "assets", "js", "image-widths.js");
 
 const TIERS = {
   medium: 900,
   thumb: 640
 };
 
-function has(bin) {
-  try {
-    // `which` exits 0 when the binary is found on PATH.
-    execFileSync("which", [bin], { stdio: "ignore" });
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-const HAS_CWEBP = has("cwebp");
-const HAS_AVIFENC = has("avifenc");
-
 const args = process.argv.slice(2);
 const force = args.includes("--force");
+const manifestOnly = args.includes("--manifest-only");
 const regionArgs = args.filter((a) => !a.startsWith("--"));
 
 // A destination is (re)built only when it is missing, or when --force is set.
 // This keeps runs deterministic and avoids re-encoding (churning) tiers that
 // already exist. Use --force to regenerate everything from the current large
 // masters after replacing source images.
-function needsBuild(dest) {
-  return force || !existsSync(dest);
+function needsBuild(src, dest) {
+  return force || !existsSync(dest) || statSync(dest).mtimeMs < statSync(src).mtimeMs;
 }
 
 async function makeJpeg(src, dest, maxDim) {
   await run("sips", ["-s", "format", "jpeg", "-Z", String(maxDim), src, "--out", dest]);
 }
 
-async function makeWebp(src, dest) {
-  // src is an already-sized JPEG tier, so encode 1:1 at quality 82.
-  await run("cwebp", ["-quiet", "-q", "82", src, "-o", dest]);
+function jpegWidth(buf) {
+  if (buf.length < 4 || buf[0] !== 0xff || buf[1] !== 0xd8) return null;
+  let off = 2;
+  while (off < buf.length) {
+    if (buf[off] !== 0xff) {
+      off++;
+      continue;
+    }
+    let marker = buf[off + 1];
+    while (marker === 0xff) {
+      off++;
+      marker = buf[off + 1];
+    }
+    off += 2;
+    if (marker === 0xd8 || marker === 0xd9 || (marker >= 0xd0 && marker <= 0xd7) || marker === 0x01) continue;
+    if (off + 2 > buf.length) break;
+    const len = buf.readUInt16BE(off);
+    if (marker >= 0xc0 && marker <= 0xcf && marker !== 0xc4 && marker !== 0xc8 && marker !== 0xcc) {
+      return buf.readUInt16BE(off + 5);
+    }
+    off += len;
+  }
+  return null;
 }
 
 async function processRegion(region) {
@@ -91,7 +97,7 @@ async function processRegion(region) {
 
     for (const [tier, maxDim] of Object.entries(TIERS)) {
       const dest = join(imagesDir, region, tier, file);
-      if (needsBuild(dest)) {
+      if (needsBuild(src, dest)) {
         await makeJpeg(src, dest, maxDim);
         done++;
       } else {
@@ -99,23 +105,6 @@ async function processRegion(region) {
       }
     }
 
-    // WebP siblings for all three tiers (large included) when cwebp exists.
-    if (HAS_CWEBP) {
-      const tierSources = {
-        large: src,
-        medium: join(imagesDir, region, "medium", file),
-        thumb: join(imagesDir, region, "thumb", file)
-      };
-      for (const [tier, tierSrc] of Object.entries(tierSources)) {
-        const dest = join(imagesDir, region, tier, file.replace(/\.jpeg$/i, ".webp"));
-        if (needsBuild(dest)) {
-          await makeWebp(tierSrc, dest);
-          done++;
-        } else {
-          skipped++;
-        }
-      }
-    }
   }
 
   return { region, done, skipped };
@@ -127,12 +116,33 @@ const regions = regionArgs.length
       .filter((e) => e.isDirectory())
       .map((e) => e.name);
 
-console.log(`Tools: cwebp=${HAS_CWEBP ? "yes" : "no"} avifenc=${HAS_AVIFENC ? "yes" : "no"}`);
-if (!HAS_CWEBP) console.log("cwebp not found — generating JPEG tiers only (no WebP).");
-
-for (const region of regions) {
-  const { done, skipped } = await processRegion(region);
-  console.log(`${region}: ${done} generated, ${skipped} up to date`);
+if (!manifestOnly) {
+  for (const region of regions) {
+    const { done, skipped } = await processRegion(region);
+    console.log(`${region}: ${done} generated, ${skipped} up to date`);
+  }
 }
 
+const manifest = {};
+for (const region of (await readdir(imagesDir, { withFileTypes: true })).filter((entry) => entry.isDirectory())) {
+  const largeDir = join(imagesDir, region.name, "large");
+  if (!existsSync(largeDir)) continue;
+  for (const file of (await readdir(largeDir)).filter((name) => /\.jpe?g$/i.test(name)).sort()) {
+    const widths = {};
+    for (const tier of ["thumb", "medium", "large"]) {
+      const path = join(imagesDir, region.name, tier, file);
+      if (!existsSync(path)) continue;
+      widths[tier] = jpegWidth(await readFile(path));
+    }
+    manifest[`${region.name}/${file}`] = widths;
+  }
+}
+
+await writeFile(
+  manifestPath,
+  `// Generated by scripts/process-images.mjs. Do not edit by hand.\nwindow.TRAVEL_IMAGE_WIDTHS = {\n${Object.entries(manifest)
+    .map(([key, widths]) => `  ${JSON.stringify(key)}: ${JSON.stringify(widths)}`)
+    .join(",\n")}\n};\n`
+);
+console.log(`Image width manifest: ${Object.keys(manifest).length} entries`);
 console.log("Done.");

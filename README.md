@@ -7,14 +7,14 @@
 - `index.html`：网站首页。
 - `chengdu/`、`chongqing/`、`yunnan/`、`gansu/`：各城市或地区的页面目录。
 - `assets/css/`、`assets/js/`：网站样式和脚本。
-- `assets/images/<city>/large/`：网页使用的大图。
-- `assets/images/<city>/thumb/`：网页使用的缩略图。
+- `assets/images/<city>/{large,medium,thumb}/`：网页使用的三档响应式图片。
+- `assets/js/image-widths.js`：自动生成的真实图片宽度清单。
 - `_raw_photos/<city>/`：本地原始照片归档，不纳入 Git。
 
 ## 添加新城市
 
 1. 在 `_raw_photos/<city>/` 放入原始照片。
-2. 将网页要用的展示图生成到 `assets/images/<city>/large/` 和 `assets/images/<city>/thumb/`。
+2. 将展示图生成到 `assets/images/<city>/large/`，清除 EXIF 后运行 `node scripts/process-images.mjs` 生成其余图片档位。
 3. 在项目根目录新建 `<city>/index.html`，主题页放在 `<city>/<theme>/index.html`。
 4. 在 `assets/js/site-data.js` 里添加地区、主题和照片数据。
 
@@ -28,4 +28,4 @@
 node scripts/validate-data.mjs
 ```
 
-脚本会检查地区、主题、照片 id、照片 `region` 字段，以及 `large` / `thumb` 图片文件是否都存在。
+脚本会检查数据引用、页面壳、三档图片、真实宽度清单、缓存版本和 EXIF 隐私信息。
