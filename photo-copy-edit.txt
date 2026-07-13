@@ -1,0 +1,1843 @@
+Travel Notes 图片文字修改稿
+
+修改说明：
+1. 请保留每条记录的 [PHOTO:编号] 和字段名称，以便自动回写。
+2. 可以修改“标题、地点、日期、解读文字”。
+3. “文件、所属主题”仅用于核对图片，请不要修改。
+4. 如果某个字段希望保持不变，直接保留原文。
+
+照片总数：202
+
+========================================================================
+成都 / chengdu（37 张）
+========================================================================
+
+[PHOTO:IMG_5270]
+地区序号：001
+文件：assets/images/chengdu/large/IMG_5270.jpeg
+所属主题：时间线 (timeline)
+标题：抵达之前
+地点：飞往成都的路上
+日期：2023.10.12 下午
+解读文字：窗外是云海，旅程还没有真正开始，心已经先到达了目的地。
+
+[PHOTO:IMG_5271]
+地区序号：002
+文件：assets/images/chengdu/large/IMG_5271.jpeg
+所属主题：时间线 (timeline)
+标题：清晨同路
+地点：成都地铁
+日期：2023.10.13 清晨
+解读文字：城市刚醒来的时候，人也还带着一点困意。我们紧挨着坐在一起，对即将开始的一天充满了期待。
+
+[PHOTO:IMG_5273]
+地区序号：003
+文件：assets/images/chengdu/large/IMG_5273.jpeg
+所属主题：美食 (food)；时间线 (timeline)
+标题：第一碗米线
+地点：成都市区
+日期：2023.10.13 早晨
+解读文字：一碗肥肠米线端上来，热气先把早晨叫醒。味道不必隆重，只要踏实，就已经很好。
+
+[PHOTO:IMG_5276]
+地区序号：004
+文件：assets/images/chengdu/large/IMG_5276.jpeg
+所属主题：街巷生活 (streets)；时间线 (timeline)
+标题：菜市场的颜色
+地点：成都市区
+日期：2023.10.13 早晨
+解读文字：摊位挨着摊位，蔬菜和水果把一天铺得很鲜活。这里不是景点，却是城市醒来的样子。
+
+[PHOTO:IMG_5278]
+地区序号：005
+文件：assets/images/chengdu/large/IMG_5278.jpeg
+所属主题：街巷生活 (streets)
+标题：树影小路
+地点：人民公园
+日期：2023.10.13 上午
+解读文字：树荫把路压得很低，脚步也自然慢下来。成都的舒服，有时候就是这样安静的一段路。
+
+[PHOTO:IMG_5280]
+地区序号：006
+文件：assets/images/chengdu/large/IMG_5280.jpeg
+所属主题：街巷生活 (streets)；时间线 (timeline)
+标题：茶馆的上午
+地点：鹤鸣茶馆
+日期：2023.10.13 上午
+解读文字：竹椅、木桌、半开的天光，时间在这里没有被催促。坐一会儿，感觉成为了成都人。
+
+[PHOTO:IMG_5285]
+地区序号：007
+文件：assets/images/chengdu/large/IMG_5285.jpeg
+所属主题：街巷生活 (streets)
+标题：老墙与花
+地点：宽窄巷子
+日期：2023.10.13 上午
+解读文字：灰墙很旧，花却开得很认真。新旧之间没有冲突，只是一起过着日子。
+
+[PHOTO:IMG_5286]
+地区序号：008
+文件：assets/images/chengdu/large/IMG_5286.jpeg
+所属主题：街巷生活 (streets)
+标题：苔痕
+地点：宽窄巷子
+日期：2023.10.13 上午
+解读文字：一角石壁、一点青苔，细小的绿意让老建筑有了呼吸。
+
+[PHOTO:IMG_5289]
+地区序号：009
+文件：assets/images/chengdu/large/IMG_5289.jpeg
+所属主题：古蜀与人文 (culture)
+标题：红灯笼下
+地点：成都武侯祠一带
+日期：2023.10.13 上午
+解读文字：门前人来人往，红灯笼把入口照得热闹。历史在这里没有沉睡，它和游客一起站在阳光里。
+
+[PHOTO:IMG_5292]
+地区序号：010
+文件：assets/images/chengdu/large/IMG_5292.jpeg
+所属主题：美食 (food)；时间线 (timeline)
+标题：一锅热辣
+地点：成都市区
+日期：2023.10.13 中午
+解读文字：锅底翻着小小的浪，辣味和香气一起升起来。走了一上午，终于可以坐下来，好好吃一顿。
+
+[PHOTO:IMG_5293]
+地区序号：011
+文件：assets/images/chengdu/large/IMG_5293.jpeg
+所属主题：街巷生活 (streets)
+标题：竹影
+地点：成都杜甫草堂一带
+日期：2023.10.13 下午
+解读文字：竹子把光切得很细，风吹过的时候，整片绿色都像在轻声说话。
+
+[PHOTO:IMG_5295]
+地区序号：012
+文件：assets/images/chengdu/large/IMG_5295.jpeg
+所属主题：街巷生活 (streets)
+标题：石上文字
+地点：成都杜甫草堂一带
+日期：2023.10.13 下午
+解读文字：文字刻在石头上，安静得像一句留下来的叮嘱。走近看，才意识到它的久远。
+
+[PHOTO:IMG_5297]
+地区序号：013
+文件：assets/images/chengdu/large/IMG_5297.jpeg
+所属主题：街巷生活 (streets)
+标题：夜色刚亮
+地点：成都街头
+日期：2023.10.13 夜晚
+解读文字：招牌亮起来以后，街道有了另一种表情。白天的城市退去了，夜晚的成都开始说话。
+
+[PHOTO:IMG_5298]
+地区序号：014
+文件：assets/images/chengdu/large/IMG_5298.jpeg
+所属主题：街巷生活 (streets)
+标题：路边小摊
+地点：成都街头
+日期：2023.10.13 夜晚
+解读文字：小摊前围着人，灯光落在纸牌和笑声上。旅行里最轻的快乐，常常就是停下来买一点吃的。
+
+[PHOTO:IMG_5301]
+地区序号：015
+文件：assets/images/chengdu/large/IMG_5301.jpeg
+所属主题：街巷生活 (streets)
+标题：冰粉与夜风
+地点：成都街头
+日期：2023.10.13 夜晚
+解读文字：夜风里看见冰粉的招牌，忽然觉得这座城市很会照顾人。辣过之后，还有一口清甜。
+
+[PHOTO:IMG_5309]
+地区序号：016
+文件：assets/images/chengdu/large/IMG_5309.jpeg
+所属主题：古蜀与人文 (culture)；时间线 (timeline)
+标题：面具的凝视
+地点：三星堆博物馆
+日期：2023.10.14 上午
+解读文字：灯光落在面具上，表情像从很远的时间里看过来。那一刻，仿佛穿越了时空。
+
+[PHOTO:IMG_5318]
+地区序号：017
+文件：assets/images/chengdu/large/IMG_5318.jpeg
+所属主题：古蜀与人文 (culture)
+标题：展厅里的光
+地点：三星堆博物馆
+日期：2023.10.14 上午
+解读文字：展厅很暗，文物被光单独托起。人们放轻声音，像怕惊动这些古老的形状。
+
+[PHOTO:IMG_5321]
+地区序号：018
+文件：assets/images/chengdu/large/IMG_5321.jpeg
+所属主题：古蜀与人文 (culture)；时间线 (timeline)
+标题：金色面具
+地点：三星堆博物馆
+日期：2023.10.14 上午
+解读文字：金色并不张扬，反而有一种沉静的力量。隔着玻璃看它，像看见一个遥远文明留下的呼吸。
+
+[PHOTO:IMG_5323]
+地区序号：019
+文件：assets/images/chengdu/large/IMG_5323.jpeg
+所属主题：古蜀与人文 (culture)
+标题：青铜的轮廓
+地点：三星堆博物馆
+日期：2023.10.14 上午
+解读文字：青铜器的线条很奇异，也很坚定。它不像答案，更像一个还在发光的问题。
+
+[PHOTO:IMG_5329]
+地区序号：020
+文件：assets/images/chengdu/large/IMG_5329.jpeg
+所属主题：美食 (food)
+标题：手里的小吃
+地点：成都街头
+日期：2023.10.15 清晨
+解读文字：用纸袋包着的锅盔最有旅途感。边走边吃，连赶路也变得亲切。
+
+[PHOTO:IMG_5331]
+地区序号：021
+文件：assets/images/chengdu/large/IMG_5331.jpeg
+所属主题：古蜀与人文 (culture)
+标题：山门石阶
+地点：青城山一带
+日期：2023.10.15 上午
+解读文字：石阶一级一级向上，山门被树影半遮着。还没有进入深处，心已经先安静了。
+
+[PHOTO:IMG_5333]
+地区序号：022
+文件：assets/images/chengdu/large/IMG_5333.jpeg
+所属主题：山水与周边 (nature)；时间线 (timeline)
+标题：都江堰的水声
+地点：都江堰
+日期：2023.10.15 上午
+解读文字：水从山边推过来，颜色很浅，声音却很有力量。站在岸边，会突然理解这里为什么值得被记住。
+
+[PHOTO:IMG_5336]
+地区序号：023
+文件：assets/images/chengdu/large/IMG_5336.jpeg
+所属主题：山水与周边 (nature)
+标题：江水绕山
+地点：都江堰
+日期：2023.10.15 上午
+解读文字：山壁、江水和远处的凉亭都在同一张照片里。风景很大，人变得很轻。
+
+[PHOTO:IMG_5346]
+地区序号：024
+文件：assets/images/chengdu/large/IMG_5346.jpeg
+所属主题：山水与周边 (nature)
+标题：水边停留
+地点：都江堰
+日期：2023.10.15 上午
+解读文字：在水边站一会儿，不急着拍完，也不急着离开。风从江面过来，把人吹得很清醒。
+
+[PHOTO:IMG_5347]
+地区序号：025
+文件：assets/images/chengdu/large/IMG_5347.jpeg
+所属主题：古蜀与人文 (culture)；时间线 (timeline)
+标题：古城门前
+地点：都江堰
+日期：2023.10.15 中午
+解读文字：门楼的线条很繁复，人群从下面慢慢经过。热闹和古意在这里并肩站着。
+
+[PHOTO:IMG_5349]
+地区序号：026
+文件：assets/images/chengdu/large/IMG_5349.jpeg
+所属主题：山水与周边 (nature)
+标题：水边合影
+地点：都江堰
+日期：2023.10.15 中午
+解读文字：背景里是水和树，镜头前是笑起来的人。比起风景，同行的人更像旅程的礼物。
+
+[PHOTO:IMG_5351]
+地区序号：027
+文件：assets/images/chengdu/large/IMG_5351.jpeg
+所属主题：古蜀与人文 (culture)
+标题：林间牌坊
+地点：青城山
+日期：2023.10.15 下午
+解读文字：木牌坊立在林子里，阳光从枝叶间漏下来。山路从这里开始变得有仪式感。
+
+[PHOTO:IMG_5354]
+地区序号：028
+文件：assets/images/chengdu/large/IMG_5354.jpeg
+所属主题：古蜀与人文 (culture)
+标题：石龙
+地点：青城山
+日期：2023.10.15 下午
+解读文字：石头被摸得有了温度，纹路里积着湿润的青绿。它守在路边，不知陪人走过多少年。
+
+[PHOTO:IMG_5361]
+地区序号：029
+文件：assets/images/chengdu/large/IMG_5361.jpeg
+所属主题：山水与周边 (nature)；时间线 (timeline)
+标题：江边大佛
+地点：乐山大佛
+日期：2023.10.16 下午
+解读文字：红色山壁贴着江水，大佛在雾气里显得很安稳。人群在脚下移动，山在一旁沉默。
+
+[PHOTO:IMG_5365]
+地区序号：030
+文件：assets/images/chengdu/large/IMG_5365.jpeg
+所属主题：山水与周边 (nature)
+标题：江对岸的塔
+地点：乐山
+日期：2023.10.16 下午
+解读文字：塔藏在一片绿色里，隔着江看过去，想象着曾经住着的人。
+
+[PHOTO:IMG_5368]
+地区序号：031
+文件：assets/images/chengdu/large/IMG_5368.jpeg
+所属主题：街巷生活 (streets)
+标题：花边街口
+地点：乐山街头
+日期：2023.10.16 傍晚
+解读文字：街口摆着花，旁边就是来来往往的人。旅途中这样的角落很小，却让城市有了温度。
+
+[PHOTO:IMG_5369]
+地区序号：032
+文件：assets/images/chengdu/large/IMG_5369.jpeg
+所属主题：美食 (food)
+标题：晚饭之后
+地点：乐山
+日期：2023.10.16 夜晚
+解读文字：桌上还剩油光和竹签，像一顿饭刚刚结束时的余温。吃饱以后，夜路也变得柔软。
+
+[PHOTO:IMG_5371]
+地区序号：033
+文件：assets/images/chengdu/large/IMG_5371.jpeg
+所属主题：美食 (food)
+标题：夜里的小店
+地点：乐山
+日期：2023.10.16 夜晚
+解读文字：红色招牌亮在街边，桌椅还没收。地方小，却有一种让人放心坐下来的热闹。
+
+[PHOTO:IMG_5375]
+地区序号：034
+文件：assets/images/chengdu/large/IMG_5375.jpeg
+所属主题：山水与周边 (nature)；时间线 (timeline)
+标题：山里的相遇
+地点：峨眉山
+日期：2023.10.17 上午
+解读文字：雾气压在树枝上，山里的生命忽然出现在眼前。那一瞬间，路途多了一点野性的安静。
+
+[PHOTO:IMG_5379]
+地区序号：035
+文件：assets/images/chengdu/large/IMG_5379.jpeg
+所属主题：山水与周边 (nature)
+标题：山路有光
+地点：峨眉山
+日期：2023.10.17 中午
+解读文字：阳光落在山路尽头，雾还没有完全散开。走在这里，会觉得疲惫也有一点清亮。
+
+[PHOTO:IMG_5381]
+地区序号：036
+文件：assets/images/chengdu/large/IMG_5381.jpeg
+所属主题：美食 (food)
+标题：一盘青椒
+地点：峨眉山下
+日期：2023.10.17 下午
+解读文字：绿色的菜端上桌，带着锅气和一点辛香。山路之后，家常味道格外让人踏实。
+
+[PHOTO:IMG_5383]
+地区序号：037
+文件：assets/images/chengdu/large/IMG_5383.jpeg
+所属主题：美食 (food)；时间线 (timeline)
+标题：最后一碗
+地点：峨眉山下
+日期：2023.10.17 下午
+解读文字：最后一碗粉热热地放在面前，像给这几天收一个平实的尾。旅程结束得不声张，却很满足。
+
+========================================================================
+重庆 / chongqing（14 张）
+========================================================================
+
+[PHOTO:IMG_5385]
+地区序号：001
+文件：assets/images/chongqing/large/IMG_5385.jpeg
+所属主题：餐桌 (cq-food)；时间线 (cq-timeline)
+标题：观音桥的入口
+地点：重庆观音桥
+日期：2023.10.17 晚上
+解读文字：招牌一层叠一层，食物的香气和人流一起涌过来。重庆的夜晚，是从这样的热闹里开始的。
+
+[PHOTO:IMG_5389]
+地区序号：002
+文件：assets/images/chongqing/large/IMG_5389.jpeg
+所属主题：街巷 (cq-streets)；时间线 (cq-timeline)
+标题：街边小景
+地点：重庆街巷
+日期：2023.10.18 下午
+解读文字：木墙、红灯笼和一个熟悉的身影站在路边，像把城市的热闹稍微停顿了一下。
+
+[PHOTO:IMG_5390]
+地区序号：003
+文件：assets/images/chongqing/large/IMG_5390.jpeg
+所属主题：街巷 (cq-streets)；时间线 (cq-timeline)
+标题：山城门楼
+地点：洪崖洞一带
+日期：2023.10.18 下午
+解读文字：楼层向上叠起，灯笼和招牌把入口装得很满。还没走进去，山城的坡度已经扑面而来。
+
+[PHOTO:IMG_5391]
+地区序号：004
+文件：assets/images/chongqing/large/IMG_5391.jpeg
+所属主题：街巷 (cq-streets)；时间线 (cq-timeline)
+标题：桥下看江
+地点：重庆江边
+日期：2023.10.18 下午
+解读文字：红色大桥从身后穿过，江面在雾气里变得很浅。站在栏杆边，城市的高度忽然有了参照。
+
+[PHOTO:IMG_5397]
+地区序号：005
+文件：assets/images/chongqing/large/IMG_5397.jpeg
+所属主题：夜色 (cq-night)；时间线 (cq-timeline)
+标题：洪崖洞夜色
+地点：洪崖洞
+日期：2023.10.18 傍晚
+解读文字：金色灯带铺满屋檐，高楼在背后沉下来。重庆的夜景很会制造层次，薄雾里透出热闹。
+
+[PHOTO:IMG_5398]
+地区序号：006
+文件：assets/images/chongqing/large/IMG_5398.jpeg
+所属主题：夜色 (cq-night)；时间线 (cq-timeline)
+标题：灯火的屋顶
+地点：洪崖洞
+日期：2023.10.18 傍晚
+解读文字：从高处看下去，屋顶像一片被点亮的山坡。每一层都有声音，每一层都有光。
+
+[PHOTO:IMG_5399]
+地区序号：007
+文件：assets/images/chongqing/large/IMG_5399.jpeg
+所属主题：夜色 (cq-night)；时间线 (cq-timeline)
+标题：楼群与金光
+地点：洪崖洞
+日期：2023.10.18 傍晚
+解读文字：传统屋檐和现代高楼挤在同一个画面里，谁也没有退让。重庆的魅力，正在这种拥挤里。
+
+[PHOTO:IMG_5400]
+地区序号：008
+文件：assets/images/chongqing/large/IMG_5400.jpeg
+所属主题：街巷 (cq-streets)；时间线 (cq-timeline)
+标题：一杯紫色的甜
+地点：重庆街头
+日期：2023.10.18 晚上
+解读文字：走累之后停在饮品店前，明亮的紫色把夜路照得轻一点。旅行里这样的补给很小，却很必要。
+
+[PHOTO:IMG_5403]
+地区序号：009
+文件：assets/images/chongqing/large/IMG_5403.jpeg
+所属主题：山水旧址 (cq-nature)；时间线 (cq-timeline)
+标题：山坡上的绿
+地点：重庆
+日期：2023.10.19 上午
+解读文字：大片叶子从墙边伸出来，远处隐约是山。热闹之外，重庆也有很湿润、很安静的一面。
+
+[PHOTO:IMG_5404]
+地区序号：010
+文件：assets/images/chongqing/large/IMG_5404.jpeg
+所属主题：山水旧址 (cq-nature)；时间线 (cq-timeline)
+标题：车窗外的校门
+地点：西南政法大学
+日期：2023.10.19 中午
+解读文字：雨后的路面还带着光，校门从车窗边慢慢经过。不是专门停留，却也被这片树影记住了。
+
+[PHOTO:IMG_5405]
+地区序号：011
+文件：assets/images/chongqing/large/IMG_5405.jpeg
+所属主题：山水旧址 (cq-nature)；时间线 (cq-timeline)
+标题：另一所大学
+地点：四川外国语大学
+日期：2023.10.19 中午
+解读文字：车窗里的城市一段一段往后退，学校的名字和街边的树一起闪过，像旅程中的一个注脚。
+
+[PHOTO:IMG_5406]
+地区序号：012
+文件：assets/images/chongqing/large/IMG_5406.jpeg
+所属主题：山水旧址 (cq-nature)；时间线 (cq-timeline)
+标题：渣滓洞的灰瓦
+地点：渣滓洞
+日期：2023.10.19 中午
+解读文字：灰瓦屋顶层层压在绿色之间，山坡把旧址轻轻围住。这里的安静不是轻松的，会让人想起特殊的岁月。
+
+[PHOTO:IMG_5407]
+地区序号：013
+文件：assets/images/chongqing/large/IMG_5407.jpeg
+所属主题：餐桌 (cq-food)；时间线 (cq-timeline)
+标题：红油一大盘
+地点：重庆餐桌
+日期：2023.10.19 下午
+解读文字：辣椒、蒜瓣和红油把盘子填得很满。看一眼就知道，这顿饭不会温吞。
+
+[PHOTO:IMG_5408]
+地区序号：014
+文件：assets/images/chongqing/large/IMG_5408.jpeg
+所属主题：餐桌 (cq-food)；时间线 (cq-timeline)
+标题：炭火烤鱼
+地点：重庆餐桌
+日期：2023.10.19 下午
+解读文字：鱼还在热油里冒着香气，配菜贴着锅边吸足味道。最后的满足感，往往就停在这一桌。
+
+========================================================================
+云南 / yunnan（56 张）
+========================================================================
+
+[PHOTO:IMG_6079]
+地区序号：001
+文件：assets/images/yunnan/large/IMG_6079.jpeg
+所属主题：经停武汉 (yn-route)
+标题：江边天光
+地点：武汉江边
+日期：2024.10.18 上午
+解读文字：江面把城市拉得很宽，远处楼群在光里排开。还没到云南，旅程已经先有了开阔的开场。
+
+[PHOTO:IMG_6081]
+地区序号：002
+文件：assets/images/yunnan/large/IMG_6081.jpeg
+所属主题：经停武汉 (yn-route)
+标题：同路的人
+地点：武汉
+日期：2024.10.18 上午
+解读文字：赶路的时候拍下一张合影，表情比行程表更能说明那天的心情。目的地还在前面，人已经在路上。
+
+[PHOTO:IMG_6082]
+地区序号：003
+文件：assets/images/yunnan/large/IMG_6082.jpeg
+所属主题：经停武汉 (yn-route)
+标题：黄鹤楼石阶
+地点：黄鹤楼
+日期：2024.10.18 上午
+解读文字：长长的台阶把人群带向楼前，红色花带从中间铺开。短暂停留，也被黄鹤楼的热闹和高度吸引。
+
+[PHOTO:IMG_6084]
+地区序号：004
+文件：assets/images/yunnan/large/IMG_6084.jpeg
+所属主题：经停武汉 (yn-route)
+标题：校门前
+地点：武汉大学
+日期：2024.10.18 上午
+解读文字：红字和绿树在路口站得很稳，车流从旁边经过。城市里的一个节点，被行程顺手收进来。
+
+[PHOTO:IMG_6086]
+地区序号：005
+文件：assets/images/yunnan/large/IMG_6086.jpeg
+所属主题：经停武汉 (yn-route)
+标题：一锅藕汤
+地点：武汉餐桌
+日期：2024.10.18 中午
+解读文字：藕块从汤里捞起来，热气把午饭变得很踏实。转场之前，先被这一锅暖住。
+
+[PHOTO:IMG_6087]
+地区序号：006
+文件：assets/images/yunnan/large/IMG_6087.jpeg
+所属主题：经停武汉 (yn-route)
+标题：红辣下饭
+地点：武汉餐桌
+日期：2024.10.18 中午
+解读文字：盘子里的颜色很直接，香气也不绕弯。赶路的人坐下来，才算真正补上力气。
+
+[PHOTO:IMG_6090]
+地区序号：007
+文件：assets/images/yunnan/large/IMG_6090.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：丽江的第一张
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：阳光照在木楼和石牌坊上，人站在街口，像刚刚走进一段慢下来的时间。
+
+[PHOTO:IMG_6092]
+地区序号：008
+文件：assets/images/yunnan/large/IMG_6092.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：花盆里的小景
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：多肉挤在木盆里，颜色很安静。古城的热闹之外，也有这样贴近脚边的细节。
+
+[PHOTO:IMG_6093]
+地区序号：009
+文件：assets/images/yunnan/large/IMG_6093.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：木屋小巷
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：木门、石路和花草把路收得很窄，脚步自然放轻。这里适合慢慢走，不适合匆忙经过。
+
+[PHOTO:IMG_6094]
+地区序号：010
+文件：assets/images/yunnan/large/IMG_6094.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：树下蓝天
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：老树把天空分成几块，屋檐从旁边探出来。阳光很亮，古城却显得很温和。
+
+[PHOTO:IMG_6096]
+地区序号：011
+文件：assets/images/yunnan/large/IMG_6096.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：街巷深处
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：石板路往前延伸，旁边的店铺和树影一起安静下来。丽江的层次藏在这些小路里。
+
+[PHOTO:IMG_6097]
+地区序号：012
+文件：assets/images/yunnan/large/IMG_6097.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：门前小坐
+地点：丽江古城
+日期：2024.10.19 上午
+解读文字：墙面粗粝，阳光停在门口，一切都像刚好按下了暂停。旅行里也需要这样没有安排的一秒。
+
+[PHOTO:IMG_6100]
+地区序号：013
+文件：assets/images/yunnan/large/IMG_6100.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：雪山远处出现
+地点：丽江
+日期：2024.10.19 下午
+解读文字：云很低，山很清楚，屋顶在前景里显得小小的。真正看见雪山那一刻，行程突然有了方向。
+
+[PHOTO:IMG_6102]
+地区序号：014
+文件：assets/images/yunnan/large/IMG_6102.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：水果和午后
+地点：丽江
+日期：2024.10.19 下午
+解读文字：袋子里的水果还带着刚买来的新鲜，桌边的人也慢慢放松。旅途中的甜蜜，总是有一点快乐。
+
+[PHOTO:IMG_6110]
+地区序号：015
+文件：assets/images/yunnan/large/IMG_6110.jpeg
+所属主题：丽江 (yn-lijiang)
+标题：一桌酸辣
+地点：丽江餐桌
+日期：2024.10.19 晚上
+解读文字：腊排骨汤锅和鱼一起摆上桌，颜色明亮得很有食欲。走了一天，以酸辣完美结束。
+
+[PHOTO:IMG_6112]
+地区序号：016
+文件：assets/images/yunnan/large/IMG_6112.jpeg
+所属主题：雪山 (yn-snow)
+标题：云擦过山顶
+地点：玉龙雪山
+日期：2024.10.20 上午
+解读文字：白云贴着山峰翻过去，雪线在光里露出来。照片里的冷意很轻，却让人一下记住了那天。
+
+[PHOTO:IMG_6113]
+地区序号：017
+文件：assets/images/yunnan/large/IMG_6113.jpeg
+所属主题：雪山 (yn-snow)
+标题：山峰近处
+地点：玉龙雪山
+日期：2024.10.20 上午
+解读文字：岩壁从云雾里露出来，树影在下面站得很瘦。越靠近山，声音越像被慢慢收低。
+
+[PHOTO:IMG_6116]
+地区序号：018
+文件：assets/images/yunnan/large/IMG_6116.jpeg
+所属主题：雪山 (yn-snow)
+标题：海拔牌前
+地点：玉龙雪山
+日期：2024.10.20 上午
+解读文字：栈道、人群和山峰挤在同一个画面里，冷风也像能被看见。到达的证据，就这样被留住。
+
+[PHOTO:IMG_6125]
+地区序号：019
+文件：assets/images/yunnan/large/IMG_6125.jpeg
+所属主题：雪山 (yn-snow)
+标题：蓝月谷的水
+地点：蓝月谷
+日期：2024.10.20 中午
+解读文字：湖水亮得像从山里单独取出的一块颜色，树和栈道都在旁边安静下来。
+
+[PHOTO:IMG_6128]
+地区序号：020
+文件：assets/images/yunnan/large/IMG_6128.jpeg
+所属主题：雪山 (yn-snow)
+标题：水边留影
+地点：蓝月谷
+日期：2024.10.20 中午
+解读文字：白色水阶一层层往后退，远处是山，近处是人。风景很大，还是挡不住笑容。
+
+[PHOTO:IMG_6129]
+地区序号：021
+文件：assets/images/yunnan/large/IMG_6129.jpeg
+所属主题：雪山 (yn-snow)
+标题：层层水声
+地点：蓝月谷
+日期：2024.10.20 中午
+解读文字：水从石阶上细细流下来，像把山里的声音分成了很多层。站在旁边，会不自觉慢下来。
+
+[PHOTO:IMG_6130]
+地区序号：022
+文件：assets/images/yunnan/large/IMG_6130.jpeg
+所属主题：雪山 (yn-snow)
+标题：谷口合影
+地点：蓝月谷
+日期：2024.10.20 中午
+解读文字：人群在身后移动，水色和山色在更远处铺开。两个人站进同一张照片里，这一天就完整了一点。
+
+[PHOTO:IMG_6131]
+地区序号：023
+文件：assets/images/yunnan/large/IMG_6131.jpeg
+所属主题：雪山 (yn-snow)
+标题：一截枯枝
+地点：蓝月谷
+日期：2024.10.20 中午
+解读文字：蓝色水面前，一截枝干安静地站立水中。越是简单的画面，越能记住当时的清冷。
+
+[PHOTO:IMG_6132]
+地区序号：024
+文件：assets/images/yunnan/large/IMG_6132.jpeg
+所属主题：大理 (yn-dali)
+标题：大理第一锅
+地点：大理餐桌
+日期：2024.10.20 晚上
+解读文字：汤在锅里慢慢翻着，蘑菇和热气一起升起来。到大理后的第一顿饭，向往已久的菌子。
+
+[PHOTO:IMG_6133]
+地区序号：025
+文件：assets/images/yunnan/large/IMG_6133.jpeg
+所属主题：大理 (yn-dali)
+标题：辣炒见手青
+地点：大理餐桌
+日期：2024.10.20 晚上
+解读文字：辣椒和见手青炒得很香，颜色也很有存在感。味道再诱人也要省着点吃，因为太贵了。
+
+[PHOTO:IMG_6138]
+地区序号：026
+文件：assets/images/yunnan/large/IMG_6138.jpeg
+所属主题：大理 (yn-dali)
+标题：大理城门
+地点：大理古城
+日期：2024.10.21 上午
+解读文字：城门把人群聚到一起，远处的云压得很低。走进去之前，已经能感觉到这座城的从容。
+
+[PHOTO:IMG_6144]
+地区序号：027
+文件：assets/images/yunnan/large/IMG_6144.jpeg
+所属主题：大理 (yn-dali)
+标题：白塔入云
+地点：崇圣寺三塔
+日期：2024.10.21 中午
+解读文字：塔身从树影后面立起来，天色微暗，反而让线条更清楚。古意在这里被拉得很高。
+
+[PHOTO:IMG_6146]
+地区序号：028
+文件：assets/images/yunnan/large/IMG_6146.jpeg
+所属主题：大理 (yn-dali)
+标题：树影中的塔
+地点：崇圣寺三塔
+日期：2024.10.21 中午
+解读文字：树枝把塔身围住，云从后面慢慢铺开。大理的静，有时候就藏在塔间。
+
+[PHOTO:IMG_6143]
+地区序号：029
+文件：assets/images/yunnan/large/IMG_6143.jpeg
+所属主题：大理 (yn-dali)
+标题：三塔与云
+地点：崇圣寺三塔
+日期：2024.10.21 中午
+解读文字：三座塔在云下排开，山影从后面隐约透出来。比起近看一座塔，远看三塔更有韵味。
+
+[PHOTO:IMG_6147]
+地区序号：030
+文件：assets/images/yunnan/large/IMG_6147.jpeg
+所属主题：大理 (yn-dali)
+标题：洱海边
+地点：洱海
+日期：2024.10.21 下午
+解读文字：水面铺得很平，远山和云连在一起。站在湖边，前几天的山路和街巷都慢慢沉下来。
+
+[PHOTO:IMG_6150]
+地区序号：031
+文件：assets/images/yunnan/large/IMG_6150.jpeg
+所属主题：大理 (yn-dali)
+标题：湖边木栈道
+地点：洱海
+日期：2024.10.21 下午
+解读文字：人群沿着水边散开，岸线把视线带向远处。风一吹，城市的声音就轻了。
+
+[PHOTO:IMG_6154]
+地区序号：032
+文件：assets/images/yunnan/large/IMG_6154.jpeg
+所属主题：大理 (yn-dali)
+标题：云下的一桌
+地点：大理餐桌
+日期：2024.10.21 下午
+解读文字：餐桌旁能看见远处的水和天，食物摆得热闹。大理把吃饭也变成了看风景的一部分。
+
+[PHOTO:IMG_6159]
+地区序号：033
+文件：assets/images/yunnan/large/IMG_6159.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：夜市入口
+地点：西双版纳
+日期：2024.10.22 晚上
+解读文字：灯牌、摊位和人流一起亮起来，夜晚被热带的颜色推到眼前。旅程进入了完全不同的温度。
+
+[PHOTO:IMG_6161]
+地区序号：034
+文件：assets/images/yunnan/large/IMG_6161.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：舞台灯光
+地点：西双版纳
+日期：2024.10.22 晚上
+解读文字：手机屏幕、舞台和围观的人群叠在一起，夜色很热闹。每一束光都像在把空气加热。
+
+[PHOTO:IMG_6162]
+地区序号：035
+文件：assets/images/yunnan/large/IMG_6162.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：榴莲手心
+地点：西双版纳夜市
+日期：2024.10.22 晚上
+解读文字：一小盒榴莲捧在手里，香气不用靠近也能想象。夜市的快乐，常常就是这么直接。
+
+[PHOTO:IMG_6163]
+地区序号：036
+文件：assets/images/yunnan/large/IMG_6163.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：窗外的绿
+地点：西双版纳
+日期：2024.10.23 上午
+解读文字：房间里还带着刚醒来的凌乱，窗外已经是一片浓绿。热带的早晨，像从玻璃外涌进来。
+
+[PHOTO:IMG_6165]
+地区序号：037
+文件：assets/images/yunnan/large/IMG_6165.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：睡莲池
+地点：野象谷
+日期：2024.10.23 上午
+解读文字：水面被叶片铺满，花藏在绿意之间。野象谷的安静被植物慢慢填满。
+
+[PHOTO:IMG_6168]
+地区序号：038
+文件：assets/images/yunnan/large/IMG_6168.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：野象谷山林
+地点：野象谷
+日期：2024.10.23 上午
+解读文字：山林在阳光下层层铺开，树冠一直延到远处的坡上。到了野象谷，西双版纳的绿变得更野、更深。
+
+[PHOTO:IMG_6167]
+地区序号：039
+文件：assets/images/yunnan/large/IMG_6167.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：池边栈台
+地点：野象谷
+日期：2024.10.23 上午
+解读文字：站在水边的小平台上，身后是一整片湿润的绿。野象谷的光线柔下来，人也恬静起来。
+
+[PHOTO:IMG_6170]
+地区序号：040
+文件：assets/images/yunnan/large/IMG_6170.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：大叶之间
+地点：野象谷
+日期：2024.10.23 上午
+解读文字：叶子比人还醒目，把画面撑得很满。走在野象谷，会觉得绿色不只是颜色，也是一种气候。
+
+[PHOTO:IMG_6171]
+地区序号：041
+文件：assets/images/yunnan/large/IMG_6171.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：路边水果摊
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：篮子里的水果摊在地上，被太阳晒得更甜。停下来挑一袋，就是南方旅途的日常。
+
+[PHOTO:IMG_6172]
+地区序号：042
+文件：assets/images/yunnan/large/IMG_6172.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：摊位前
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：橙黄和浅绿一层层堆在面前，挑选也变成一种小小的停留。热带的味道很容易被带走。
+
+[PHOTO:IMG_6173]
+地区序号：043
+文件：assets/images/yunnan/large/IMG_6173.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：金色屋顶
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：屋顶在树影里露出尖角，金色被阳光照得更亮。傣家文化在这一眼里很清楚。
+
+[PHOTO:IMG_6174]
+地区序号：044
+文件：assets/images/yunnan/large/IMG_6174.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：窗边绿影
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：叶片贴着窗边伸过来，外面的光被筛成柔软的绿色。芭蕉花静静地呆在那里。
+
+[PHOTO:IMG_6175]
+地区序号：045
+文件：assets/images/yunnan/large/IMG_6175.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：林间小路
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：路被树荫包住，空气也显得更湿。走在里面，不需要急着抵达哪里。
+
+[PHOTO:IMG_6177]
+地区序号：046
+文件：assets/images/yunnan/large/IMG_6177.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：白塔与蓝天
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：白色塔身在蓝天下很干净，周围的树把它衬得更亮。阳光在这里有一种清脆的质感。
+
+[PHOTO:IMG_6179]
+地区序号：047
+文件：assets/images/yunnan/large/IMG_6179.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：林中的金像
+地点：西双版纳
+日期：2024.10.23 下午
+解读文字：金色从树影里显出来，旁边的绿意把声音都压低。热闹之外，也有庄重的一面。
+
+[PHOTO:IMG_6180]
+地区序号：048
+文件：assets/images/yunnan/large/IMG_6180.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：买回来的甜
+地点：西双版纳
+日期：2024.10.23 傍晚
+解读文字：一袋袋水果摊在桌上，像把白天的阳光都带回了房间。旅途的收获有时就是一口咬下去的甜。
+
+[PHOTO:IMG_6184]
+地区序号：049
+文件：assets/images/yunnan/large/IMG_6184.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：星光夜市
+地点：西双版纳星光夜市
+日期：2024.10.23 晚上
+解读文字：金色建筑和人群一起亮起来，夜市像一整片灯海。最后几天的兴奋，被这一眼推到最高。
+
+[PHOTO:IMG_6186]
+地区序号：050
+文件：assets/images/yunnan/large/IMG_6186.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：粉色夜场
+地点：西双版纳
+日期：2024.10.23 晚上
+解读文字：舞台灯把夜色染成粉紫色，音乐和人声贴得很近。西双版纳的夜晚很会把人留住。
+
+[PHOTO:IMG_6187]
+地区序号：051
+文件：assets/images/yunnan/large/IMG_6187.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：夜里的果袋
+地点：西双版纳
+日期：2024.10.23 晚上
+解读文字：切好的芒果装在袋子里，颜色被室内灯照得很软。热带夜晚的一点满足，简单又具体。
+
+[PHOTO:IMG_6190]
+地区序号：052
+文件：assets/images/yunnan/large/IMG_6190.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：红果缀满树
+地点：西双版纳热带植物园
+日期：2024.10.24 上午
+解读文字：树干上挂满细小的红色，像植物自己留下的装饰。越往林子里走，越容易被这些细节抓住。
+
+[PHOTO:IMG_6192]
+地区序号：053
+文件：assets/images/yunnan/large/IMG_6192.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：草地中央
+地点：西双版纳热带植物园
+日期：2024.10.24 上午
+解读文字：草地在树之间展开，远处的白桦和绿意把空间撑开。人站在中间，显得很轻。
+
+[PHOTO:IMG_6198]
+地区序号：054
+文件：assets/images/yunnan/large/IMG_6198.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：叶间果实
+地点：西双版纳热带植物园
+日期：2024.10.24 上午
+解读文字：一颗果实藏在大叶之间，绿色一层叠一层。这里的植物总能把普通散步变成观察。
+
+[PHOTO:IMG_6200]
+地区序号：055
+文件：assets/images/yunnan/large/IMG_6200.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：树上的菠萝蜜
+地点：西双版纳热带植物园
+日期：2024.10.24 上午
+解读文字：沉甸甸的果实挂在树干上，阳光从叶缝里落下来。热带的丰盛感，几乎不用解释。
+
+[PHOTO:IMG_6201]
+地区序号：056
+文件：assets/images/yunnan/large/IMG_6201.jpeg
+所属主题：西双版纳 (yn-xishuangbanna)
+标题：高树路旁
+地点：西双版纳热带植物园
+日期：2024.10.24 上午
+解读文字：笔直的树沿着路边排开，天空从叶冠之间露出来。最后一段路，明亮得很轻松。
+
+========================================================================
+甘肃 / gansu（95 张）
+========================================================================
+
+[PHOTO:GS_N_YELLOW_RIVER]
+地区序号：001
+文件：assets/images/gansu/large/gs_n_yellow_river.jpeg
+所属主题：自然风光 (gs-nature)
+标题：黄河边的风
+地点：兰州黄河边
+日期：2026.05.14 晚上
+解读文字：黄河贴着城市慢慢流过，岸边的柳树和人影让兰州的开场显得很生活。
+
+[PHOTO:GS_N_ZHONGSHAN_BRIDGE]
+地区序号：002
+文件：assets/images/gansu/large/gs_n_zhongshan_bridge.jpeg
+所属主题：自然风光 (gs-nature)
+标题：铁桥与河水
+地点：兰州中山桥一带
+日期：2026.05.14 晚上
+解读文字：铁桥横在黄河上，水面带着厚重的颜色。城市的地标被每天的河风反复经过。
+
+[PHOTO:GS_N_DANXIA_PORTRAIT]
+地区序号：003
+文件：assets/images/gansu/large/gs_n_danxia_portrait.jpeg
+所属主题：自然风光 (gs-nature)
+标题：彩丘前
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：人站在彩色山体前，比例一下被拉小。甘肃的辽阔，常常就是这样从身后展开。
+
+[PHOTO:GS_N_DANXIA_WIDE]
+地区序号：004
+文件：assets/images/gansu/large/gs_n_danxia_wide.jpeg
+所属主题：自然风光 (gs-nature)
+标题：丹霞铺开
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：山脊一层层向远处推开，红、黄和褐色在阳光下分得很清楚，像大地自己留下的纹路。
+
+[PHOTO:GS_N_DANXIA_VALLEY]
+地区序号：005
+文件：assets/images/gansu/large/gs_n_danxia_valley.jpeg
+所属主题：自然风光 (gs-nature)
+标题：褶皱里的路
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：远处的步道和近处的山纹一起弯折，人在里面移动得很慢，风景却一直往外扩。
+
+[PHOTO:GS_N_DANXIA_LOOKOUT]
+地区序号：006
+文件：assets/images/gansu/large/gs_n_danxia_lookout.jpeg
+所属主题：自然风光 (gs-nature)
+标题：看台上的停留
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：站在栏杆边看出去，山色像被阳光一层层翻开。拍照只是停留的理由，真正记住的是那阵风。
+
+[PHOTO:GS_N_DANXIA_COLORS]
+地区序号：007
+文件：assets/images/gansu/large/gs_n_danxia_colors.jpeg
+所属主题：自然风光 (gs-nature)
+标题：颜色起伏
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：红色岩层和浅色山坡交错在一起，画面明亮得像被西北的太阳重新调过色。
+
+[PHOTO:GS_N_DANXIA_CANYON]
+地区序号：008
+文件：assets/images/gansu/large/gs_n_danxia_canyon.jpeg
+所属主题：自然风光 (gs-nature)
+标题：远处的峡谷
+地点：张掖丹霞
+日期：2026.05.18 中午
+解读文字：峡谷像被时间慢慢刻出来，阴影落在褐色山体上，让远处也有了层次。
+
+[PHOTO:GS_N_DANXIA_SHADOW]
+地区序号：009
+文件：assets/images/gansu/large/gs_n_danxia_shadow.jpeg
+所属主题：自然风光 (gs-nature)
+标题：丹霞的阴影
+地点：张掖丹霞
+日期：2026.05.18 中午
+解读文字：光线从高处压下来，沟壑里留下深色的影。颜色之外，地貌本身也足够有力量。
+
+[PHOTO:GS_N_CANYON_WALK]
+地区序号：010
+文件：assets/images/gansu/large/gs_n_canyon_walk.jpeg
+所属主题：自然风光 (gs-nature)
+标题：红岩栈道
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：栈道贴着红色岩壁向前，人在岩层之间穿行，像走进一条被山体夹住的时间线。
+
+[PHOTO:GS_N_CANYON_BOARDWALK]
+地区序号：011
+文件：assets/images/gansu/large/gs_n_canyon_boardwalk.jpeg
+所属主题：自然风光 (gs-nature)
+标题：峡谷里的阶梯
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：木阶从峡谷中间抬上去，阳光只照亮一部分岩壁，剩下的都留给凉意和回声。
+
+[PHOTO:GS_N_CANYON_WALL]
+地区序号：012
+文件：assets/images/gansu/large/gs_n_canyon_wall.jpeg
+所属主题：自然风光 (gs-nature)
+标题：一线岩壁
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：窄路两边是高高的岩壁，纹理近得几乎可以读出来。风景在这里从远眺变成了贴身经过。
+
+[PHOTO:GS_N_CANYON_SKY]
+地区序号：013
+文件：assets/images/gansu/large/gs_n_canyon_sky.jpeg
+所属主题：自然风光 (gs-nature)
+标题：岩缝里的天
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：抬头只看见一条蓝色的天，岩壁把光收得很窄，反而让天空显得更亮。
+
+[PHOTO:GS_N_GORGE_STAIR]
+地区序号：014
+文件：assets/images/gansu/large/gs_n_gorge_stair.jpeg
+所属主题：自然风光 (gs-nature)
+标题：上行的铁梯
+地点：张掖平山湖大峡谷
+日期：2026.05.18 下午
+解读文字：铁梯顺着岩壁往上走，脚下是热土，头顶是强光，每一步都带着干燥的西北感。
+
+[PHOTO:GS_N_GORGE_LOOKOUT]
+地区序号：015
+文件：assets/images/gansu/large/gs_n_gorge_lookout.jpeg
+所属主题：自然风光 (gs-nature)
+标题：荒原远望
+地点：张掖平山湖大峡谷
+日期：2026.05.18 下午
+解读文字：从高处看出去，褐色荒原一直铺到远处，空间大得让人下意识安静下来。
+
+[PHOTO:GS_N_DESERT_PERSON]
+地区序号：016
+文件：assets/images/gansu/large/gs_n_desert_person.jpeg
+所属主题：自然风光 (gs-nature)
+标题：沙山脚下
+地点：敦煌鸣沙山
+日期：2026.05.21 上午
+解读文字：沙丘在身后缓慢起伏，人的影子很小。到了敦煌，风景换成了更明亮也更干燥的质地。
+
+[PHOTO:GS_N_CRESCENT_LAKE]
+地区序号：017
+文件：assets/images/gansu/large/gs_n_crescent_lake.jpeg
+所属主题：自然风光 (gs-nature)
+标题：月牙泉远处
+地点：敦煌鸣沙山月牙泉
+日期：2026.05.21 上午
+解读文字：沙山之间突然出现一片绿和水，亭台在远处压住画面，是荒漠里的奇迹。
+
+[PHOTO:GS_N_DUNES_GROVE]
+地区序号：018
+文件：assets/images/gansu/large/gs_n_dunes_grove.jpeg
+所属主题：自然风光 (gs-nature)
+标题：沙山与树影
+地点：敦煌鸣沙山月牙泉
+日期：2026.05.21 上午
+解读文字：树影、栏杆和沙山叠在一起，柔软的沙线把旅程最后的风景慢慢收住。
+
+[PHOTO:GS_C_BUDDHA_TERRACE]
+地区序号：019
+文件：assets/images/gansu/large/gs_c_buddha_terrace.jpeg
+所属主题：文化 (gs-culture)
+标题：白塔寺的佛像
+地点：武威白塔寺
+日期：2026.05.15 下午
+解读文字：佛像立在灰天之下，武威白塔寺里有安静的宗教气息。
+
+[PHOTO:GS_C_WHITE_PAGODA]
+地区序号：020
+文件：assets/images/gansu/large/gs_c_white_pagoda.jpeg
+所属主题：文化 (gs-culture)
+标题：白塔寺白塔
+地点：武威白塔寺
+日期：2026.05.15 下午
+解读文字：白色塔身在树影旁显得很清净，灰天之下更显得沉静。
+
+[PHOTO:GS_C_TEMPLE_GATE]
+地区序号：021
+文件：assets/images/gansu/large/gs_c_temple_gate.jpeg
+所属主题：文化 (gs-culture)
+标题：鸠摩罗什寺山门
+地点：武威鸠摩罗什寺
+日期：2026.05.15 下午
+解读文字：红柱、蓝匾和彩画把入口装点得很明亮，武威的文化线索从这座寺院前慢慢展开。
+
+[PHOTO:GS_C_ANCIENT_TOWER]
+地区序号：022
+文件：assets/images/gansu/large/gs_c_ancient_tower.jpeg
+所属主题：文化 (gs-culture)
+标题：鸠摩罗什寺塔
+地点：武威鸠摩罗什寺
+日期：2026.05.15 下午
+解读文字：石塔站在院落中央，天色压得很低，反而让塔身的线条更稳。
+
+[PHOTO:GS_C_CITY_GATE]
+地区序号：023
+文件：assets/images/gansu/large/gs_c_city_gate.jpeg
+所属主题：文化 (gs-culture)
+标题：凉州城楼前
+地点：武威凉州城区
+日期：2026.05.15 下午
+解读文字：城楼把人带回过去，台阶、门洞和广场一起把时间拉开。
+
+[PHOTO:GS_C_OLD_HOUSE]
+地区序号：024
+文件：assets/images/gansu/large/gs_c_old_house.jpeg
+所属主题：文化 (gs-culture)
+标题：老宅门楼
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：木门和匾额被岁月磨得发暗，门口的人影让这座老建筑保持往日的温度。
+
+[PHOTO:GS_C_WEATHERED_DOOR]
+地区序号：025
+文件：assets/images/gansu/large/gs_c_weathered_door.jpeg
+所属主题：文化 (gs-culture)
+标题：斑驳门板
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：旧门上的痕迹像一层层被留下来的时间。没有鲜艳颜色，却很能让人停下来。
+
+[PHOTO:GS_C_SLEEPING_BUDDHA]
+地区序号：026
+文件：assets/images/gansu/large/gs_c_sleeping_buddha.jpeg
+所属主题：文化 (gs-culture)
+标题：殿中的卧佛
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：昏暗殿内，卧佛被柱子和壁画围住。人站在下方，佛躺在上方。
+
+[PHOTO:GS_C_MURAL_HALL]
+地区序号：027
+文件：assets/images/gansu/large/gs_c_mural_hall.jpeg
+所属主题：文化 (gs-culture)
+标题：壁画上的人物
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：壁画色彩已经旧了，人物却仍然清楚。看得久一点，会觉得时间并没有完全退远。
+
+[PHOTO:GS_C_PAINTED_STATUE]
+地区序号：028
+文件：assets/images/gansu/large/gs_c_painted_statue.jpeg
+所属主题：文化 (gs-culture)
+标题：彩塑侧影
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：彩塑站在木构之间，衣纹和颜色都带着旧意。它不需要完整解释，已经足够有存在感。
+
+[PHOTO:GS_C_XIJIN_TILE]
+地区序号：029
+文件：assets/images/gansu/large/gs_c_xijin_tile.jpeg
+所属主题：文化 (gs-culture)
+标题：西晋地砖
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：一块地砖把很远的年代带到眼前，花纹留在石面上，像历史给旅程留下的签名。
+
+[PHOTO:GS_C_JIAYUGUAN_GATE]
+地区序号：030
+文件：assets/images/gansu/large/gs_c_jiayuguan_gate.jpeg
+所属主题：文化 (gs-culture)
+标题：嘉峪关入口
+地点：嘉峪关
+日期：2026.05.19 中午
+解读文字：城门前的阳光很硬，人群从门洞前经过，关城的轮廓显得格外清楚。
+
+[PHOTO:GS_C_HERO_PASS]
+地区序号：031
+文件：assets/images/gansu/large/gs_c_hero_pass.jpeg
+所属主题：文化 (gs-culture)
+标题：天下雄关
+地点：嘉峪关
+日期：2026.05.19 中午
+解读文字：匾额立在风沙里，四个字把边关的气势直接写出来。到这里，丝路忽然有了具体的门。
+
+[PHOTO:GS_C_RAMMED_WALL]
+地区序号：032
+文件：assets/images/gansu/large/gs_c_rammed_wall.jpeg
+所属主题：文化 (gs-culture)
+标题：夯土城墙
+地点：嘉峪关
+日期：2026.05.19 中午
+解读文字：墙体在阳光下显出层层土色，线条朴素，却把边塞的力量留得很实。
+
+[PHOTO:GS_C_FORT_TOWER]
+地区序号：033
+文件：assets/images/gansu/large/gs_c_fort_tower.jpeg
+所属主题：文化 (gs-culture)
+标题：关城楼阁
+地点：嘉峪关
+日期：2026.05.19 下午
+解读文字：楼阁立在高墙之上，蓝天和黄土把画面分得很干净，像一段历史的剪影。
+
+[PHOTO:GS_C_MOGAO_CLIFF]
+地区序号：034
+文件：assets/images/gansu/large/gs_c_mogao_cliff.jpeg
+所属主题：文化 (gs-culture)
+标题：石窟外墙
+地点：敦煌莫高窟
+日期：2026.05.20 中午
+解读文字：洞窟沿着崖壁排开，栈道一层层连着。还没进入洞内，敦煌的厚度已经扑面而来。
+
+[PHOTO:GS_C_MOGAO_RED_EAVES]
+地区序号：035
+文件：assets/images/gansu/large/gs_c_mogao_red_eaves.jpeg
+所属主题：文化 (gs-culture)
+标题：九层楼
+地点：敦煌莫高窟
+日期：2026.05.20 下午
+解读文字：红色檐角贴着崖壁向上，建筑像从石壁里长出来，把宗教和地貌接在一起。
+
+[PHOTO:GS_C_MOGAO_DOOR_PAINTING]
+地区序号：036
+文件：assets/images/gansu/large/gs_c_mogao_door_painting.jpeg
+所属主题：文化 (gs-culture)
+标题：门上的彩绘
+地点：敦煌莫高窟
+日期：2026.05.20 下午
+解读文字：门板上的图案已经斑驳，线条却还在。细节越旧，越让人愿意多看一眼。
+
+[PHOTO:GS_C_MOGAO_DETAIL]
+地区序号：037
+文件：assets/images/gansu/large/gs_c_mogao_detail.jpeg
+所属主题：文化 (gs-culture)
+标题：壁画细部
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：人物、树木和建筑被画在同一片旧色里，细节密得像一段被保存下来的故事。
+
+[PHOTO:GS_C_MOGAO_CEILING]
+地区序号：038
+文件：assets/images/gansu/large/gs_c_mogao_ceiling.jpeg
+所属主题：文化 (gs-culture)
+标题：藻井图案
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：图案从中心向四周展开，颜色褪去后仍然有秩序。它让抬头这件事变得很有仪式感。
+
+[PHOTO:GS_C_MOGAO_BUDDHA_WALL]
+地区序号：039
+文件：assets/images/gansu/large/gs_c_mogao_buddha_wall.jpeg
+所属主题：文化 (gs-culture)
+标题：佛国壁面
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：壁面上人物层层排列，红与绿沉在旧色里。热闹的画面反而带着很深的安静。
+
+[PHOTO:GS_C_MOGAO_CALLIGRAPHY]
+地区序号：040
+文件：assets/images/gansu/large/gs_c_mogao_calligraphy.jpeg
+所属主题：文化 (gs-culture)
+标题：纸上的墨迹
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：墨迹竖着落下，笔画像还带着人的手劲。文物有时不需要巨大，只要一行字就够近。
+
+[PHOTO:GS_C_THOUSAND_BUDDHAS]
+地区序号：041
+文件：assets/images/gansu/large/gs_c_thousand_buddhas.jpeg
+所属主题：文化 (gs-culture)
+标题：千佛排列
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：一尊尊小佛排成整面墙，重复里有一种稳定的力量。站在前面，会被数量和时间同时击中。
+
+[PHOTO:GS_F_NOODLES]
+地区序号：042
+文件：assets/images/gansu/large/gs_f_noodles.jpeg
+所属主题：美食 (gs-food)
+标题：兰州牛肉面
+地点：兰州餐桌
+日期：2026.05.15 清晨
+解读文字：清汤、红油、葱花和面条放在同一个碗里，热气一起升上来。甘肃的第一口，很适合从这里开始。
+
+[PHOTO:GS_F_MIANPI]
+地区序号：043
+文件：assets/images/gansu/large/gs_f_mianpi.jpeg
+所属主题：美食 (gs-food)
+标题：古浪面皮子
+地点：武威小吃
+日期：2026.05.16 上午
+解读文字：面皮子裹着辣油和芝麻，颜色很直接。西北小吃的爽利，在这一盘里很清楚。
+
+[PHOTO:GS_F_GREY_BEANS]
+地区序号：044
+文件：assets/images/gansu/large/gs_f_grey_beans.jpeg
+所属主题：美食 (gs-food)
+标题：灰豆子
+地点：兰州小吃
+日期：2026.05.14 晚上
+解读文字：甜汤颜色很深，豆子圆圆地沉在碗里，让走累后的夜晚更加安静。
+
+[PHOTO:GS_F_POTATO]
+地区序号：045
+文件：assets/images/gansu/large/gs_f_potato.jpeg
+所属主题：美食 (gs-food)
+标题：烤土豆
+地点：张掖夜市
+日期：2026.05.16 傍晚
+解读文字：土豆块撒上调料，外面带一点焦香。很简单，也很有路边的快乐。
+
+[PHOTO:GS_F_POTATO_CHIPS]
+地区序号：046
+文件：assets/images/gansu/large/gs_f_potato_chips.jpeg
+所属主题：美食 (gs-food)
+标题：烤土豆片
+地点：武威夜市
+日期：2026.05.15 晚上
+解读文字：薄片一层层叠在烤架上，辣椒面把香气推得很近。夜市的热闹有时就是这一串。
+
+[PHOTO:GS_F_NAIPI]
+地区序号：047
+文件：assets/images/gansu/large/gs_f_naipi.jpeg
+所属主题：美食 (gs-food)
+标题：兰州奶皮子
+地点：兰州小吃
+日期：2026.05.22 上午
+解读文字：奶皮子在杯子里柔软地卷起，凉意和奶香让干燥的路程忽然变得温和。
+
+[PHOTO:GS_F_HAND_NAIPI]
+地区序号：048
+文件：assets/images/gansu/large/gs_f_hand_naipi.jpeg
+所属主题：美食 (gs-food)
+标题：手工奶皮子
+地点：兰州小吃
+日期：2026.05.14 晚上
+解读文字：黑芝麻和枸杞点在奶香上，甜味很轻，却刚好把西北的风沙压下去一点。
+
+[PHOTO:GS_F_TIANPEIZI]
+地区序号：049
+文件：assets/images/gansu/large/gs_f_tianpeizi.jpeg
+所属主题：美食 (gs-food)
+标题：甜醅子
+地点：兰州小吃
+日期：2026.05.14 晚上
+解读文字：麦粒泡在清甜的汤里，吃起来有发酵后的微微香气。它像这趟旅程里一口很本地的甜。
+
+[PHOTO:GS_F_APRICOT_TEA]
+地区序号：050
+文件：assets/images/gansu/large/gs_f_apricot_tea.jpeg
+所属主题：美食 (gs-food)
+标题：杏皮茶
+地点：敦煌街头
+日期：2026.05.20 晚上
+解读文字：杯子握在手里，酸甜味像从西北的水果里直接取出来。走在太阳下，这一口特别及时。
+
+[PHOTO:GS_F_CHAOBOLA]
+地区序号：051
+文件：assets/images/gansu/large/gs_f_chaobola.jpeg
+所属主题：美食 (gs-food)
+标题：炒拨拉
+地点：张掖餐桌
+日期：2026.05.17 晚上
+解读文字：铁盘里肉和菜炒得很满，油光、辣椒和锅气都很足。看一眼就知道这顿不会清淡。
+
+[PHOTO:GS_F_LAMB_PANCAKE]
+地区序号：052
+文件：assets/images/gansu/large/gs_f_lamb_pancake.jpeg
+所属主题：美食 (gs-food)
+标题：敦煌羊肉焖饼
+地点：敦煌餐桌
+日期：2026.05.19 晚上
+解读文字：饼吸了汤汁，羊肉和青椒把味道撑起来。敦煌的晚饭，带着很踏实的分量。
+
+[PHOTO:GS_F_LATIAOZI]
+地区序号：053
+文件：assets/images/gansu/large/gs_f_latiaozi.jpeg
+所属主题：美食 (gs-food)
+标题：新疆拉条子
+地点：张掖餐桌
+日期：2026.05.16 傍晚
+解读文字：面条拌着肉和辣味，颜色厚重，口感也很有劲。赶路之后，这种主食很让人满足。
+
+[PHOTO:GS_F_LAMB_RICE]
+地区序号：054
+文件：assets/images/gansu/large/gs_f_lamb_rice.jpeg
+所属主题：美食 (gs-food)
+标题：羊肉炒饭
+地点：张掖餐桌
+日期：2026.05.16 傍晚
+解读文字：米饭炒得粒粒分明，羊肉香气压在里面。简单一盘，也能把人从风景里拉回现实。
+
+[PHOTO:GS_F_SHACONG]
+地区序号：055
+文件：assets/images/gansu/large/gs_f_shacong.jpeg
+所属主题：美食 (gs-food)
+标题：凉拌沙葱
+地点：武威餐桌
+日期：2026.05.15 晚上
+解读文字：沙葱拌得清爽，颜色绿得很利落。重口味之间，有这样一盘刚好解腻。
+
+[PHOTO:GS_F_BOILED_LAMB]
+地区序号：056
+文件：assets/images/gansu/large/gs_f_boiled_lamb.jpeg
+所属主题：美食 (gs-food)
+标题：手抓羊肉
+地点：兰州餐桌
+日期：2026.05.14 晚上
+解读文字：羊肉按骨切开，旁边蘸一点辣油就很有滋味。手抓羊肉看起来朴素，却最能吃出西北餐桌的底气。
+
+[PHOTO:GS_F_WUWEI_HAND_LAMB]
+地区序号：057
+文件：assets/images/gansu/large/gs_f_wuwei_hand_lamb.jpeg
+所属主题：美食 (gs-food)
+标题：武威手抓羊肉
+地点：武威餐桌
+日期：2026.05.15 中午
+解读文字：羊肉装在长盘里，旁边是辣椒面和蒜汁。到了武威，这一口手抓羊肉就是最好的回报。
+
+[PHOTO:GS_F_SKEWERS]
+地区序号：058
+文件：assets/images/gansu/large/gs_f_skewers.jpeg
+所属主题：美食 (gs-food)
+标题：一把烤串
+地点：武威夜市
+日期：2026.05.15 晚上
+解读文字：烤串摆满铁盘，调料和火候把夜晚一下点热。旅行中的快乐，有时就是不用等太久的香气。
+
+[PHOTO:GS_F_BREAD_TEA]
+地区序号：059
+文件：assets/images/gansu/large/gs_f_bread_tea.jpeg
+所属主题：美食 (gs-food)
+标题：烤馕与炼乳
+地点：武威餐桌
+日期：2026.05.15 晚上
+解读文字：烤馕切成扇形，旁边配着炼乳和特制辣酱。甜口和辣味一起上桌，是武威餐桌上很直接的组合。
+
+[PHOTO:GS_F_MARKET]
+地区序号：060
+文件：assets/images/gansu/large/gs_f_market.jpeg
+所属主题：美食 (gs-food)
+标题：市场里的红枣
+地点：武威市场
+日期：2026.05.16 上午
+解读文字：摊位上堆着红枣和干货，颜色沉稳又丰盛。这里不只是买东西，也是看见当地生活。
+
+[PHOTO:GS_F_FOOD_STREET]
+地区序号：061
+文件：assets/images/gansu/large/gs_f_food_street.jpeg
+所属主题：美食 (gs-food)
+标题：夜色里的食街
+地点：敦煌夜市
+日期：2026.05.20 晚上
+解读文字：灯牌一排排亮起来，游客和摊主在路中间交错。敦煌的夜晚，常常是被吃食照亮的。
+
+[PHOTO:GS_F_DAPANJI]
+地区序号：062
+文件：assets/images/gansu/large/gs_f_dapanji.jpeg
+所属主题：美食 (gs-food)
+标题：夜市柜台
+地点：敦煌夜市
+日期：2026.05.20 晚上
+解读文字：柜台前挂着明亮的招牌，烤串和热菜等着上桌。还没吃到，气氛已经先到了。
+
+[PHOTO:GS_C_WUWEI_HOTEL_LOBBY]
+地区序号：063
+文件：assets/images/gansu/large/gs_c_wuwei_hotel_lobby.jpeg
+所属主题：文化 (gs-culture)
+标题：武威落脚处
+地点：武威酒店
+日期：2026.05.15 晚上
+解读文字：大堂的灯和地面纹样把赶路的一晚安放下来。旅程里这样的落脚处，也会成为回忆的背景。
+
+[PHOTO:GS_F_LANZHOU_FAREWELL_NAIPI]
+地区序号：064
+文件：assets/images/gansu/large/gs_f_lanzhou_farewell_naipi.jpeg
+所属主题：美食 (gs-food)
+标题：别了，兰州
+地点：兰州中川机场
+日期：2026.05.22 中午
+解读文字：离开前再拿一杯奶皮子，给兰州之旅收一个圆满的尾。
+
+[PHOTO:GS_F_ZHANGYE_FIGS]
+地区序号：065
+文件：assets/images/gansu/large/gs_f_zhangye_figs.jpeg
+所属主题：美食 (gs-food)
+标题：张掖红色无花果
+地点：张掖
+日期：2026.05.17 傍晚
+解读文字：红色无花果装在手里，颜色新鲜得很直接。风景之外，也有路边水果的味道。
+
+[PHOTO:GS_N_DANXIA_TOGETHER]
+地区序号：066
+文件：assets/images/gansu/large/gs_n_danxia_together.jpeg
+所属主题：自然风光 (gs-nature)
+标题：丹霞前合影
+地点：张掖丹霞
+日期：2026.05.17 下午
+解读文字：彩色山体在身后铺开，人站在风里，显得轻而明亮。
+
+[PHOTO:GS_N_PINGSHANHU_PORTRAIT]
+地区序号：067
+文件：assets/images/gansu/large/gs_n_pingshanhu_portrait.jpeg
+所属主题：自然风光 (gs-nature)
+标题：红岩前
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：红色岩层堆叠在身后，阳光很硬，人的轮廓也被照得更清楚。
+
+[PHOTO:GS_N_MINGSHA_MAN]
+地区序号：068
+文件：assets/images/gansu/large/gs_n_mingsha_man.jpeg
+所属主题：自然风光 (gs-nature)
+标题：沙地里的身影
+地点：敦煌鸣沙山
+日期：2026.05.21 上午
+解读文字：人站在沙地中央，远处的沙山被风吹成柔软的曲线。
+
+[PHOTO:GS_F_LANZHOU_NIGHT_STREET]
+地区序号：069
+文件：assets/images/gansu/large/gs_f_lanzhou_night_street.jpeg
+所属主题：美食 (gs-food)
+标题：兰州夜里的食街
+地点：兰州夜市
+日期：2026.05.14 傍晚
+解读文字：木色门面和招牌挤在一起，夜晚刚亮，吃饭的气氛已经先围上来。
+
+[PHOTO:GS_N_RIVER_CANOPY]
+地区序号：070
+文件：assets/images/gansu/large/gs_n_river_canopy.jpeg
+所属主题：自然风光 (gs-nature)
+标题：黄河边的茶馆
+地点：兰州黄河边
+日期：2026.05.14 晚上
+解读文字：茶馆沿着黄河排开，椅子面向河水。坐下来喝茶看河，是兰州很日常也很舒服的一刻。
+
+[PHOTO:GS_N_RIVER_SELFIE]
+地区序号：071
+文件：assets/images/gansu/large/gs_n_river_selfie.jpeg
+所属主题：自然风光 (gs-nature)
+标题：黄河边合影
+地点：兰州黄河边
+日期：2026.05.14 晚上
+解读文字：身后是黄河和山坡，两个人靠近镜头，旅程在城市边的河风里留下影子。
+
+[PHOTO:GS_F_LANZHOU_COFFEE]
+地区序号：072
+文件：assets/images/gansu/large/gs_f_lanzhou_coffee.jpeg
+所属主题：美食 (gs-food)
+标题：离开前的小酒店前台
+地点：兰州小酒店
+日期：2026.05.15 清晨
+解读文字：离开前在小酒店前台短暂停留，屏幕、灯光和行李一起构成旅途里的中转片段。
+
+[PHOTO:GS_C_WUWEI_GATE_SELFIE]
+地区序号：073
+文件：assets/images/gansu/large/gs_c_wuwei_gate_selfie.jpeg
+所属主题：文化 (gs-culture)
+标题：凉州城楼合影
+地点：武威凉州城区
+日期：2026.05.15 下午
+解读文字：城楼在身后抬起，门洞和台阶把武威的城市记忆放进同一张照片。
+
+[PHOTO:GS_F_MIANPI_STALL]
+地区序号：074
+文件：assets/images/gansu/large/gs_f_mianpi_stall.jpeg
+所属主题：美食 (gs-food)
+标题：面皮子小店
+地点：武威小吃店
+日期：2026.05.16 上午
+解读文字：柜台前有人正在点餐，墙上的菜单写着各种面皮。真正的地方味道常在这样的店口出现。
+
+[PHOTO:GS_C_DAFOSI_GARDEN]
+地区序号：075
+文件：assets/images/gansu/large/gs_c_dafosi_garden.jpeg
+所属主题：文化 (gs-culture)
+标题：大佛寺院中
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：院子里的树影和灯杆把古建筑围住，热烈阳光下仍然有一块安静。
+
+[PHOTO:GS_C_DAFOSI_CAT]
+地区序号：076
+文件：assets/images/gansu/large/gs_c_dafosi_cat.jpeg
+所属主题：文化 (gs-culture)
+标题：寺边白猫
+地点：张掖大佛寺
+日期：2026.05.17 上午
+解读文字：猫躺在墙边，严肃的古寺角落，也有很松弛的一秒。
+
+[PHOTO:GS_N_PINGSHANHU_SIGN]
+地区序号：077
+文件：assets/images/gansu/large/gs_n_pingshanhu_sign.jpeg
+所属主题：自然风光 (gs-nature)
+标题：平山湖大峡谷入口
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：牌子立在红岩前，还没有进入峡谷，干燥的气息已经很近。
+
+[PHOTO:GS_N_CANYON_STONE_PILE]
+地区序号：078
+文件：assets/images/gansu/large/gs_n_canyon_stone_pile.jpeg
+所属主题：自然风光 (gs-nature)
+标题：红岩下的小石堆
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：小石堆靠在岩壁脚下，不知堆它的人是否实现了心愿。
+
+[PHOTO:GS_N_CANYON_SCALE]
+地区序号：079
+文件：assets/images/gansu/large/gs_n_canyon_scale.jpeg
+所属主题：自然风光 (gs-nature)
+标题：峡谷中的人
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：人站在高高岩壁前，才看出这片红色地貌真正的尺度。
+
+[PHOTO:GS_N_CANYON_SELFIE]
+地区序号：080
+文件：assets/images/gansu/large/gs_n_canyon_selfie.jpeg
+所属主题：自然风光 (gs-nature)
+标题：峡谷自拍
+地点：张掖平山湖大峡谷
+日期：2026.05.18 中午
+解读文字：近处是同行的人，身后是温热的红岩。风景很大，镜头把它拉回到身边。
+
+[PHOTO:GS_N_CANYON_TALL_WALL]
+地区序号：081
+文件：assets/images/gansu/large/gs_n_canyon_tall_wall.jpeg
+所属主题：自然风光 (gs-nature)
+标题：高墙之下
+地点：张掖平山湖大峡谷
+日期：2026.05.18 下午
+解读文字：岩壁从身边直直升起，脚下的路被压得很窄，人也自然放慢。
+
+[PHOTO:GS_N_CANYON_DEEP_VIEW]
+地区序号：082
+文件：assets/images/gansu/large/gs_n_canyon_deep_view.jpeg
+所属主题：自然风光 (gs-nature)
+标题：峡谷深处
+地点：张掖平山湖大峡谷
+日期：2026.05.18 下午
+解读文字：从高处向下看，岩层和步道交错在一起，像一条被风和时间刻出的路线。
+
+[PHOTO:GS_C_JIAYUGUAN_WALL_TOWER]
+地区序号：083
+文件：assets/images/gansu/large/gs_c_jiayuguan_wall_tower.jpeg
+所属主题：文化 (gs-culture)
+标题：城墙上的楼阁
+地点：嘉峪关
+日期：2026.05.19 下午
+解读文字：楼阁从长墙上抬起，墙体一路延向远处，边关的线条干净而有力。
+
+[PHOTO:GS_C_MOGAO_EARTHEN_WALL]
+地区序号：084
+文件：assets/images/gansu/large/gs_c_mogao_earthen_wall.jpeg
+所属主题：文化 (gs-culture)
+标题：石窟外的土墙
+地点：敦煌莫高窟
+日期：2026.05.20 中午
+解读文字：土色墙体贴着崖面延伸，质地朴素，这便是历史和文化的厚度。
+
+[PHOTO:GS_C_MOGAO_PLAZA]
+地区序号：085
+文件：assets/images/gansu/large/gs_c_mogao_plaza.jpeg
+所属主题：文化 (gs-culture)
+标题：莫高窟广场
+地点：敦煌莫高窟
+日期：2026.05.20 下午
+解读文字：人站在石窟外的广场上，背后是层层崖壁和通向历史深处的栈道。
+
+[PHOTO:GS_C_MOGAO_EAVES_SIDE]
+地区序号：086
+文件：assets/images/gansu/large/gs_c_mogao_eaves_side.jpeg
+所属主题：文化 (gs-culture)
+标题：九层楼侧影
+地点：敦煌莫高窟
+日期：2026.05.20 下午
+解读文字：红色木构贴着山体向上，树影从旁边压过来，让建筑显得更高。
+
+[PHOTO:GS_C_MOGAO_MURAL_FIGURES]
+地区序号：087
+文件：assets/images/gansu/large/gs_c_mogao_mural_figures.jpeg
+所属主题：文化 (gs-culture)
+标题：壁画人物
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：人物线条在旧色里仍然清楚，眉眼和衣纹从很远的时间里留下来。
+
+[PHOTO:GS_C_MOGAO_HORSE_DETAIL]
+地区序号：088
+文件：assets/images/gansu/large/gs_c_mogao_horse_detail.jpeg
+所属主题：文化 (gs-culture)
+标题：壁画里的奔马
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：马匹在残损的画面里仍然有速度，褪色反而让那种动势更耐看。
+
+[PHOTO:GS_C_MOGAO_RIDER_DETAIL]
+地区序号：089
+文件：assets/images/gansu/large/gs_c_mogao_rider_detail.jpeg
+所属主题：文化 (gs-culture)
+标题：骑者细部
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：骑马人物被保存成一块斑驳的细节，颜色淡了，姿态还在。
+
+[PHOTO:GS_C_MOGAO_STORY_PANEL]
+地区序号：090
+文件：assets/images/gansu/large/gs_c_mogao_story_panel.jpeg
+所属主题：文化 (gs-culture)
+标题：壁画故事
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：两个人物在浅色背景里相对而坐，像一个故事被安静截取下来。
+
+[PHOTO:GS_C_MOGAO_RED_HORSE]
+地区序号：091
+文件：assets/images/gansu/large/gs_c_mogao_red_horse.jpeg
+所属主题：文化 (gs-culture)
+标题：红马
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：红色马匹在蓝绿底色上向前跃起，残损的边缘让它更像一段时间的切片。
+
+[PHOTO:GS_C_MOGAO_GATE]
+地区序号：092
+文件：assets/images/gansu/large/gs_c_mogao_gate.jpeg
+所属主题：文化 (gs-culture)
+标题：莫高窟牌楼
+地点：敦煌莫高窟
+日期：2026.05.20 下午
+解读文字：木牌楼立在广场入口，游客从下面经过，正式走进敦煌的下一层。
+
+[PHOTO:GS_C_MOGAO_LINE_DETAIL]
+地区序号：093
+文件：assets/images/gansu/large/gs_c_mogao_line_detail.jpeg
+所属主题：文化 (gs-culture)
+标题：线刻纹样
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：细密线条在灰白表面上交织，近看像时间留下的一张纹理地图。
+
+[PHOTO:GS_C_MOGAO_CLAY_STATUE]
+地区序号：094
+文件：assets/images/gansu/large/gs_c_mogao_clay_statue.jpeg
+所属主题：文化 (gs-culture)
+标题：彩塑头像
+地点：敦煌莫高窟相关展陈
+日期：2026.05.20 下午
+解读文字：彩塑面部还保留着淡淡颜色，安静地把目光停在展厅里。
+
+[PHOTO:GS_N_CRESCENT_LAKE_GATE]
+地区序号：095
+文件：assets/images/gansu/large/gs_n_crescent_lake_gate.jpeg
+所属主题：自然风光 (gs-nature)
+标题：月牙泉入口
+地点：敦煌鸣沙山月牙泉
+日期：2026.05.21 上午
+解读文字：牌楼和沙山同在一张画面里，套着防沙鞋进出，为荒漠旅程增添了一点热闹。
