@@ -440,6 +440,33 @@ function initLightbox() {
   let index = 0;
   let lastFocused = null;
 
+  function exitOverlayFullscreen() {
+    if (document.fullscreenElement !== overlay || !document.exitFullscreen) return;
+
+    try {
+      const exit = document.exitFullscreen();
+      if (exit && typeof exit.catch === "function") exit.catch(() => {});
+    } catch {
+      // The browser can finish its own fullscreen transition.
+    }
+  }
+
+  function requestMobileFullscreen() {
+    if (!window.matchMedia("(max-width: 860px)").matches) return;
+    if (!overlay.requestFullscreen || document.fullscreenElement) return;
+
+    try {
+      const request = overlay.requestFullscreen();
+      if (request && typeof request.then === "function") {
+        request.then(() => {
+          if (overlay.hidden) exitOverlayFullscreen();
+        }).catch(() => {});
+      }
+    } catch {
+      // The full-viewport lightbox remains available when fullscreen is unsupported.
+    }
+  }
+
   function show(i) {
     index = (i + sequence.length) % sequence.length;
     const item = photo(sequence[index]);
@@ -459,6 +486,7 @@ function initLightbox() {
     show(i);
     overlay.hidden = false;
     document.body.classList.add("lightbox-open");
+    requestMobileFullscreen();
     requestAnimationFrame(() => overlay.classList.add("is-open"));
     closeBtn.focus();
   }
@@ -467,6 +495,7 @@ function initLightbox() {
     overlay.classList.remove("is-open");
     overlay.hidden = true;
     document.body.classList.remove("lightbox-open");
+    exitOverlayFullscreen();
     if (lastFocused && typeof lastFocused.focus === "function") lastFocused.focus();
   }
 
